@@ -13,6 +13,7 @@ PORTRETURL = "http://www.schrijverskabinet.nl/schrijverskabinet/"
 
 schema = Namespace("https://schema.org/")
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
+foaf = Namespace("http://xmlns.com/foaf/0.1/")
 
 ns = Namespace(
     "https://data.create.humanities.uva.nl/id/datasets/schrijverskabinet/")
@@ -26,6 +27,10 @@ class Entity(rdfSubject):
 
     mainEntityOfPage = rdfSingle(schema.mainEntityOfPage)
     sameAs = rdfMultiple(OWL.sameAs)
+
+    disambiguatingDescription = rdfSingle(schema.disambiguatingDescription)
+
+    depiction = rdfSingle(foaf.depiction)
 
 
 class CreativeWork(Entity):
@@ -173,12 +178,19 @@ def fetchPortretPage(url, sleep=1):
         quote = quote.replace(u'\u00a0', '')
         quote = quote.strip()
 
+    depiction = soup.find('img')['src']
+    if 'portrait-no-image' in depiction:
+        depiction = None
+    else:
+        depiction = URIRef(depiction)
+
     data['painter'] = painter
     data['date'] = date
     data['origin'] = origin
     data['article'] = article
     data['dbnl'] = dbnl
     data['quote'] = quote
+    data['depiction'] = depiction
 
     if sleep:
         time.sleep(sleep)
@@ -220,21 +232,27 @@ def toRDF(d):
             None,
             name=[Literal(data['title'])],
             sameAs=sameAs,
-            birthPlace=Place(BNode(birthPlace), name=[birthPlace])
-            if birthPlace else None,
+            birthPlace=Place(BNode("".join(
+                [i for i in birthPlace if i in 'abcdefghijklmnopqrstuvwxyz'])),
+                             name=[birthPlace]) if birthPlace else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
-            deathPlace=Place(BNode(deathPlace), name=[deathPlace])
-            if deathPlace else None,
+            deathPlace=Place(BNode("".join(
+                [i for i in deathPlace if i in 'abcdefghijklmnopqrstuvwxyz'])),
+                             name=[deathPlace]) if deathPlace else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
-            if deathYear else None)
+            if deathYear else None,
+            disambiguatingDescription=data['subtitle'],
+            depiction=data['depiction'])
         page = CreativeWork(URIRef(url))
 
         if data['article']['name']:
 
             name, author = data['article']['name'].rsplit(' door ', 1)
 
-            author = Person(BNode(author.replace(' ', '')), name=[author])
+            author = Person(BNode("".join(
+                [i for i in author if i in 'abcdefghijklmnopqrstuvwxyz'])),
+                            name=[author])
 
             article = ScholarlyArticle(URIRef(data['article']['url']),
                                        name=[name],
@@ -242,7 +260,9 @@ def toRDF(d):
                                        about=p)
 
         if data['painter']:
-            painter = Person(BNode(data['painter'].replace(' ', '')),
+            painter = Person(BNode("".join([
+                i for i in data['painter'] if i in 'abcdefghijklmnopqrstuvwxyz'
+            ])),
                              name=[data['painter']])
 
             artwork = VisualArtwork(None, artist=painter, about=p)
@@ -255,4 +275,4 @@ def toRDF(d):
 
 
 if __name__ == "__main__":
-    print(main(loadData='data/data.json'))
+    main(loadData='data/data.json')
