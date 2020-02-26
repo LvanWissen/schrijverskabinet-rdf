@@ -67,7 +67,7 @@
             "Ton van Strien" ;
         dcterms:creator "Lieke van Deinsen",
             "Ton van Strien" ;
-        dcterms:date "2020-02-26T23:13:49.155064"^^xsd:datetime ;
+        dcterms:date "2020-02-26T23:24:22.046777"^^xsd:datetime ;
         dcterms:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
 
 Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
@@ -75,7 +75,7 @@ Naast een overzicht van de dichters en dichteressen die in het Panpoëticon ware
 In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
 
 Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (L.van.Deinsen@rijksmuseum.nl)."""@nl ;
-        dcterms:publisher <https://www.leonvanwissen.nl/me> ;
+        dcterms:publisher <https://leonvanwissen.nl/me> ;
         dcterms:source <http://www.schrijverskabinet.nl/> ;
         void:exampleResource <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/430> ;
         void:triples 7108 ;

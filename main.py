@@ -398,7 +398,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         description=[Literal(description, lang='nl')],
         creator=[Literal("Lieke van Deinsen"),
                  Literal("Ton van Strien")],
-        publisher=[URIRef("https://www.leonvanwissen.nl/me")],
+        publisher=[URIRef("https://leonvanwissen.nl/me")],
         contributor=[Literal(i) for i in contributors.split(', ')],
         source=URIRef('http://www.schrijverskabinet.nl/'),
         date=Literal(datetime.datetime.now().isoformat(),
