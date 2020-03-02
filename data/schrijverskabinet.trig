@@ -67,7 +67,7 @@
             "Ton van Strien" ;
         dcterms:creator "Lieke van Deinsen",
             "Ton van Strien" ;
-        dcterms:date "2020-02-26T23:24:22.046777"^^xsd:datetime ;
+        dcterms:date "2020-02-03"^^xsd:datetime ;
         dcterms:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
 
 Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
@@ -78,12 +78,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         dcterms:publisher <https://leonvanwissen.nl/me> ;
         dcterms:source <http://www.schrijverskabinet.nl/> ;
         void:exampleResource <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/430> ;
-        void:triples 7108 ;
+        void:triples 7076 ;
         void:vocabulary schema: ;
         schema:about <https://www.wikidata.org/entity/Q17319132> ;
+        schema:dateCreated "2020-02-03"^^xsd:datetime ;
         schema:distribution [ a schema:DataDownload ;
                 schema:contentUrl <https://github.com/LvanWissen/schrijverskabinet-rdf/raw/master/data/schrijverskabinet.trig> ;
                 schema:url <https://github.com/LvanWissen/schrijverskabinet-rdf> ] ;
+        schema:isBasedOn <http://www.schrijverskabinet.nl/> ;
         schema:name "Het Schrijverskabinet - Panpoëticon Batavûm"@nl ;
         schema:url <http://www.schrijverskabinet.nl/> .
 }
@@ -4085,8 +4087,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/gras008> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Graswinckel-1.jpg" ;
         schema:birthDate "1600"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Delft ca." ] ;
+        schema:birthPlace _:Delft ;
         schema:deathDate "1666"^^xsd:gYear ;
         schema:deathPlace _:Mechelen ;
         schema:disambiguatingDescription "Rechtsgeleerde en letterkundige " ;
@@ -4153,7 +4154,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/124> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/syce001> ;
         schema:birthDate "1560"^^xsd:gYear ;
-        schema:birthPlace _:Brusselca ;
+        schema:birthPlace _:Brussel ;
         schema:deathDate "1620"^^xsd:gYear ;
         schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Raadsheer, vertaler en dichter " ;
@@ -4250,7 +4251,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthPlace _:Dordrecht ;
         schema:deathDate "1748"^^xsd:gYear ;
         schema:deathPlace [ a schema:Place ;
-                schema:name "Arnhem (?) ca." ] ;
+                schema:name "Arnhem" ] ;
         schema:disambiguatingDescription "Dichteres " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/fransina-jacoba-westrem/> ;
         schema:name "Fransina Jacoba Westrem" ;
@@ -4411,8 +4412,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1707"^^xsd:gYear ;
         schema:birthPlace _:Rotterdam ;
         schema:deathDate "1777"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Rotterdam ca." ] ;
+        schema:deathPlace _:Rotterdam ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/adriaen-van-der-vliet-2/> ;
         schema:name "Adriaen van der Vliet" ;
@@ -4456,7 +4456,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Smetius-2.jpg" ;
         schema:birthDate "1535"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Lede ca." ] ;
+                schema:name "Lede" ] ;
         schema:deathDate "1614"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Arts en geleerde" ;
@@ -4468,6 +4468,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/brac007> ;
         schema:birthDate "1685"^^xsd:gYear ;
         schema:birthPlace _:Dordrecht ;
+        schema:deathDate "1750"^^xsd:gYear ;
         schema:disambiguatingDescription "Koopman en (toneel)dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hendrik-van-bracht/> ;
         schema:name "Hendrik van Bracht" ;
@@ -4491,7 +4492,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1704"^^xsd:gYear ;
         schema:birthPlace _:Amsterdam ;
         schema:deathDate "1754"^^xsd:gYear ;
-        schema:deathPlace _:Amsterdamca ;
+        schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Rechtsgeleerde " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hubertus-gregorius-van-vryhoff/> ;
         schema:name "Hubertus Gregorius van Vryhoff" ;
@@ -4512,7 +4513,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/183> a schema:Person ;
         schema:birthDate "1637"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1682"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Schilder " ;
@@ -4548,8 +4549,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/scho048> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Schotte.jpg" ;
         schema:birthDate "1586"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Middelburg ca." ] ;
+        schema:birthPlace _:Middelburg ;
         schema:deathDate "1641"^^xsd:gYear ;
         schema:deathPlace _:Middelburg ;
         schema:disambiguatingDescription "Burgemeester van Middelburg" ;
@@ -4563,11 +4563,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/190> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/maer002> ;
         schema:birthDate "1235"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Brugge ca." ] ;
+        schema:birthPlace _:Brugge ;
         schema:deathDate "1300"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "ca." ] ;
         schema:disambiguatingDescription "Dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jacob-van-maerlant/> ;
         schema:name "Jacob van Maerlant" ;
@@ -4642,7 +4639,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/203> a schema:Person ;
         schema:birthDate "1663"^^xsd:gYear ;
-        schema:birthPlace _:Goudaca ;
+        schema:birthPlace _:Gouda ;
         schema:deathDate "1707"^^xsd:gYear ;
         schema:deathPlace _:Haarlem ;
         schema:disambiguatingDescription "Conrector van de Latijnse school te Haarlem " ;
@@ -4653,7 +4650,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/204> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/muss006> ;
         schema:birthDate "1663"^^xsd:gYear ;
-        schema:birthPlace _:Goudaca ;
+        schema:birthPlace _:Gouda ;
         schema:deathDate "1707"^^xsd:gYear ;
         schema:deathPlace _:Haarlem ;
         schema:disambiguatingDescription "Dichter" ;
@@ -4899,8 +4896,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1674"^^xsd:gYear ;
         schema:birthPlace _:Dordrecht ;
         schema:deathDate "1750"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Breda ca." ] ;
+        schema:deathPlace _:Breda ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/joan-vermeulen/> ;
         schema:name "Joan Vermeulen" ;
@@ -5226,6 +5222,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/32> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/insm001> ;
+        schema:birthDate "1655"^^xsd:gYear ;
+        schema:deathDate "1707"^^xsd:gYear ;
         schema:disambiguatingDescription "Dichteres" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/anna-insma/> ;
         schema:name "Anna Insma" ;
@@ -5281,9 +5279,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/hamc001> ;
         schema:birthDate "1550"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Follega ca." ] ;
+                schema:name "Follega" ] ;
         schema:deathDate "1619"^^xsd:gYear ;
-        schema:deathPlace _:onbekendca ;
+        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Geschiedschrijver " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/martinus-hamconius/> ;
         schema:name "Martinus Hamconius" ;
@@ -5293,11 +5291,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/cast005> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Casteleyn-1.jpg" ;
         schema:birthDate "1485"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Pamel ca." ] ;
+        schema:birthPlace _:Pamel ;
         schema:deathDate "1550"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Pamel" ] ;
+        schema:deathPlace _:Pamel ;
         schema:disambiguatingDescription "Priester en rederijker te Oudenaarde" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/matthijs-de-castelein/> ;
         schema:name "Matthijs de Castelein" ;
@@ -5307,7 +5303,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/stok001> ;
         schema:birthDate "1235"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Zeeland ca." ] ;
+                schema:name "Zeeland" ] ;
         schema:deathDate "1305"^^xsd:gYear ;
         schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Klerk van Floris V en schrijver " ;
@@ -5393,7 +5389,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Baard.jpg" ;
         schema:birthDate "1595"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Stavoren ca." ] ;
+                schema:name "Stavoren" ] ;
         schema:deathDate "1647"^^xsd:gYear ;
         schema:deathPlace [ a schema:Place ;
                 schema:name "na" ] ;
@@ -5680,7 +5676,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/vrie047> ;
         schema:birthDate "1624"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Culemborg ca." ] ;
+                schema:name "Culemborg" ] ;
         schema:deathDate "1708"^^xsd:gYear ;
         schema:deathPlace _:Utrecht ;
         schema:disambiguatingDescription "Vertaler, prozaschrijver en dichter" ;
@@ -5809,7 +5805,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/hoof009> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Op-den-Hooff.jpg" ;
         schema:birthDate "1715"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1765"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Medicus en vertaler " ;
@@ -5819,7 +5815,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/425> a schema:Person ;
         schema:birthDate "1715"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1765"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Onbekend " ;
@@ -5975,7 +5971,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1625"^^xsd:gYear ;
         schema:birthPlace _:Brussel ;
         schema:deathDate "1670"^^xsd:gYear ;
-        schema:deathPlace _:Brusselca ;
+        schema:deathPlace _:Brussel ;
         schema:disambiguatingDescription "Toneelschrijver " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/claude-de-grieck/> ;
         schema:name "Claude de Grieck" ;
@@ -6130,7 +6126,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/95> a schema:Person ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Lingelbach.jpg" ;
         schema:birthDate "1592"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1653"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Oprichter van het Nieuwe Doolhof, Amsterdam " ;
@@ -6369,7 +6365,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/godi002> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Godin-1.jpg" ;
         schema:birthDate "1628"^^xsd:gYear ;
-        schema:birthPlace _:Brusselca ;
+        schema:birthPlace _:Brussel ;
         schema:deathDate "1661"^^xsd:gYear ;
         schema:deathPlace _:Brussel ;
         schema:disambiguatingDescription "Dichter" ;
@@ -6380,6 +6376,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/136> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/rijk001> ;
+        schema:birthDate "1656"^^xsd:gYear ;
+        schema:deathDate "1738"^^xsd:gYear ;
         schema:disambiguatingDescription "Blijspeldichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/frans-rijk/> ;
         schema:name "Frans Ryk" ;
@@ -6494,7 +6492,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/170> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/ange004> ;
         schema:birthDate "1648"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1713"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Toneeldichter " ;
@@ -6628,7 +6626,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
                 schema:name "Kniphausen" ] ;
         schema:deathDate "1673"^^xsd:gYear ;
         schema:deathPlace [ a schema:Place ;
-                schema:name "Batatvia ca." ] ;
+                schema:name "Batatvia" ] ;
         schema:disambiguatingDescription "Dichter en historicus " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jacob-steendam/> ;
         schema:name "Jacob Steendam" ;
@@ -6749,7 +6747,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/216> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/krul001> ;
         schema:birthDate "1601"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1646"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Boekhandelaar en (toneel)dichter" ;
@@ -6847,7 +6845,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/noot001> ;
         schema:birthDate "1539"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Brecht ca." ] ;
+                schema:name "Brecht" ] ;
         schema:deathDate "1595"^^xsd:gYear ;
         schema:deathPlace _:Antwerpen ;
         schema:disambiguatingDescription "Dichter" ;
@@ -6921,7 +6919,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/242> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/zoet001> ;
         schema:birthDate "1608"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1674"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Dichter " ;
@@ -7134,8 +7132,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/291> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/lamb011> ;
         schema:birthDate "1491"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Gent ca." ] ;
+        schema:birthPlace _:Gent ;
         schema:deathDate "1553"^^xsd:gYear ;
         schema:deathPlace _:Gent ;
         schema:disambiguatingDescription "Schoolmeester, graveur, lettergieter, drukker en schrijver " ;
@@ -7273,7 +7270,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/bake003> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/stolker4958-kopie-001.jpg" ;
         schema:birthDate "1650"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1702"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Dichter" ;
@@ -7285,9 +7282,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/314> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/cost008> ;
         schema:birthDate "1370"^^xsd:gYear ;
-        schema:birthPlace _:Haarlemca ;
+        schema:birthPlace _:Haarlem ;
         schema:deathDate "1440"^^xsd:gYear ;
-        schema:deathPlace _:Haarlemca ;
+        schema:deathPlace _:Haarlem ;
         schema:disambiguatingDescription "Boekdrukker " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/laurens-janszoon-coster/> ;
         schema:name "Laurens Janszoon Coster" ;
@@ -7414,7 +7411,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1625"^^xsd:gYear ;
         schema:birthPlace _:Geertruidenberg ;
         schema:deathDate "1677"^^xsd:gYear ;
-        schema:deathPlace _:onbekendca ;
+        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Heer van Clootwijck en dichter te Dordrecht" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/matthijs-van-der-merwede/> ;
         schema:name "Matthijs van der Merwede" ;
@@ -7499,7 +7496,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Datheen-2.jpg" ;
         schema:birthDate "1531"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Kassel ca." ] ;
+                schema:name "Kassel" ] ;
         schema:deathDate "1588"^^xsd:gYear ;
         schema:deathPlace [ a schema:Place ;
                 schema:name "Elbing bij Gdansk" ] ;
@@ -7697,7 +7694,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/393> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/hoog001> ;
         schema:birthDate "1645"^^xsd:gYear ;
-        schema:birthPlace _:Amsterdamca ;
+        schema:birthPlace _:Amsterdam ;
         schema:deathDate "1708"^^xsd:gYear ;
         schema:deathPlace _:Haarlem ;
         schema:disambiguatingDescription "Schilder, graveur en dichter" ;
@@ -7864,8 +7861,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/419> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/orvi002> ;
         schema:birthDate "1651"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Onbekend ca." ] ;
+        schema:birthPlace _:Onbekend ;
         schema:deathDate "1719"^^xsd:gYear ;
         schema:deathPlace _:Amsterdam ;
         schema:disambiguatingDescription "Predikant en dichter " ;
@@ -7951,8 +7947,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/430> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/heyn003> ;
         schema:birthDate "1566"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Antwerpen ca." ] ;
+        schema:birthPlace _:Antwerpen ;
         schema:deathDate "1638"^^xsd:gYear ;
         schema:deathPlace _:Zwolle ;
         schema:disambiguatingDescription "Boekdrukker en dichter " ;
@@ -8070,7 +8065,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/IMG_0133-001.jpg" ;
         schema:birthDate "1520"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
-                schema:name "Saint Avertin ca." ] ;
+                schema:name "Saint Avertin" ] ;
         schema:deathDate "1589"^^xsd:gYear ;
         schema:deathPlace _:Antwerpen ;
         schema:disambiguatingDescription "Boekdrukker en uitgever" ;
@@ -8107,11 +8102,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/78> a schema:Person ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/bie_001> ;
         schema:birthDate "1627"^^xsd:gYear ;
-        schema:birthPlace [ a schema:Place ;
-                schema:name "Lier" ] ;
+        schema:birthPlace _:Lier ;
         schema:deathDate "1715"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Lier ca." ] ;
+        schema:deathPlace _:Lier ;
         schema:disambiguatingDescription "Rederijker, jurist en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/cornelis-de-bie/> ;
         schema:name "Cornelis de Bie" ;
@@ -8136,7 +8129,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1598"^^xsd:gYear ;
         schema:birthPlace _:BergenopZoom ;
         schema:deathDate "1672"^^xsd:gYear ;
-        schema:deathPlace _:onbekendca ;
+        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Dichter te Veere " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/cornelis-udemans/> ;
         schema:name "Cornelis Udemans" ;
@@ -8247,9 +8240,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Bolsward a schema:Place ;
         schema:name "Bolsward" .
 
-    _:Breda a schema:Place ;
-        schema:name "Breda" .
-
     _:DeRijp a schema:Place ;
         schema:name "De Rijp" .
 
@@ -8265,18 +8255,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Geertruidenberg a schema:Place ;
         schema:name "Geertruidenberg" .
 
-    _:Goudaca a schema:Place ;
-        schema:name "Gouda ca." .
-
-    _:Haarlemca a schema:Place ;
-        schema:name "Haarlem (?) ca.",
-            "Haarlem ca." .
-
     _:Hamburg a schema:Place ;
         schema:name "Hamburg" .
 
     _:Keulen a schema:Place ;
         schema:name "Keulen" .
+
+    _:Lier a schema:Place ;
+        schema:name "Lier" .
 
     _:Loosduinen a schema:Place ;
         schema:name "Loosduinen" .
@@ -8295,6 +8281,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     _:Noordwijk a schema:Place ;
         schema:name "Noordwijk" .
+
+    _:Pamel a schema:Place ;
+        schema:name "Pamel" .
 
     _:Parijs a schema:Place ;
         schema:name "Parijs" .
@@ -8317,8 +8306,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Zevenbergen a schema:Place ;
         schema:name "Zevenbergen" .
 
-    _:Brusselca a schema:Place ;
-        schema:name "Brussel ca." .
+    _:Breda a schema:Place ;
+        schema:name "Breda" .
 
     _:Deventer a schema:Place ;
         schema:name "Deventer" .
@@ -8341,16 +8330,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Oudewater a schema:Place ;
         schema:name "Oudewater" .
 
-    _:onbekendca a schema:Place ;
-        schema:name "onbekend ca." .
-
     _:sGravenhage a schema:Place ;
-        schema:name " ’s –Gravenhage",
-            "’s Gravenhage",
+        schema:name "’s Gravenhage",
             "’s –Gravenhage" .
-
-    _:Brugge a schema:Place ;
-        schema:name "Brugge" .
 
     _:Goes a schema:Place ;
         schema:name "Goes" .
@@ -8361,8 +8343,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Zierikzee a schema:Place ;
         schema:name "Zierikzee" .
 
-    _:Onbekend a schema:Place ;
-        schema:name "Onbekend" .
+    _:Brugge a schema:Place ;
+        schema:name "Brugge" .
 
     _:Zwolle a schema:Place ;
         schema:name "Zwolle" .
@@ -8376,33 +8358,29 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Leuven a schema:Place ;
         schema:name "Leuven" .
 
+    _:Onbekend a schema:Place ;
+        schema:name "Onbekend" .
+
     _:Gent a schema:Place ;
         schema:name "Gent" .
-
-    _:Gouda a schema:Place ;
-        schema:name "Gouda" .
 
     _:Utrecht a schema:Place ;
         schema:name "Utrecht" .
 
-    _:Amsterdamca a schema:Place ;
-        schema:name "Amsterdam ca." .
+    _:Gouda a schema:Place ;
+        schema:name "Gouda" .
 
     _:Leeuwarden a schema:Place ;
         schema:name "Leeuwarden" .
-
-    _:Brussel a schema:Place ;
-        schema:name "Brussel" .
 
     _:Delft a schema:Place ;
         schema:name "Delft" .
 
     _:Antwerpen a schema:Place ;
-        schema:name "Antwerpen",
-            "Antwerpen(?)" .
+        schema:name "Antwerpen" .
 
-    _:onbekend a schema:Place ;
-        schema:name "onbekend" .
+    _:Brussel a schema:Place ;
+        schema:name "Brussel" .
 
     _:Haarlem a schema:Place ;
         schema:name "Haarlem" .
@@ -8410,9 +8388,11 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     _:Middelburg a schema:Place ;
         schema:name "Middelburg" .
 
+    _:onbekend a schema:Place ;
+        schema:name "onbekend" .
+
     _:Dordrecht a schema:Place ;
-        schema:name "Dordrecht",
-            "Dordrecht (?)" .
+        schema:name "Dordrecht" .
 
     _:DenHaag a schema:Place ;
         schema:name "Den Haag" .

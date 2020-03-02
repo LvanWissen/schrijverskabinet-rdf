@@ -71,7 +71,9 @@ class DatasetClass(Entity):
     publisher = rdfMultiple(dcterms.publisher)
     contributor = rdfMultiple(dcterms.contributor)
     source = rdfSingle(dcterms.source)
+    isBasedOn = rdfSingle(schema.isBasedOn)
     date = rdfSingle(dcterms.date)
+    dateCreated = rdfSingle(schema.dateCreated)
     created = rdfSingle(dcterms.created)
     issued = rdfSingle(dcterms.issued)
     modified = rdfSingle(dcterms.modified)
@@ -295,18 +297,30 @@ def toRDF(d):
         try:
             birth, death = data['bio'].replace('-', ' –').split(' – ')
         except:
-            print(data['bio'])
+            print("bio:", data['bio'])
 
         try:
             birthPlace, birthYear = birth.rsplit(' ', 1)
+            birthPlace = birthPlace.replace('ca.', '').replace('(?)',
+                                                               '').strip()
         except:
-            print(birth)
-            birthPlace, birthYear = None, None
+            if birth.isdigit():
+                birthYear = birth
+                birthPlace = None
+            else:
+                print("birth:", birth)
+                birthPlace, birthYear = None, None
         try:
             deathPlace, deathYear = death.rsplit(' ', 1)
+            deathPlace = deathPlace.replace('ca.', '').replace('(?)',
+                                                               '').strip()
         except:
-            print(death)
-            deathPlace, deathYear = None, None
+            if death.isdigit():
+                deathYear = death
+                deathPlace = None
+            else:
+                print("death:", death)
+                deathPlace, deathYear = None, None
 
         subjectOf = []
         puri, persondata = person2uri(data['title'], persondata)
@@ -388,6 +402,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         # name=Literal(),
         url=URIRef("https://github.com/LvanWissen/schrijverskabinet-rdf"))
 
+    date = Literal(datetime.datetime.now().strftime('%Y-%d-%m'),
+                   datatype=XSD.datetime)
+
     dataset = DatasetClass(
         ns.term(''),
         name=[
@@ -401,8 +418,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         publisher=[URIRef("https://leonvanwissen.nl/me")],
         contributor=[Literal(i) for i in contributors.split(', ')],
         source=URIRef('http://www.schrijverskabinet.nl/'),
-        date=Literal(datetime.datetime.now().isoformat(),
-                     datatype=XSD.datetime),
+        isBasedOn=URIRef('http://www.schrijverskabinet.nl/'),
+        date=date,
+        dateCreated=date,
         distribution=download,
         created=None,
         issued=None,
