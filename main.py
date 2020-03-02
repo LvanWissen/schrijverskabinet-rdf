@@ -14,7 +14,7 @@ from rdfalchemy import rdfSubject, rdfMultiple, rdfSingle
 PORTRETURL = "http://www.schrijverskabinet.nl/schrijverskabinet/"
 
 create = Namespace("https://vondel.humanities.uva.nl/")
-schema = Namespace("https://schema.org/")
+schema = Namespace("http://schema.org/")
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
 void = Namespace("http://rdfs.org/ns/void#")
@@ -48,6 +48,8 @@ class Entity(rdfSubject):
     subjectOf = rdfMultiple(schema.subjectOf)
     about = rdfSingle(schema.about)
     url = rdfSingle(schema.url)
+
+    inDataset = rdfSingle(void.inDataset)
 
 
 class CreativeWork(Entity):
@@ -83,6 +85,7 @@ class DatasetClass(Entity):
     triples = rdfSingle(void.triples)
 
     distribution = rdfSingle(schema.distribution)
+    licenseprop = rdfSingle(schema.license)
 
 
 class DataDownload(Entity):
@@ -279,6 +282,7 @@ def person2uri(name, data):
 def toRDF(d):
 
     ds = Dataset()
+    dataset = ns.term('')
 
     g = rdfSubject.db = ds.graph(identifier=ns)
 
@@ -322,6 +326,10 @@ def toRDF(d):
                 print("death:", death)
                 deathPlace, deathYear = None, None
 
+        #############
+        # Resources #
+        #############
+
         subjectOf = []
         puri, persondata = person2uri(data['title'], persondata)
         p = Person(
@@ -332,43 +340,51 @@ def toRDF(d):
                 i for i in birthPlace
                 if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[birthPlace]) if birthPlace else None,
+                             name=[birthPlace],
+                             inDataset=dataset) if birthPlace else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
             deathPlace=Place(BNode("".join([
                 i for i in deathPlace
                 if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[deathPlace]) if deathPlace else None,
+                             name=[deathPlace],
+                             inDataset=dataset) if deathPlace else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
             if deathYear else None,
             disambiguatingDescription=data['subtitle'],
-            depiction=data['depiction'])
-        page = CreativeWork(URIRef(url))
+            depiction=data['depiction'],
+            inDataset=dataset)
+
+        page = CreativeWork(URIRef(url), inDataset=dataset)
 
         if data['article']['name']:
 
             name, author = data['article']['name'].rsplit(' door ', 1)
 
             authoruri, persondata = person2uri(author, persondata)
-            author = Person(authoruri, name=[author])
+            author = Person(authoruri, name=[author], inDataset=dataset)
 
             article = ScholarlyArticle(URIRef(data['article']['url']),
                                        name=[name],
                                        author=[author],
-                                       about=p)
+                                       about=p,
+                                       inDataset=dataset)
             subjectOf.append(article)
 
         if data['painter']:
             painteruri, persondata = person2uri(data['painter'], persondata)
-            painter = Person(painteruri, name=[data['painter']])
+            painter = Person(painteruri,
+                             name=[data['painter']],
+                             inDataset=dataset)
 
             artwork = VisualArtwork(
                 nsArtwork.term(str(next(artworkCounter))),
                 artist=painter,
                 about=p,
                 name=[Literal(f"Portret van {data['title']}", lang='nl')],
-                depiction=data['artdepiction'])
+                depiction=data['artdepiction'],
+                inDataset=dataset)
             subjectOf.append(artwork)
 
             if data['origin']['url']:
@@ -410,7 +426,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         name=[
             Literal("Het Schrijverskabinet - Panpoëticon Batavûm", lang='nl')
         ],
-        about=URIRef('https://www.wikidata.org/entity/Q17319132'),
+        about=URIRef('http://www.wikidata.org/entity/Q17319132'),
         url=URIRef('http://www.schrijverskabinet.nl/'),
         description=[Literal(description, lang='nl')],
         creator=[Literal("Lieke van Deinsen"),
@@ -427,7 +443,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         modified=None,
         exampleResource=p,
         vocabulary=[URIRef("https://schema.org/")],
-        triples=sum(1 for i in ds.graph(identifier=ns).subjects()))
+        triples=sum(1 for i in ds.graph(identifier=ns).subjects()),
+        licenseprop=URIRef(
+            "https://creativecommons.org/licenses/by-nc-sa/4.0/"))
 
     ds.bind('owl', OWL)
     ds.bind('dcterms', dcterms)
@@ -435,6 +453,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     ds.bind('schema', schema)
     ds.bind('void', void)
     ds.bind('foaf', foaf)
+    ds.bind('wd', URIRef("http://www.wikidata.org/entity/"))
 
     ds.serialize('data/schrijverskabinet.trig', format='trig')
 
