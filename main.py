@@ -88,11 +88,19 @@ class DatasetClass(Entity):
     distribution = rdfSingle(schema.distribution)
     licenseprop = rdfSingle(schema.license)
 
+    alternateName = rdfMultiple(schema.alternateName)
+    citation = rdfMultiple(schema.citation)
+
+    keywords = rdfMultiple(schema.keywords)
+    spatialCoverage = rdfSingle(schema.spatialCoverage)
+    temporalCoverage = rdfSingle(schema.temporalCoverage)
+
 
 class DataDownload(Entity):
     rdf_type = schema.DataDownload
 
     contentUrl = rdfSingle(schema.contentUrl)
+    encodingFormat = rdfSingle(schema.encodingFormat)
 
 
 class ScholarlyArticle(CreativeWork):
@@ -411,7 +419,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             "https://github.com/LvanWissen/schrijverskabinet-rdf/raw/master/data/schrijverskabinet.trig"
         ),
         # name=Literal(),
-        url=URIRef("https://github.com/LvanWissen/schrijverskabinet-rdf"))
+        url=URIRef("https://github.com/LvanWissen/schrijverskabinet-rdf"),
+        encodingFormat="application/trig")
 
     date = Literal(datetime.datetime.now().strftime('%Y-%d-%m'),
                    datatype=XSD.datetime)

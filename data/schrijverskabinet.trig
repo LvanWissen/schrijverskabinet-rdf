@@ -8409,6 +8409,7 @@ In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de aut
 Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (L.van.Deinsen@rijksmuseum.nl)."""@nl ;
         schema:distribution [ a schema:DataDownload ;
                 schema:contentUrl <https://github.com/LvanWissen/schrijverskabinet-rdf/raw/master/data/schrijverskabinet.trig> ;
+                schema:encodingFormat "application/trig" ;
                 schema:url <https://github.com/LvanWissen/schrijverskabinet-rdf> ] ;
         schema:isBasedOn <http://www.schrijverskabinet.nl/> ;
         schema:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
