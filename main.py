@@ -13,7 +13,7 @@ from rdfalchemy import rdfSubject, rdfMultiple, rdfSingle
 
 PORTRETURL = "http://www.schrijverskabinet.nl/schrijverskabinet/"
 
-create = Namespace("https://vondel.humanities.uva.nl/")
+create = Namespace("https://data.create.humanities.uva.nl/")
 schema = Namespace("http://schema.org/")
 bio = Namespace("http://purl.org/vocab/bio/0.1/")
 foaf = Namespace("http://xmlns.com/foaf/0.1/")
@@ -22,14 +22,14 @@ dcterms = Namespace("http://purl.org/dc/terms/")
 
 rdflib.graph.DATASET_DEFAULT_GRAPH_ID = create
 
-ns = Namespace("https://vondel.humanities.uva.nl/id/schrijverskabinet/")
+ns = Namespace("https://data.create.humanities.uva.nl/id/schrijverskabinet/")
 
 nsPerson = Namespace(
-    "https://vondel.humanities.uva.nl/id/schrijverskabinet/Person/")
+    "https://data.create.humanities.uva.nl/id/schrijverskabinet/Person/")
 personCounter = count(1)
 
 nsArtwork = Namespace(
-    "https://vondel.humanities.uva.nl/id/schrijverskabinet/Artwork/")
+    "https://data.create.humanities.uva.nl/id/schrijverskabinet/Artwork/")
 artworkCounter = count(1)
 
 
@@ -69,6 +69,7 @@ class DatasetClass(Entity):
 
     title = rdfMultiple(dcterms.title)
     description = rdfMultiple(dcterms.description)
+    descriptionSchema = rdfMultiple(schema.description)
     creator = rdfMultiple(dcterms.creator)
     publisher = rdfMultiple(dcterms.publisher)
     contributor = rdfMultiple(dcterms.contributor)
@@ -340,51 +341,45 @@ def toRDF(d):
                 i for i in birthPlace
                 if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[birthPlace],
-                             inDataset=dataset) if birthPlace else None,
+                             name=[birthPlace]) if birthPlace else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
             deathPlace=Place(BNode("".join([
                 i for i in deathPlace
                 if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[deathPlace],
-                             inDataset=dataset) if deathPlace else None,
+                             name=[deathPlace]) if deathPlace else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
             if deathYear else None,
             disambiguatingDescription=data['subtitle'],
             depiction=data['depiction'],
-            inDataset=dataset)
+        )
 
-        page = CreativeWork(URIRef(url), inDataset=dataset)
+        page = CreativeWork(URIRef(url))
 
         if data['article']['name']:
 
             name, author = data['article']['name'].rsplit(' door ', 1)
 
             authoruri, persondata = person2uri(author, persondata)
-            author = Person(authoruri, name=[author], inDataset=dataset)
+            author = Person(authoruri, name=[author])
 
             article = ScholarlyArticle(URIRef(data['article']['url']),
                                        name=[name],
                                        author=[author],
-                                       about=p,
-                                       inDataset=dataset)
+                                       about=p)
             subjectOf.append(article)
 
         if data['painter']:
             painteruri, persondata = person2uri(data['painter'], persondata)
-            painter = Person(painteruri,
-                             name=[data['painter']],
-                             inDataset=dataset)
+            painter = Person(painteruri, name=[data['painter']])
 
             artwork = VisualArtwork(
                 nsArtwork.term(str(next(artworkCounter))),
                 artist=painter,
                 about=p,
                 name=[Literal(f"Portret van {data['title']}", lang='nl')],
-                depiction=data['artdepiction'],
-                inDataset=dataset)
+                depiction=data['artdepiction'])
             subjectOf.append(artwork)
 
             if data['origin']['url']:
@@ -429,6 +424,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         about=URIRef('http://www.wikidata.org/entity/Q17319132'),
         url=URIRef('http://www.schrijverskabinet.nl/'),
         description=[Literal(description, lang='nl')],
+        descriptionSchema=[Literal(description, lang='nl')],
         creator=[Literal("Lieke van Deinsen"),
                  Literal("Ton van Strien")],
         publisher=[URIRef("https://leonvanwissen.nl/me")],
