@@ -72,7 +72,7 @@ class DatasetClass(Entity):
     title = rdfMultiple(dcterms.title)
     description = rdfMultiple(dcterms.description)
     descriptionSchema = rdfMultiple(schema.description)
-    creator = rdfMultiple(dcterms.creator)
+    creator = rdfMultiple(schema.creator)
     publisher = rdfMultiple(dcterms.publisher)
     contributor = rdfMultiple(dcterms.contributor)
     source = rdfSingle(dcterms.source)
@@ -112,7 +112,7 @@ class ScholarlyArticle(CreativeWork):
 class VisualArtwork(CreativeWork):
     rdf_type = schema.VisualArtwork
 
-    artist = rdfSingle(schema.artist)
+    artist = rdfMultiple(schema.artist)
 
 
 class PublicationEvent(Entity):
@@ -284,6 +284,11 @@ def person2uri(name, data):
     name = name.lower().replace(' ', '-')
     name = unidecode(name)
 
+    name = "".join([i for i in name if i in 'abcdefghijklmnopqrstuvwxyz-'])
+
+    if name == "onbekend":
+        return BNode(), data
+
     uri = data.get(name, None)
     if uri:
         return URIRef(uri), data
@@ -358,14 +363,16 @@ def toRDF(d):
                 i for i in birthPlace.lower()
                 if i in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[birthPlace]) if birthPlace else None,
+                             name=[birthPlace])
+            if birthPlace and birthPlace.lower() != 'onbekend' else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
             deathPlace=Place(BNode("".join([
                 i for i in deathPlace.lower()
                 if i in 'abcdefghijklmnopqrstuvwxyz'
             ])),
-                             name=[deathPlace]) if deathPlace else None,
+                             name=[deathPlace])
+            if deathPlace and deathPlace.lower() != 'onbekend' else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
             if deathYear else None,
             disambiguatingDescription=data['subtitle'],
@@ -382,18 +389,42 @@ def toRDF(d):
             author = Person(authoruri, name=[author])
 
             article = ScholarlyArticle(URIRef(data['article']['url']),
-                                       name=[name],
+                                       name=[name.strip()],
                                        author=[author],
                                        about=p)
             subjectOf.append(article)
 
         if data['painter']:
-            painteruri, persondata = person2uri(data['painter'], persondata)
-            painter = Person(painteruri, name=[data['painter']])
+
+            painters = []
+            painternames = []
+            name = data['painter']
+
+            name = name.strip()
+            if name.endswith(')'):
+                name, _ = name.rsplit(' (', 1)
+
+            # dirty hardcoded fix
+            if name == "Tweemaal door Arnoud van Halen en ('in zijnen laatsten leeftijd' door) Jan Maurits Quinkhard":
+                name = "Arnoud van Halen en Jan Maurits Quinkhard"
+
+            if ', verbeterd door ' in name:
+                painternames += name.split(', verbeterd door ')
+            elif ' en ' in name:
+                painternames += name.split(' en ')
+            elif ' of ' in name:
+                painternames += name.split(' of ')
+            else:
+                painternames.append(name)
+
+            for paintername in painternames:
+                painteruri, persondata = person2uri(paintername, persondata)
+                painter = Person(painteruri, name=[paintername])
+                painters.append(painter)
 
             artwork = VisualArtwork(
                 nsArtwork.term(str(next(artworkCounter))),
-                artist=painter,
+                artist=painters,
                 about=p,
                 name=[Literal(f"Portret van {data['title']}", lang='nl')],
                 depiction=data['artdepiction'])
@@ -431,8 +462,18 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         url=URIRef("https://github.com/LvanWissen/schrijverskabinet-rdf"),
         encodingFormat="application/trig")
 
-    date = Literal(datetime.datetime.now().strftime('%Y-%d-%m'),
+    date = Literal(datetime.datetime.now().strftime('%Y-%m-%d'),
                    datatype=XSD.datetime)
+
+    contributorslist = []
+    for contrib in contributors.split(', '):
+        personuri, persondata = person2uri(contrib, persondata)
+        contributorslist.append(Person(personuri, name=[contrib]))
+
+    creators = []
+    for crea in [Literal("Lieke van Deinsen"), Literal("Ton van Strien")]:
+        personuri, persondata = person2uri(crea, persondata)
+        creators.append(Person(personuri, name=[crea]))
 
     dataset = DatasetClass(
         ns.term(''),
@@ -443,10 +484,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         url=URIRef('http://www.schrijverskabinet.nl/'),
         description=[Literal(description, lang='nl')],
         descriptionSchema=[Literal(description, lang='nl')],
-        creator=[Literal("Lieke van Deinsen"),
-                 Literal("Ton van Strien")],
+        creator=creators,
         publisher=[URIRef("https://leonvanwissen.nl/me")],
-        contributor=[Literal(i) for i in contributors.split(', ')],
+        contributor=contributorslist,
         source=URIRef('http://www.schrijverskabinet.nl/'),
         isBasedOn=URIRef('http://www.schrijverskabinet.nl/'),
         date=date,
@@ -456,7 +496,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         issued=None,
         modified=None,
         exampleResource=p,
-        vocabulary=[URIRef("https://schema.org/")],
+        vocabulary=[URIRef("http://schema.org/")],
         triples=sum(1 for i in ds.graph(identifier=ns).subjects()),
         licenseprop=URIRef(
             "https://creativecommons.org/licenses/by-nc-sa/4.0/"))

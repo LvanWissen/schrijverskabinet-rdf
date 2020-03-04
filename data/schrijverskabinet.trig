@@ -13,62 +13,60 @@
 {
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/> a void:Dataset,
             schema:Dataset ;
-        dcterms:contributor "Ad Leerintveld",
-            "Alan Moss",
-            "Anna de Haas",
-            "Ans Veltman",
-            "Arie-Jan Gelderblom",
-            "Arnoud Visser",
-            "Dirk Imhof",
-            "Elly Groenenboom-Draai",
-            "Els Stronks",
-            "Feike Dietz",
-            "Frans Blom",
-            "Geert Mak",
-            "Gijsbert Rutten",
-            "Henk Looijesteijn",
-            "Hubert Meeus",
-            "Inger Leemans",
-            "Ivo Nieuwenhuis",
-            "Jan Noordegraaf",
-            "Jan Waszink",
-            "Jasper van der Steen",
-            "Jeroen Jansen",
-            "Johan Koppenol",
-            "Johanna Ferket",
-            "Joris Oddens",
-            "Josephina de Fouw",
-            "Karel Porteman",
-            "Kasper van Ommen",
-            "Kornee van der Haven",
-            "Lia van Gemert",
-            "Lieke van Deinsen",
-            "Marijke Meijer Drees",
-            "Marijke Tolsma",
-            "Marrigje Paijmans",
-            "Martine van Elk",
-            "Michiel Roscam Abbing",
-            "Michiel van Duijnen",
-            "Nelleke Moser",
-            "Nicoline van der Sijs",
-            "Nina Geerdink",
-            "Patrick van ‘t Hof",
-            "Peter Altena",
-            "Pieta van Beek",
-            "René van Stipriaan",
-            "Rick Honings",
-            "Riet Schenkeveld-van der Dussen",
-            "Roland de Bonth",
-            "Ruben E. Verwaal",
-            "Sarah Adams",
-            "Sophie Reinders",
-            "Sven Molenaar",
-            "Timothy De Paepe",
-            "Ton Harmsen",
-            "Ton van Strien" ;
-        dcterms:creator "Lieke van Deinsen",
-            "Ton van Strien" ;
-        dcterms:date "2020-04-03"^^xsd:datetime ;
+        dcterms:contributor <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ad-leerintveld>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/alan-moss>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ans-veltman>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arie-jan-gelderblom>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elly-groenenboom-draai>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-blom>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geert-mak>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-rutten>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-meeus>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-waszink>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jasper-van-der-steen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-koppenol>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joris-oddens>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/karel-porteman>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kasper-van-ommen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornee-van-der-haven>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lia-van-gemert>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-meijer-drees>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martine-van-elk>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-van-duijnen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nelleke-moser>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieta-van-beek>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rene-van-stipriaan>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sophie-reinders>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sven-molenaar>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
+        dcterms:date "2020-03-04"^^xsd:datetime ;
         dcterms:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
 
 Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
@@ -80,9 +78,11 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         dcterms:source <http://www.schrijverskabinet.nl/> ;
         void:exampleResource <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/zacharias-heyns> ;
         void:triples 7073 ;
-        void:vocabulary <https://schema.org/> ;
+        void:vocabulary schema: ;
         schema:about wd:Q17319132 ;
-        schema:dateCreated "2020-04-03"^^xsd:datetime ;
+        schema:creator <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
+        schema:dateCreated "2020-03-04"^^xsd:datetime ;
         schema:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
 
 Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
@@ -98,6 +98,165 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> ;
         schema:name "Het Schrijverskabinet - Panpoëticon Batavûm"@nl ;
         schema:url <http://www.schrijverskabinet.nl/> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ad-leerintveld> a schema:Person ;
+        schema:name "Ad Leerintveld" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/alan-moss> a schema:Person ;
+        schema:name "Alan Moss" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> a schema:Person ;
+        schema:name "Anna de Haas" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ans-veltman> a schema:Person ;
+        schema:name "Ans Veltman" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arie-jan-gelderblom> a schema:Person ;
+        schema:name "Arie-Jan Gelderblom" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser> a schema:Person ;
+        schema:name "Arnoud Visser" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof> a schema:Person ;
+        schema:name "Dirk Imhof" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elly-groenenboom-draai> a schema:Person ;
+        schema:name "Elly Groenenboom-Draai" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> a schema:Person ;
+        schema:name "Els Stronks" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz> a schema:Person ;
+        schema:name "Feike Dietz" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-blom> a schema:Person ;
+        schema:name "Frans Blom" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geert-mak> a schema:Person ;
+        schema:name "Geert Mak" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-rutten> a schema:Person ;
+        schema:name "Gijsbert Rutten" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn> a schema:Person ;
+        schema:name "Henk Looijesteijn" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-meeus> a schema:Person ;
+        schema:name "Hubert Meeus" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans> a schema:Person ;
+        schema:name "Inger Leemans" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis> a schema:Person ;
+        schema:name "Ivo Nieuwenhuis" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf> a schema:Person ;
+        schema:name "Jan Noordegraaf" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-waszink> a schema:Person ;
+        schema:name "Jan Waszink" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jasper-van-der-steen> a schema:Person ;
+        schema:name "Jasper van der Steen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> a schema:Person ;
+        schema:name "Jeroen Jansen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-koppenol> a schema:Person ;
+        schema:name "Johan Koppenol" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket> a schema:Person ;
+        schema:name "Johanna Ferket" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joris-oddens> a schema:Person ;
+        schema:name "Joris Oddens" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw> a schema:Person ;
+        schema:name "Josephina de Fouw" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/karel-porteman> a schema:Person ;
+        schema:name "Karel Porteman" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kasper-van-ommen> a schema:Person ;
+        schema:name "Kasper van Ommen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornee-van-der-haven> a schema:Person ;
+        schema:name "Kornee van der Haven" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lia-van-gemert> a schema:Person ;
+        schema:name "Lia van Gemert" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-meijer-drees> a schema:Person ;
+        schema:name "Marijke Meijer Drees" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma> a schema:Person ;
+        schema:name "Marijke Tolsma" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans> a schema:Person ;
+        schema:name "Marrigje Paijmans" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martine-van-elk> a schema:Person ;
+        schema:name "Martine van Elk" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing> a schema:Person ;
+        schema:name "Michiel Roscam Abbing" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-van-duijnen> a schema:Person ;
+        schema:name "Michiel van Duijnen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nelleke-moser> a schema:Person ;
+        schema:name "Nelleke Moser" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> a schema:Person ;
+        schema:name "Nicoline van der Sijs" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> a schema:Person ;
+        schema:name "Nina Geerdink" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof> a schema:Person ;
+        schema:name "Patrick van ‘t Hof" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> a schema:Person ;
+        schema:name "Peter Altena" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieta-van-beek> a schema:Person ;
+        schema:name "Pieta van Beek" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rene-van-stipriaan> a schema:Person ;
+        schema:name "René van Stipriaan" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings> a schema:Person ;
+        schema:name "Rick Honings" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen> a schema:Person ;
+        schema:name "Riet Schenkeveld-van der Dussen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> a schema:Person ;
+        schema:name "Roland de Bonth" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal> a schema:Person ;
+        schema:name "Ruben E. Verwaal" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams> a schema:Person ;
+        schema:name "Sarah Adams" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sophie-reinders> a schema:Person ;
+        schema:name "Sophie Reinders" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sven-molenaar> a schema:Person ;
+        schema:name "Sven Molenaar" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> a schema:Person ;
+        schema:name "Timothy De Paepe" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen> a schema:Person ;
+        schema:name "Ton Harmsen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> a schema:Person ;
+        schema:name "Lieke van Deinsen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> a schema:Person ;
+        schema:name "Ton van Strien" .
 }
 
 <https://data.create.humanities.uva.nl/id/schrijverskabinet/> {
@@ -107,7 +266,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/619-2/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/guilliam-van-nieulandt> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> ;
-        schema:name "Tussen Rome, Antwerpen en Amsterdam " .
+        schema:name "Tussen Rome, Antwerpen en Amsterdam" .
 
     <http://www.schrijverskabinet.nl/artikel/abraham-bogaert/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-bogaert> ;
@@ -127,22 +286,22 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/adrianus-reland/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adrianus-reland> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf> ;
-        schema:name "Veraf en toch dichtbij " .
+        schema:name "Veraf en toch dichtbij" .
 
     <http://www.schrijverskabinet.nl/artikel/adrianus-van-royen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adrianus-van-royen> ;
-        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e.-verwaal> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal> ;
         schema:name "Berucht leraar, beroemd dichter" .
 
     <http://www.schrijverskabinet.nl/artikel/aernout-van-overbeke/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aernout-van-overbeke> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis> ;
-        schema:name "De grappende advocaat " .
+        schema:name "De grappende advocaat" .
 
     <http://www.schrijverskabinet.nl/artikel/andries%e2%80%afpels/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/andries-pels> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Toneel- en taaltheoreticus " .
+        schema:name "Toneel- en taaltheoreticus" .
 
     <http://www.schrijverskabinet.nl/artikel/anna-maria-van-schurman/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-maria-van-schurman> ;
@@ -177,12 +336,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/arnold-moonen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-moonen> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> ;
-        schema:name "Ook een herder-dichter past bescheidenheid " .
+        schema:name "Ook een herder-dichter past bescheidenheid" .
 
     <http://www.schrijverskabinet.nl/artikel/arnoud-van-halen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw> ;
-        schema:name "'Zonder Meester een Meester in ’t Pinçeel en Poësy' " .
+        schema:name "'Zonder Meester een Meester in ’t Pinçeel en Poësy'" .
 
     <http://www.schrijverskabinet.nl/artikel/balthazar-huydecoper/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> ;
@@ -192,7 +351,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/betje-wolff/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elizabeth-wolff> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-meijer-drees> ;
-        schema:name "Satirisch en sprankelend " .
+        schema:name "Satirisch en sprankelend" .
 
     <http://www.schrijverskabinet.nl/artikel/bonaventura-peeters/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bonaventura-peeters> ;
@@ -202,7 +361,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/bonaventura-vulcanius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bonaventura-vulcanius> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Ontsluiter van het Gotisch " .
+        schema:name "Ontsluiter van het Gotisch" .
 
     <http://www.schrijverskabinet.nl/artikel/caspar-van-kinschot/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-van-kinschot> ;
@@ -217,17 +376,17 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/christina-leonora-de-neufville/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christina-leonora-de-neufville> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "De vrouwelijke Voltaire " .
+        schema:name "De vrouwelijke Voltaire" .
 
     <http://www.schrijverskabinet.nl/artikel/christoffel-plantijn/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christoffel-plantijn> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof> ;
-        schema:name "Een uitgever buiten categorie " .
+        schema:name "Een uitgever buiten categorie" .
 
     <http://www.schrijverskabinet.nl/artikel/claas-bruin/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claes-bruin> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornee-van-der-haven> ;
-        schema:name "Toneelschrijver en succesauteur uit de vroege 18de eeuw " .
+        schema:name "Toneelschrijver en succesauteur uit de vroege 18de eeuw" .
 
     <http://www.schrijverskabinet.nl/artikel/constantijn-huygens/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/constantijn-huygens> ;
@@ -237,7 +396,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/cornelis-de-bie/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-de-bie> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket> ;
-        schema:name "Begeesterde rederijker " .
+        schema:name "Begeesterde rederijker" .
 
     <http://www.schrijverskabinet.nl/artikel/cornelis-sweerts/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-sweerts> ;
@@ -247,27 +406,27 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/cornelis-udemans/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-udemans> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> ;
-        schema:name "Zeeuwse dichtersziel " .
+        schema:name "Zeeuwse dichtersziel" .
 
     <http://www.schrijverskabinet.nl/artikel/cornelis-van-beveren/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-beveren> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/alan-moss> ;
-        schema:name "\"Eenen gloed, dien men zelden ontmoet.\" " .
+        schema:name "\"Eenen gloed, dien men zelden ontmoet.\"" .
 
     <http://www.schrijverskabinet.nl/artikel/david-van-hoogstraten/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/david-van-hoogstraten> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-rutten> ;
-        schema:name "Een van de zonen van Vondel " .
+        schema:name "Een van de zonen van Vondel" .
 
     <http://www.schrijverskabinet.nl/artikel/desiderius-erasmus/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/desiderius-erasmus> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis> ;
-        schema:name "Een vreemde eend in de bijt " .
+        schema:name "Een vreemde eend in de bijt" .
 
     <http://www.schrijverskabinet.nl/artikel/dirck-buysero/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-buysero> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> ;
-        schema:name "‘Een krachtig beschermer der dichters’ " .
+        schema:name "‘Een krachtig beschermer der dichters’" .
 
     <http://www.schrijverskabinet.nl/artikel/dirck-volckertszoon-coornhert/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-volkertszoon-coornhert> ;
@@ -275,14 +434,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Weet of rust" .
 
     <http://www.schrijverskabinet.nl/artikel/dirk-raphaelsz-camphuysen/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz.-camphuysen> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen> ;
         schema:name "Zingen voor een betere wereld" .
 
     <http://www.schrijverskabinet.nl/artikel/dirk-schelte/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-schelte> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen> ;
-        schema:name "Een leven op rijm " .
+        schema:name "Een leven op rijm" .
 
     <http://www.schrijverskabinet.nl/artikel/dirk-smits/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-smits> ;
@@ -327,7 +486,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/frans-ryk/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-ryk> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "De verfranste veelvertaler " .
+        schema:name "De verfranste veelvertaler" .
 
     <http://www.schrijverskabinet.nl/artikel/geeraerd-brandt/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geeraerd-brandt> ;
@@ -337,17 +496,17 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/gerbrand-adriaenszoon-bredero/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerbrand-adriaensz-bredero> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> ;
-        schema:name "Amsterdammer " .
+        schema:name "Amsterdammer" .
 
     <http://www.schrijverskabinet.nl/artikel/gerrit-jacob-george-bacot/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-jacob-georg-bacot> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joris-oddens> ;
-        schema:name "Predikant-boer en dichtend patriot " .
+        schema:name "Predikant-boer en dichtend patriot" .
 
     <http://www.schrijverskabinet.nl/artikel/gijsbert-tysens/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-tysens> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> ;
-        schema:name "Een schrijver van hekelende blijspelen " .
+        schema:name "Een schrijver van hekelende blijspelen" .
 
     <http://www.schrijverskabinet.nl/artikel/hendrik-schim/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-schim> ;
@@ -360,12 +519,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "`Een zeer goed literateur en Poeet’" .
 
     <http://www.schrijverskabinet.nl/artikel/hermannus-angelkot-jr/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
         schema:name "‘De ontmantelde apotheker’" .
 
     <http://www.schrijverskabinet.nl/artikel/hermannus-angelkot-sr/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
         schema:name "De dichtende apotheker" .
 
@@ -377,7 +536,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/hieronymus-sweerts/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hieronymus-sweerts> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
-        schema:name "De verzamelaar " .
+        schema:name "De verzamelaar" .
 
     <http://www.schrijverskabinet.nl/artikel/hubert-korneliszoon-poot/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-korneliszoon-poot> ;
@@ -387,17 +546,17 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/hugo-de-groot/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hugo-de-groot> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-waszink> ;
-        schema:name "Geleerd multi-genie in een jungle van politieke spanningen " .
+        schema:name "Geleerd multi-genie in een jungle van politieke spanningen" .
 
     <http://www.schrijverskabinet.nl/artikel/ijsbrand-vincent/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ijsbrand-vincent> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "Letterdief en literair executeur-testamentair " .
+        schema:name "Letterdief en literair executeur-testamentair" .
 
     <http://www.schrijverskabinet.nl/artikel/jacob-campo-weyerman/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-campo-weyerman> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> ;
-        schema:name "Berucht hekelschrijver " .
+        schema:name "Berucht hekelschrijver" .
 
     <http://www.schrijverskabinet.nl/artikel/jacob-cats/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-cats> ;
@@ -437,7 +596,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/jan-de-regt/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-regt> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> ;
-        schema:name "Bescheiden dichtertje " .
+        schema:name "Bescheiden dichtertje" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-goeree/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-goeree> ;
@@ -445,9 +604,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Graveur en amateurpoëet" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-harmensz-krul/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz.-krul> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz-krul> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz> ;
-        schema:name "Meester in multimediale ervaringen  " .
+        schema:name "Meester in multimediale ervaringen" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-jacob-mauricius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-jacob-mauricius> ;
@@ -460,29 +619,29 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "‘Hij heeft nog niets uitgegéven; doch is zeer geleerd’" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-jansz-starter/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz.-starter> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz-starter> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> ;
         schema:name "Van gelauwerd dichter tot armoedig historieschrijver" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-klinkenberg/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-klinkenberg> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "Gouverneur van het Pan " .
+        schema:name "Gouverneur van het Pan" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-kruijff-sr/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
         schema:name "Een ‘Leydsche Puikdigter’" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-kruyff-jr/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
         schema:name "Letterlievende genootschapsman" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-luyken/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-luyken> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz> ;
-        schema:name "Reizen door het land van deze tijd " .
+        schema:name "Reizen door het land van deze tijd" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-six/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-six> ;
@@ -517,12 +676,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/jan-van-scorel/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-scorel> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-luyckx> ;
-        schema:name "Toonbeeld van de renaissancekunstenaar in de Noordelijke Nederlanden " .
+        schema:name "Toonbeeld van de renaissancekunstenaar in de Noordelijke Nederlanden" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-vos/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-vos> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> ;
-        schema:name "Meer dan de auteur van Aran en Titus " .
+        schema:name "Meer dan de auteur van Aran en Titus" .
 
     <http://www.schrijverskabinet.nl/artikel/jan-zoet/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-zoet> ;
@@ -567,7 +726,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/joannes-badon/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-badon> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "De vergeten portretdichter " .
+        schema:name "De vergeten portretdichter" .
 
     <http://www.schrijverskabinet.nl/artikel/joannes-baptist-stalpaert-van-der-wiele/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-stalpart-van-der-wiel> ;
@@ -577,7 +736,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/joannes-vollenhove/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-vollenhove> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> ;
-        schema:name "Zoon van Vondel " .
+        schema:name "Zoon van Vondel" .
 
     <http://www.schrijverskabinet.nl/artikel/johan-baptista-houwaert/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-baptista-houwaert> ;
@@ -597,12 +756,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/joos-lambrecht/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joos-lambrechts> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Vernieuwer in spelling en typografie   " .
+        schema:name "Vernieuwer in spelling en typografie" .
 
     <http://www.schrijverskabinet.nl/artikel/joost-van-den-vondel/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-den-vondel> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans> ;
-        schema:name "Prins der Dichters " .
+        schema:name "Prins der Dichters" .
 
     <http://www.schrijverskabinet.nl/artikel/josephus-justus-scaliger/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephus-justus-scaliger> ;
@@ -632,17 +791,17 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/katharina-lescailje/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/katharina-lescailje> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> ;
-        schema:name "Zakenvrouw in gedichten " .
+        schema:name "Zakenvrouw in gedichten" .
 
     <http://www.schrijverskabinet.nl/artikel/lambert-bidloo/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-bidloo> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
-        schema:name "Een bevlogen liefhebber " .
+        schema:name "Een bevlogen liefhebber" .
 
     <http://www.schrijverskabinet.nl/artikel/laurens-bake/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-bake> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> ;
-        schema:name "Een subliem christendichter? " .
+        schema:name "Een subliem christendichter?" .
 
     <http://www.schrijverskabinet.nl/artikel/laurens-janszoon-coster/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-janszoon-coster> ;
@@ -662,7 +821,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/ludolph-smids/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ludolph-smids> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> ;
-        schema:name "Vlijtig verzamelaar " .
+        schema:name "Vlijtig verzamelaar" .
 
     <http://www.schrijverskabinet.nl/artikel/lukas-rotgans/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-rotgans> ;
@@ -677,7 +836,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/mattheus-brouerius-nidek/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-brouerius-van-nidek> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
-        schema:name "`Een Rechtsgeleerd Poëet’ " .
+        schema:name "`Een Rechtsgeleerd Poëet’" .
 
     <http://www.schrijverskabinet.nl/artikel/mattheus-gansneb-tengnagel/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-gansneb-tengnagel> ;
@@ -686,7 +845,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <http://www.schrijverskabinet.nl/artikel/matthijs-balen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/matthijs-balen> ;
-        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-'t-hof> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof> ;
         schema:name "Historyschrijver van Dordreght" .
 
     <http://www.schrijverskabinet.nl/artikel/matthijs-merwede-clootwijck/> a schema:ScholarlyArticle ;
@@ -697,7 +856,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/nicolaas-simon-van-winter/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-simon-van-winter> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams> ;
-        schema:name "Auteur in de schaduw " .
+        schema:name "Auteur in de schaduw" .
 
     <http://www.schrijverskabinet.nl/artikel/otto-vaenius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/otto-van-veen> ;
@@ -707,7 +866,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/paullus-merula/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/paulus-merula> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Een historicus met belangstelling voor het Nederlands   " .
+        schema:name "Een historicus met belangstelling voor het Nederlands" .
 
     <http://www.schrijverskabinet.nl/artikel/peeter-heyns/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peeter-heyns> ;
@@ -717,12 +876,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/peter-paul-rubens/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-paulus-rubens> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> ;
-        schema:name "De Antwerpse Apelles " .
+        schema:name "De Antwerpse Apelles" .
 
     <http://www.schrijverskabinet.nl/artikel/petronella-moens-1762-1843/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petronella-moens> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ans-veltman> ;
-        schema:name "Bezoek aan het Pan Poëticon Batavûm " .
+        schema:name "Bezoek aan het Pan Poëticon Batavûm" .
 
     <http://www.schrijverskabinet.nl/artikel/petrus-datheen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-datheen> ;
@@ -732,12 +891,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/petrus-francius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-francius> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Een welsprekende taalmeester " .
+        schema:name "Een welsprekende taalmeester" .
 
     <http://www.schrijverskabinet.nl/artikel/petrus-scriverius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-scriverius> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing> ;
-        schema:name "De publieke zaak hoog in het vaandel " .
+        schema:name "De publieke zaak hoog in het vaandel" .
 
     <http://www.schrijverskabinet.nl/artikel/philips-marnix-heer-st-aldegonde/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philips-van-marnix-van-sint-aldegonde> ;
@@ -750,14 +909,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Chroniqueur van de Nederlandse Opstand" .
 
     <http://www.schrijverskabinet.nl/artikel/pieter-corneliszoon-hooft/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz.-hooft> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> ;
-        schema:name "Literaire geschiedschrijver " .
+        schema:name "Literaire geschiedschrijver" .
 
     <http://www.schrijverskabinet.nl/artikel/pieter-de-la-rue/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-de-la-rue> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "De literaire toerist  " .
+        schema:name "De literaire toerist" .
 
     <http://www.schrijverskabinet.nl/artikel/pieter-hogerbeets/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-hogerbeets> ;
@@ -767,12 +926,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/pieter-langendijk/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-langendijk> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> ;
-        schema:name "Een toneeldichter met ambitie " .
+        schema:name "Een toneeldichter met ambitie" .
 
     <http://www.schrijverskabinet.nl/artikel/pieter-rabus/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-rabus> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Eerste boekenrecensent " .
+        schema:name "Eerste boekenrecensent" .
 
     <http://www.schrijverskabinet.nl/artikel/pieter-vreede/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-vreede> ;
@@ -787,7 +946,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/rhijnvis-feith/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rhijnvis-feith> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams> ;
-        schema:name "De Zwolse duizendpoot " .
+        schema:name "De Zwolse duizendpoot" .
 
     <http://www.schrijverskabinet.nl/artikel/roemer-visscher/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roemer-visscher> ;
@@ -807,7 +966,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/samuel-ampzing/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/samuel-ampzing> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Een (te) consequente spellinghervormer  " .
+        schema:name "Een (te) consequente spellinghervormer" .
 
     <http://www.schrijverskabinet.nl/artikel/samuel-coster/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/samuel-coster> ;
@@ -817,12 +976,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/samuel-van-hoogstraten/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/samuel-van-hoogstraten> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing> ;
-        schema:name "Balanceren tussen pen en penseel " .
+        schema:name "Balanceren tussen pen en penseel" .
 
     <http://www.schrijverskabinet.nl/artikel/sara-maria-wilp/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sara-maria-van-der-wilp> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
-        schema:name "Portret in polemiek " .
+        schema:name "Portret in polemiek" .
 
     <http://www.schrijverskabinet.nl/artikel/sybille-van-griethuysen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sibylle-van-griethuysen> ;
@@ -842,32 +1001,32 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/theodoor-van-snakenburg/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodoor-van-snakenburg> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
-        schema:name "De ‘luister van ’t Aonisch koor’  " .
+        schema:name "De ‘luister van ’t Aonisch koor’" .
 
     <http://www.schrijverskabinet.nl/artikel/theodore-rodenburgh/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodoor-rodenburg> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket> ;
-        schema:name "Kosmopolitische vernieuwer  " .
+        schema:name "Kosmopolitische vernieuwer" .
 
     <http://www.schrijverskabinet.nl/artikel/willem-baudart/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-baudart> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
-        schema:name "Een kritische bijbelvertaler " .
+        schema:name "Een kritische bijbelvertaler" .
 
     <http://www.schrijverskabinet.nl/artikel/willem-bilderdijk/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-bilderdijk> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings> ;
-        schema:name "De bekroonde melancholicus  " .
+        schema:name "De bekroonde melancholicus" .
 
     <http://www.schrijverskabinet.nl/artikel/willem-dorville/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-d'orville> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-dorville> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> ;
-        schema:name "Dichter in de schaduw van het predikambt " .
+        schema:name "Dichter in de schaduw van het predikambt" .
 
     <http://www.schrijverskabinet.nl/artikel/willem-godschalck-focquenbroch/> a schema:ScholarlyArticle ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g.-van-focquenbroch> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g-van-focquenbroch> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis> ;
-        schema:name "Achter een rookgordijn " .
+        schema:name "Achter een rookgordijn" .
 
     <http://www.schrijverskabinet.nl/artikel/willem-goeree/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-goeree> ;
@@ -1100,19 +1259,19 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-buysero> .
 
     <http://www.schrijverskabinet.nl/portret/dirck-pietersz-pers/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz.-pers> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz-pers> .
 
     <http://www.schrijverskabinet.nl/portret/dirck-volkertsz-coornhert/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-volkertszoon-coornhert> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-adriaansz-van-distelburg/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz.-van-distelburg> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-graswinckel/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-graswinckel> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-rafaelsz-camphuysen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz.-camphuysen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-schelte/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-schelte> .
@@ -1223,7 +1382,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/heiman-dullaart> .
 
     <http://www.schrijverskabinet.nl/portret/hendrick-laurensz-spieghel/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz.-spieghel> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz-spieghel> .
 
     <http://www.schrijverskabinet.nl/portret/hendricus-vos/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendricus-vos> .
@@ -1247,10 +1406,10 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-van-der-zande> .
 
     <http://www.schrijverskabinet.nl/portret/hermanus-angelkot-jr/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr.> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr> .
 
     <http://www.schrijverskabinet.nl/portret/hermanus-angelkot-sr/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr.> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr> .
 
     <http://www.schrijverskabinet.nl/portret/hermanus-van-der-burg/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermanus-van-der-burg> .
@@ -1274,7 +1433,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ijsbrand-vincent> .
 
     <http://www.schrijverskabinet.nl/portret/j-c-wystrat/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/j.c.-wystrat> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jc-wystrat> .
 
     <http://www.schrijverskabinet.nl/portret/jacob-campo-weyerman/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-campo-weyerman> .
@@ -1346,7 +1505,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-groot> .
 
     <http://www.schrijverskabinet.nl/portret/jan-de-kruyff/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr.> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr> .
 
     <http://www.schrijverskabinet.nl/portret/jan-de-marre/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-marre> .
@@ -1358,22 +1517,22 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-goeree> .
 
     <http://www.schrijverskabinet.nl/portret/jan-harmensz-krul/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz.-krul> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz-krul> .
 
     <http://www.schrijverskabinet.nl/portret/jan-jacob-schultens/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jakob-schultens> .
 
     <http://www.schrijverskabinet.nl/portret/jan-jacobz-schipper/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz.-schipper> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz-schipper> .
 
     <http://www.schrijverskabinet.nl/portret/jan-jansz-starter/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz.-starter> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz-starter> .
 
     <http://www.schrijverskabinet.nl/portret/jan-klinkenberg/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-klinkenberg> .
 
     <http://www.schrijverskabinet.nl/portret/jan-kruyff-sr/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr.> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr> .
 
     <http://www.schrijverskabinet.nl/portret/jan-lemmers/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-lemmers> .
@@ -1424,7 +1583,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-doesa> .
 
     <http://www.schrijverskabinet.nl/portret/janus-dousa-jr/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr.> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr> .
 
     <http://www.schrijverskabinet.nl/portret/janus-gruterus/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-gruterus> .
@@ -1586,7 +1745,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-bidloo> .
 
     <http://www.schrijverskabinet.nl/portret/lambert-paludanus-van-den-broek/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-(paludanus)-van-den-broek> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-paludanus-van-den-broek> .
 
     <http://www.schrijverskabinet.nl/portret/laurens-bake/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-bake> .
@@ -1718,7 +1877,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philip-sweerts> .
 
     <http://www.schrijverskabinet.nl/portret/philippus-dorville/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-d'orville> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-dorville> .
 
     <http://www.schrijverskabinet.nl/portret/philips-marnix-sint-aldegonde/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philips-van-marnix-van-sint-aldegonde> .
@@ -1736,7 +1895,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-burman> .
 
     <http://www.schrijverskabinet.nl/portret/pieter-cornelisz-hooft/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz.-hooft> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> .
 
     <http://www.schrijverskabinet.nl/portret/pieter-de-groot/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-de-groot> .
@@ -1853,7 +2012,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodorus-velius> .
 
     <http://www.schrijverskabinet.nl/portret/tieleman-jansz-van-bracht/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz.-van-bracht> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz-van-bracht> .
 
     <http://www.schrijverskabinet.nl/portret/tobias-gutberleth/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tobias-gutberleth> .
@@ -1862,7 +2021,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/volkerus-van-oosterwyck> .
 
     <http://www.schrijverskabinet.nl/portret/wilhelmus-dorville/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-d'orville> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-dorville> .
 
     <http://www.schrijverskabinet.nl/portret/willem-baudartius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-baudart> .
@@ -1874,7 +2033,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-de-groot> .
 
     <http://www.schrijverskabinet.nl/portret/willem-g-focquenbroch/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g.-van-focquenbroch> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g-van-focquenbroch> .
 
     <http://www.schrijverskabinet.nl/portret/willem-goeree/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-goeree> .
@@ -1905,7 +2064,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/1> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-blusse> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "onbekend" ] ;
         schema:name "Portret van Abraham Blussé"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/10> a schema:VisualArtwork ;
@@ -1917,7 +2077,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/100> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-jacob-georg-bacot> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "onbekend" ] ;
         schema:name "Portret van Gerard Jacob Georg Bacot"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bacot-RP-P-OB-62.769-2.jpg" .
 
@@ -2014,14 +2175,15 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bruno.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/115> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz.-spieghel> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz-spieghel> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Hendrick Laurensz. Spieghel"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Spiegel-001.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/116> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendricus-vos> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Hendricus Vos"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/117> a schema:VisualArtwork ;
@@ -2049,7 +2211,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/120> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-van-bracht> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-of-aert-schouman> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aert-schouman>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Hendrik van Bracht"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/121> a schema:VisualArtwork ;
@@ -2060,12 +2223,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Van-der-Zande-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/122> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Hermannus Angelkot jr."@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/123> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Hermannus Angelkot sr."@nl .
 
@@ -2111,7 +2274,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Reland.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/130> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/j.c.-wystrat> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jc-wystrat> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van J.C. Wystrat"@nl .
 
@@ -2176,7 +2339,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/140> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-westerbaen> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Jacob Westerbaen"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Westerbaen.jpg" .
 
@@ -2262,12 +2426,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Portret van Jan de Groot"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/154> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr.> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/l.b.-coclers> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lb-coclers> ;
         schema:name "Portret van Jan de Kruijff sr."@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/155> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/niels-rode> ;
         schema:name "Portret van Jan de Kruyff jr."@nl .
 
@@ -2290,20 +2454,21 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Goeree.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/159> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz.-krul> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz-krul> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Jan Harmensz. Krul"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Krul-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/16> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aernout-van-overbeke> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Aernout van Overbeke"@nl ;
         owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.4996> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/overbeke-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/160> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz.-schipper> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz-schipper> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Jan Jacobz. Schipper"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Schipper-1.jpg" .
@@ -2315,14 +2480,15 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/SChultens-b-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/162> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz.-starter> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz-starter> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Jan Jansz. Starter"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/starter-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/163> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-klinkenberg> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Jan Klinkenberg"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/164> a schema:VisualArtwork ;
@@ -2339,7 +2505,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/166> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-norel> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Jan Norel"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Norel-1.jpg" .
 
@@ -2357,7 +2524,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/169> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-der-noot> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Jan van der Noot"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Van-der-Noot.jpg" .
 
@@ -2389,7 +2557,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/173> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-hoogstraten> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Jan van Hoogstraten"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-Hoogstraten-Jan-1.jpg" .
 
@@ -2436,7 +2605,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Morus-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/180> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr.> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Janus Dousa jr."@nl ;
         owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.4959> ;
@@ -2475,13 +2644,15 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/186> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeronimo-de-bosch> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Jeronimo de Bosch"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/De-Bosch-RP-P-1906-1577.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/187> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jetske-reinou-van-der-malen> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-of-matthijs-accama> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/matthijs-accama> ;
         schema:name "Portret van Jetske Reinou van der Malen"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/188> a schema:VisualArtwork ;
@@ -2504,7 +2675,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/190> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-de-haes> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-dionys-van-nymegen> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dionys-van-nymegen> ;
         schema:name "Portret van Joan de Haes"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/191> a schema:VisualArtwork ;
@@ -2607,7 +2779,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/205> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-pieter-broeckhoff> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Johan Pieter Broeckhoff"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/206> a schema:VisualArtwork ;
@@ -2617,7 +2790,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/207> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-van-der-marck> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Johan van der Marck"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/208> a schema:VisualArtwork ;
@@ -2629,7 +2803,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/209> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-brandt> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-en-nicolaas-verkolje> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-verkolje> ;
         schema:name "Portret van Johannes Brandt"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Brandt-Johannes-1.jpg" .
 
@@ -2649,7 +2824,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/211> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-haverkamp> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/quinkhard> ;
         schema:name "Portret van Johannes Haverkamp"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/212> a schema:VisualArtwork ;
@@ -2684,7 +2860,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/217> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-van-braam> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-en-aert-schouman> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aert-schouman>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Johannes van Braam"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/218> a schema:VisualArtwork ;
@@ -2706,7 +2883,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/220> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-den-vondel> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tweemaal-door-arnoud-van-halen-en-('in-zijnen-laatsten-leeftijd'-door)-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Joost van den Vondel"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vondel-1.jpg" .
 
@@ -2755,7 +2933,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/228> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/katharina-lescailje> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-vervangen-door-nicolaas-reyers-(naar-een-tekening-van-nicolaas-verkolje)> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-vervangen-door-nicolaas-reyers> ;
         schema:name "Portret van Katharina Lescailje"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Lescailje-alternatief-1.jpg" .
 
@@ -2787,19 +2965,20 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/TOrrentius.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/233> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-(paludanus)-van-den-broek> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-paludanus-van-den-broek> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Lambert (Paludanus) van den Broek"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/234> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-bidloo> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-(tweemaal,-'in-onderscheidene-leevensstanden')> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Lambert Bidloo"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Lambert-Bidloo.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/235> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-bake> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Laurens Bake"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/stolker4958.jpg" .
 
@@ -2849,7 +3028,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/242> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucretia-wilhelmina-van-merken> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Lucretia Wilhelmina van Merken"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Merken-1.jpg" .
 
@@ -2892,7 +3072,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/249> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/maria-tesselschade-roemers-visscher> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-('van-deeze-en-de-voorige-dichteresse-heeft-de-heer-van-halen-ook-geen-afbeeldsels-kunnen-magtig-worden,-en-heeft-daerom,-voor-ijder-van-haer,-een-gedenkstuk-gemaeld')> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Maria Tesselschade Roemers Visscher"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Tesselschade-Johannes_Körnlein-2.jpg" .
 
@@ -2943,7 +3123,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/256> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/melis-stoke> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-('ter-gedachtenisse-van-deezen-man,-van-wien-geen-beeldtenis-bekend-is,-heeft-de-heer-van-halen-een-gedenkstuk-geschilderd')> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Melis Stoke"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/257> a schema:VisualArtwork ;
@@ -2954,7 +3134,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/258> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-heinsius> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Nicolaas Heinsius"@nl ;
         owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.4993> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Heinsius.jpg" .
@@ -3012,7 +3193,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/267> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petronella-moens> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Petronella Moens"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Moens-2.jpg" .
 
@@ -3089,7 +3271,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Sweerts-Zweerts-Philip-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/279> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-d'orville> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-dorville> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Philippus d’Orville"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/DOrville-1.jpg" .
@@ -3127,13 +3309,15 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/284> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-burman> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Pieter Burman"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/BurmanRP-P-OB-48.870.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/285> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz.-hooft> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Pieter Cornelisz. Hooft"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Hooft-kopie.jpg" .
 
@@ -3157,7 +3341,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/289> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-langendijk> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Pieter Langendijk"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Langendijk.jpg" .
 
@@ -3174,18 +3359,21 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/291> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leonard-van-de-kasteele> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Pieter Leonard van de Kasteele"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-de-Kasteele-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/292> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leuter> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Pieter Leuter"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/293> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-nieuwland> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Pieter Nieuwland"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/294> a schema:VisualArtwork ;
@@ -3213,13 +3401,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/298> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-vlaming> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-(?)> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Pieter Vlaming"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vlaming-Pieter-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/299> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-vreede> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> ;
+        schema:artist [ a schema:Person ;
+                schema:name "Onbekend" ] ;
         schema:name "Portret van Pieter Vreede"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vreede-1.jpg" .
 
@@ -3232,7 +3421,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/30> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-moonen> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Arnold Moonen"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Moonen-1.jpg" .
 
@@ -3244,7 +3434,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/301> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/reyer-anslo> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-en-nicolas-verkolje> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolas-verkolje> ;
         schema:name "Portret van Reyer Anslo"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Anslo-RP-P-OB-053.jpg" .
 
@@ -3345,7 +3536,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/317> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-schijnvoet> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Simon Schijnvoet"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Schijnvoet.jpg" .
 
@@ -3380,13 +3572,15 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/322> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodorus-velius> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Theodorus Velius"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Velius-kopie-2.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/323> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz.-van-bracht> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz-van-bracht> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Tieleman Jansz. van Bracht"@nl ;
         owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.4991> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Van-Bracht-1.jpg" .
@@ -3417,7 +3611,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bilderdijk-RP-P-OB-60.422-2.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/328> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-d'orville> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-dorville> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Willem d’Orville"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Schermafbeelding-2016-05-15-om-22.06.17.jpg" .
@@ -3436,7 +3630,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Miraeus-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/330> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g.-van-focquenbroch> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g-van-focquenbroch> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Willem G. van Focquenbroch"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Focquenbroch-001.jpg" .
@@ -3505,7 +3699,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/35> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Balthazar Huydecoper"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Huydecoper-1.jpg" .
 
@@ -3542,7 +3737,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/40> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-barlaeus> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Caspar Barlaeus"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Barlaeus-RP-T-1885-A-480-2.jpg" .
 
@@ -3587,7 +3783,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/47> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claes-bruin> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-(?)> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Claes Bruin"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bruin-RP-P-OB-48.863-1.jpg" .
 
@@ -3670,7 +3866,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/6> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaan-hoppestein> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Adriaan Hoppestein"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/60> a schema:VisualArtwork ;
@@ -3698,7 +3895,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/64> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/daniel-heinsius> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Daniël Heinsius"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Heinsius-kopie.jpg" .
 
@@ -3762,24 +3960,25 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Graswinckel.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/74> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz.-pers> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz-pers> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Dirck Pietersz. Pers"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Pers-1.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/75> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-volkertszoon-coornhert> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-quinkhard> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/quinkhard> ;
         schema:name "Portret van Dirck Volkertszoon Coornhert"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Coornhert.jpg" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/76> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz.-van-distelburg> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Dirk Adriaansz. van Distelburg"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/77> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz.-camphuysen> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Dirk Rafaelsz. Camphuysen"@nl ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Camphuysen-1.jpg" .
@@ -3941,23 +4140,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arie-jan-gelderblom> a schema:Person ;
         schema:name "Arie-Jan Gelderblom" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-dionys-van-nymegen> a schema:Person ;
-        schema:name "Arnoud van Halen, verbeterd door Dionys van Nymegen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-vervangen-door-nicolaas-reyers-(naar-een-tekening-van-nicolaas-verkolje)> a schema:Person ;
-        schema:name "Arnoud van Halen, vervangen door Nicolaas Reyers (naar een tekening van Nicolaas Verkolje)" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-('ter-gedachtenisse-van-deezen-man,-van-wien-geen-beeldtenis-bekend-is,-heeft-de-heer-van-halen-een-gedenkstuk-geschilderd')> a schema:Person ;
-        schema:name "Arnoud van Halen ('Ter gedachtenisse van deezen Man, van wien geen Beeldtenis bekend is, heeft de Heer van Halen een Gedenkstuk geschilderd’)" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-('van-deeze-en-de-voorige-dichteresse-heeft-de-heer-van-halen-ook-geen-afbeeldsels-kunnen-magtig-worden,-en-heeft-daerom,-voor-ijder-van-haer,-een-gedenkstuk-gemaeld')> a schema:Person ;
-        schema:name "Arnoud van Halen (‘Van deeze en de voorige Dichteresse heeft de Heer van Halen ook geen Afbeeldsels kunnen magtig worden, en heeft daerom, voor ijder van haer, een Gedenkstuk gemaeld')" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-(tweemaal,-'in-onderscheidene-leevensstanden')> a schema:Person ;
-        schema:name "Arnoud van Halen (tweemaal, 'in onderscheidene Leevensstanden')" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-en-nicolas-verkolje> a schema:Person ;
-        schema:name "Arnoud van Halen en Nicolas Verkolje" .
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen-vervangen-door-nicolaas-reyers> a schema:Person ;
+        schema:name "Arnoud van Halen, vervangen door Nicolaas Reyers" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof> a schema:Person ;
         schema:name "Dirk Imhof" .
@@ -3983,18 +4167,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans> a schema:Person ;
         schema:name "Inger Leemans" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-en-aert-schouman> a schema:Person ;
-        schema:name "Jan Maurits Quinkhard en Aert Schouman" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-en-nicolaas-verkolje> a schema:Person ;
-        schema:name "Jan Maurits Quinkhard en Nicolaas Verkolje" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-of-aert-schouman> a schema:Person ;
-        schema:name "Jan Maurits Quinkhard of Aert Schouman" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-of-matthijs-accama> a schema:Person ;
-        schema:name "Jan Maurits Quinkhard of Matthijs Accama" .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jasper-van-der-steen> a schema:Person ;
         schema:name "Jasper van der Steen" .
 
@@ -4016,7 +4188,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kasper-van-ommen> a schema:Person ;
         schema:name "Kasper van Ommen" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/l.b.-coclers> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lb-coclers> a schema:Person ;
         schema:name "L.B. Coclers" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma> a schema:Person ;
@@ -4028,13 +4200,19 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martine-van-elk> a schema:Person ;
         schema:name "Martine van Elk" .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/matthijs-accama> a schema:Person ;
+        schema:name "Matthijs Accama" .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michel-van-duijnen> a schema:Person ;
         schema:name "Michel van Duijnen" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolas-verkolje> a schema:Person ;
+        schema:name "Nicolas Verkolje" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/niels-rode> a schema:Person ;
         schema:name "Niels Rode" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-'t-hof> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof> a schema:Person ;
         schema:name "Patrick van 't Hof" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieta-van-beek> a schema:Person ;
@@ -4043,7 +4221,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings> a schema:Person ;
         schema:name "Rick Honings" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e.-verwaal> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal> a schema:Person ;
         schema:name "Ruben E. Verwaal" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sanne-de-laat> a schema:Person ;
@@ -4055,9 +4233,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen> a schema:Person ;
         schema:name "Ton Harmsen" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tweemaal-door-arnoud-van-halen-en-('in-zijnen-laatsten-leeftijd'-door)-jan-maurits-quinkhard> a schema:Person ;
-        schema:name "Tweemaal door Arnoud van Halen en ('in zijnen laatsten leeftijd' door) Jan Maurits Quinkhard" .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/van-halen> a schema:Person ;
         schema:name "Van Halen" .
 
@@ -4067,7 +4242,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <http://www.schrijverskabinet.nl/artikel/willem-en-cornelis-pot/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-pot> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans> ;
-        schema:name "Een grootgrondbezitters familiedrama " .
+        schema:name "Een grootgrondbezitters familiedrama" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-blusse> a schema:Person ;
         schema:birthDate "1726"^^xsd:gYear ;
@@ -4250,9 +4425,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Arnoldus Soek" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/31> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/soek001> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-quinkhard> a schema:Person ;
-        schema:name "Arnoud van Halen, verbeterd door Quinkhard" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser> a schema:Person ;
         schema:name "Arnoud Visser" .
@@ -4440,7 +4612,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-overstege> a schema:Person ;
         schema:birthDate "1625"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1662"^^xsd:gYear ;
         schema:deathPlace _:dordrecht ;
         schema:disambiguatingDescription "Dichter" ;
@@ -4541,7 +4712,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/gras008> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Graswinckel-1.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz.-pers> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-pietersz-pers> a schema:Person ;
         schema:birthDate "1581"^^xsd:gYear ;
         schema:birthPlace _:emden ;
         schema:deathDate "1659"^^xsd:gYear ;
@@ -4552,7 +4723,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/74> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/pers001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz.-van-distelburg> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> a schema:Person ;
         schema:birthDate "1522"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1590"^^xsd:gYear ;
@@ -4581,7 +4752,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1560"^^xsd:gYear ;
         schema:birthPlace _:brussel ;
         schema:deathDate "1620"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Raadsheer, vertaler en dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/everard-syceram/> ;
         schema:name "Everard Syceram" ;
@@ -4653,7 +4823,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-van-steenwijk> a schema:Person ;
         schema:birthDate "1715"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1788"^^xsd:gYear ;
         schema:deathPlace _:amsterdam ;
         schema:disambiguatingDescription "Dichter en toneelschrijver " ;
@@ -4784,7 +4953,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hadrianus-marius> a schema:Person ;
         schema:deathDate "1568"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Kanselier van Gelderland en Neolatijns dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hadrianus-marius/> ;
         schema:name "Hadrianus Marius" ;
@@ -4802,7 +4970,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/113> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/dull001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz.-spieghel> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-laurensz-spieghel> a schema:Person ;
         schema:birthDate "1549"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1612"^^xsd:gYear ;
@@ -4863,7 +5031,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-van-der-zande> a schema:Person ;
         schema:birthDate "1680"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1717"^^xsd:gYear ;
         schema:deathPlace [ a schema:Place ;
                 schema:name "onbekend na" ] ;
@@ -4887,16 +5054,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:name "Hubertus Gregorius van Vryhoff" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/127> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/vryh001> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/j.c.-wystrat> a schema:Person ;
-        schema:birthDate "1641"^^xsd:gYear ;
-        schema:birthPlace _:amsterdam ;
-        schema:deathDate "1718"^^xsd:gYear ;
-        schema:deathPlace _:amsterdam ;
-        schema:disambiguatingDescription "Onbekend " ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/j-c-wystrat/> ;
-        schema:name "J.C. Wystrat" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/130> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-de-ryck> a schema:Person ;
         schema:birthDate "1637"^^xsd:gYear ;
@@ -5047,7 +5204,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-cerf> a schema:Person ;
         schema:deathDate "1749"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Heer van Oud Beijerland, Burgemeester en dichter te Rotterdam " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jan-de-cerf/> ;
         schema:name "Jan de Cerf" ;
@@ -5074,11 +5230,10 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/156> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/Portret-Jan-de-Marre-Overzicht.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz.-schipper> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jacobz-schipper> a schema:Person ;
         schema:birthDate "1616"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1669"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Boekhandelaar te Amsterdam en dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jan-jacobz-schipper/> ;
         schema:name "Jan Jacobz. Schipper" ;
@@ -5096,9 +5251,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/164> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/lemm006> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard-(?)> a schema:Person ;
-        schema:name "Jan Maurits Quinkhard (?)" .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf> a schema:Person ;
         schema:name "Jan Noordegraaf" .
 
@@ -5115,7 +5267,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-der-rosieren> a schema:Person ;
         schema:birthDate "1581"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:disambiguatingDescription "onbekend " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jan-van-der-rosieren/> ;
         schema:name "Jan van der Rosieren" ;
@@ -5159,7 +5310,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/179> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/dous002> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr.> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/janus-dousa-jr> a schema:Person ;
         schema:birthDate "1571"^^xsd:gYear ;
         schema:birthPlace _:noordwijk ;
         schema:deathDate "1596"^^xsd:gYear ;
@@ -5205,6 +5356,16 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/183> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/prat002> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Pratensis.jpg" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jc-wystrat> a schema:Person ;
+        schema:birthDate "1641"^^xsd:gYear ;
+        schema:birthPlace _:amsterdam ;
+        schema:deathDate "1718"^^xsd:gYear ;
+        schema:deathPlace _:amsterdam ;
+        schema:disambiguatingDescription "Onbekend " ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/j-c-wystrat/> ;
+        schema:name "J.C. Wystrat" ;
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/130> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeronimo-de-bosch> a schema:Person ;
         schema:birthDate "1740"^^xsd:gYear ;
@@ -5344,9 +5505,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-van-der-marck> a schema:Person ;
         schema:birthDate "1707"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1772"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Raad, burgemeester en hoofdschout te Leiden " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johan-van-der-marck/> ;
         schema:name "Johan van der Marck" ;
@@ -5357,7 +5516,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1621"^^xsd:gYear ;
         schema:birthPlace _:groningen ;
         schema:deathDate "1670"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johan-van-nijenborch/> ;
         schema:name "Johan van Nijenborch" ;
@@ -5473,7 +5631,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1680"^^xsd:gYear ;
         schema:birthPlace _:rotterdam ;
         schema:deathDate "1750"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Baljuw en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/kornelis-boon-engelant/> ;
         schema:name "Kornelis Boon van Engelant" ;
@@ -5514,7 +5671,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/232> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/torr008> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-(paludanus)-van-den-broek> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-paludanus-van-den-broek> a schema:Person ;
         schema:birthDate "1525"^^xsd:gYear ;
         schema:birthPlace _:gent ;
         schema:deathDate "1595"^^xsd:gYear ;
@@ -5538,7 +5695,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurentius-steversloot> a schema:Person ;
         schema:birthDate "1672"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1736"^^xsd:gYear ;
         schema:deathPlace _:leiden ;
         schema:disambiguatingDescription "Predikant en dichter " ;
@@ -5563,7 +5719,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1712"^^xsd:gYear ;
         schema:birthPlace _:groningen ;
         schema:deathDate "1783"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Burgemeester en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/lucas-trip/> ;
         schema:name "Lucas Trip" ;
@@ -5613,7 +5768,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthPlace [ a schema:Place ;
                 schema:name "Follega" ] ;
         schema:deathDate "1619"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Geschiedschrijver " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/martinus-hamconius/> ;
         schema:name "Martinus Hamconius" ;
@@ -5637,7 +5791,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthPlace [ a schema:Place ;
                 schema:name "Zeeland" ] ;
         schema:deathDate "1305"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Klerk van Floris V en schrijver " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/melis-stoke/> ;
         schema:name "Melis Stoke" ;
@@ -5649,9 +5802,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-bulius> a schema:Person ;
         schema:birthDate "1550"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1645"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Arts, polyglot en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/nicolaas-bulius/> ;
         schema:name "Nicolaas Bulius" ;
@@ -5670,14 +5821,10 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/hein008> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Heinsius-1.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-verkolje> a schema:Person ;
-        schema:name "Nicolaas Verkolje" .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-versteeg> a schema:Person ;
         schema:birthDate "1700"^^xsd:gYear ;
         schema:birthPlace _:rotterdam ;
         schema:deathDate "1773"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Koopman en dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/nicolaas-versteeg/> ;
         schema:name "Nicolaas Versteeg" ;
@@ -5758,7 +5905,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-schaak> a schema:Person ;
         schema:birthDate "1624"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1678"^^xsd:gYear ;
         schema:deathPlace _:amsterdam ;
         schema:disambiguatingDescription "Predikant en geleerde te Amsterdam " ;
@@ -5801,7 +5947,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/278> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/swee007> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-d'orville> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-dorville> a schema:Person ;
         schema:birthDate "1690"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1751"^^xsd:gYear ;
@@ -5950,6 +6096,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/298> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/vlam006> .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/quinkhard> a schema:Person ;
+        schema:name "Quinkhard" .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/reinier-neuhusius> a schema:Person ;
         schema:birthDate "1608"^^xsd:gYear ;
         schema:birthPlace _:leeuwarden ;
@@ -6073,7 +6222,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/veli001> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Velius.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz.-van-bracht> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/tieleman-jansz-van-bracht> a schema:Person ;
         schema:birthDate "1625"^^xsd:gYear ;
         schema:birthPlace _:dordrecht ;
         schema:deathDate "1664"^^xsd:gYear ;
@@ -6485,7 +6634,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1598"^^xsd:gYear ;
         schema:birthPlace _:bergenopzoom ;
         schema:deathDate "1672"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Dichter te Veere " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/cornelis-udemans/> ;
         schema:name "Cornelis Udemans" ;
@@ -6556,7 +6704,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/75> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/coor001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz.-camphuysen> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> a schema:Person ;
         schema:birthDate "1586"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
                 schema:name "Gorichem" ] ;
@@ -6801,7 +6949,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn> a schema:Person ;
         schema:name "Henk Looijesteijn" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr.> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-jr> a schema:Person ;
         schema:birthDate "1688"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1727"^^xsd:gYear ;
@@ -6813,7 +6961,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/122> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/ange003> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr.> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr> a schema:Person ;
         schema:birthDate "1648"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1713"^^xsd:gYear ;
@@ -6994,7 +7142,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/heyb001> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Heiblocq-1.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr.> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruijff-sr> a schema:Person ;
         schema:birthDate "1705"^^xsd:gYear ;
         schema:birthPlace _:leiden ;
         schema:deathDate "1775"^^xsd:gYear ;
@@ -7006,7 +7154,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/154> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/kruy002> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr.> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr> a schema:Person ;
         schema:birthDate "1753"^^xsd:gYear ;
         schema:birthPlace _:leiden ;
         schema:deathDate "1821"^^xsd:gYear ;
@@ -7043,7 +7191,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/goer002> ;
         foaf:depiction "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Goeree-1.jpg" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz.-krul> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-harmensz-krul> a schema:Person ;
         schema:birthDate "1601"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1646"^^xsd:gYear ;
@@ -7067,7 +7215,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/161> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/schu064> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz.-starter> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-jansz-starter> a schema:Person ;
         schema:birthDate "1593"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1626"^^xsd:gYear ;
@@ -7120,7 +7268,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1639"^^xsd:gYear ;
         schema:birthPlace _:denhaag ;
         schema:deathDate "1716"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Heer van Roosendaal en verzamelaar" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jan-van-arnhem/> ;
         schema:name "Jan van Arnhem" ;
@@ -7650,7 +7797,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:birthDate "1625"^^xsd:gYear ;
         schema:birthPlace _:geertruidenberg ;
         schema:deathDate "1677"^^xsd:gYear ;
-        schema:deathPlace _:onbekend ;
         schema:disambiguatingDescription "Heer van Clootwijck en dichter te Dordrecht" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/matthijs-van-der-merwede/> ;
         schema:name "Matthijs van der Merwede" ;
@@ -7673,6 +7819,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/nicolaas-simon-van-winter/>,
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/259> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/wint009> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-verkolje> a schema:Person ;
+        schema:name "Nicolaas Verkolje" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/otto-van-veen> a schema:Person ;
         schema:birthDate "1556"^^xsd:gYear ;
@@ -7802,7 +7951,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/283> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/bor_001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz.-hooft> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> a schema:Person ;
         schema:birthDate "1581"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1647"^^xsd:gYear ;
@@ -8033,7 +8182,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodoor-van-snakenburg> a schema:Person ;
         schema:birthDate "1695"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1750"^^xsd:gYear ;
         schema:deathPlace _:leiden ;
         schema:disambiguatingDescription "Rechtsgeleerde en dichter te Leiden" ;
@@ -8070,9 +8218,8 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/327> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/bild002> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-d'orville> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-dorville> a schema:Person ;
         schema:birthDate "1651"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1719"^^xsd:gYear ;
         schema:deathPlace _:amsterdam ;
         schema:disambiguatingDescription "Predikant en dichter " ;
@@ -8082,7 +8229,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/328> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/orvi002> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g.-van-focquenbroch> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g-van-focquenbroch> a schema:Person ;
         schema:birthDate "1640"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
         schema:deathDate "1670"^^xsd:gYear ;
@@ -8122,7 +8269,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-hoeven> a schema:Person ;
         schema:birthDate "1659"^^xsd:gYear ;
-        schema:birthPlace _:onbekend ;
         schema:deathDate "1727"^^xsd:gYear ;
         schema:deathPlace _:amsterdam ;
         schema:disambiguatingDescription "(Toneel)dichter en koffiehuishouder" ;
@@ -8165,9 +8311,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rene-van-stipriaan> a schema:Person ;
         schema:name "René van Stipriaan" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aert-schouman> a schema:Person ;
-        schema:name "Aert Schouman" .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> a schema:Person ;
         schema:name "Anna de Haas" .
 
@@ -8195,14 +8338,17 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> a schema:Person ;
         schema:name "Timothy De Paepe" .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dionys-van-nymegen> a schema:Person ;
-        schema:name "Dionys van Nymegen" .
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aert-schouman> a schema:Person ;
+        schema:name "Aert Schouman" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> a schema:Person ;
         schema:name "Lieke van Deinsen" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> a schema:Person ;
         schema:name "Roland de Bonth" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dionys-van-nymegen> a schema:Person ;
+        schema:name "Dionys van Nymegen" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> a schema:Person ;
         schema:name "Nicoline van der Sijs" .
@@ -8212,13 +8358,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-reyers> a schema:Person ;
         schema:name "Nicolaas Reyers" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/onbekend> a schema:Person ;
-        schema:name "Onbekend",
-            "onbekend" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen,-verbeterd-door-jan-maurits-quinkhard> a schema:Person ;
-        schema:name "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> a schema:Person ;
         schema:name "Ton van Strien" .
@@ -8389,10 +8528,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
     _:middelburg a schema:Place ;
         schema:name "Middelburg" .
-
-    _:onbekend a schema:Place ;
-        schema:name "Onbekend",
-            "onbekend" .
 
     _:dordrecht a schema:Place ;
         schema:name "Dordrecht" .
