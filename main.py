@@ -4,6 +4,8 @@ import json
 import re
 from itertools import count
 
+from unidecode import unidecode
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,11 +27,11 @@ rdflib.graph.DATASET_DEFAULT_GRAPH_ID = create
 ns = Namespace("https://data.create.humanities.uva.nl/id/schrijverskabinet/")
 
 nsPerson = Namespace(
-    "https://data.create.humanities.uva.nl/id/schrijverskabinet/Person/")
+    "https://data.create.humanities.uva.nl/id/schrijverskabinet/person/")
 personCounter = count(1)
 
 nsArtwork = Namespace(
-    "https://data.create.humanities.uva.nl/id/schrijverskabinet/Artwork/")
+    "https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/")
 artworkCounter = count(1)
 
 
@@ -279,12 +281,15 @@ def fetchPortretPage(url, img, sleep=1):
 
 def person2uri(name, data):
 
+    name = name.lower().replace(' ', '-')
+    name = unidecode(name)
+
     uri = data.get(name, None)
     if uri:
-        return uri, data
+        return URIRef(uri), data
     else:
-        data[name] = nsPerson.term(str(next(personCounter)))
 
+        data[name] = nsPerson.term(name)
         return data[name], data
 
 
@@ -295,7 +300,11 @@ def toRDF(d):
 
     g = rdfSubject.db = ds.graph(identifier=ns)
 
-    persondata = dict()
+    try:
+        with open('data/persondata.json') as infile:
+            persondata = json.load(infile)
+    except:
+        persondata = dict()
 
     for url in d['portrets']:
         data = d['portrets'][url]
@@ -346,15 +355,15 @@ def toRDF(d):
             name=[Literal(data['title'])],
             sameAs=sameAs,
             birthPlace=Place(BNode("".join([
-                i for i in birthPlace
-                if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
+                i for i in birthPlace.lower()
+                if i in 'abcdefghijklmnopqrstuvwxyz'
             ])),
                              name=[birthPlace]) if birthPlace else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
             deathPlace=Place(BNode("".join([
-                i for i in deathPlace
-                if i.lower() in 'abcdefghijklmnopqrstuvwxyz'
+                i for i in deathPlace.lower()
+                if i in 'abcdefghijklmnopqrstuvwxyz'
             ])),
                              name=[deathPlace]) if deathPlace else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
@@ -461,6 +470,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     ds.bind('wd', URIRef("http://www.wikidata.org/entity/"))
 
     ds.serialize('data/schrijverskabinet.trig', format='trig')
+
+    with open('data/persondata.json', 'w') as outfile:
+        json.dump(persondata, outfile)
 
 
 if __name__ == "__main__":
