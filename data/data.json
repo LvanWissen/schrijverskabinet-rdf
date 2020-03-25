@@ -104,7 +104,7 @@
             },
             "dbnl": {
                 "name": "Adam Sasbout",
-                "url": "Huidige verblijfplaats Panpo\u00ebticon-portret niet bekend"
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=sasb002"
             },
             "quote": null,
             "depiction": null,
@@ -112,8 +112,8 @@
         },
         "http://www.schrijverskabinet.nl/portret/adriaan-hoppestein/": {
             "title": "Adriaan Hoppestein",
-            "subtitle": "Dichter ",
-            "bio": "Begin achttiende eeuw",
+            "subtitle": "Dichter en jurist",
+            "bio": "1682 - 1751",
             "painter": "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard",
             "date": "(1700 \u2013 1732) en (1732 \u2013 1771)",
             "origin": {
@@ -191,8 +191,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Adriaen Egbert Drost",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=dros028"
             },
             "quote": null,
             "depiction": null,
@@ -436,7 +436,7 @@
                 "name": "Anna Insma",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=insm001"
             },
-            "quote": null,
+            "quote": "Een lieffelijke galm, slaat Insma op haar luijt;\nMaar als Zij kweelt van Koertens fenixschaaren,\nDan blijkt haar liefde, en Zucht gegroeijt door veele jaaren,\nDie nimmer door een damp van onmin, is gesluijt.\nOngepubliceerd gedichtje op het portret van Insma in het album van Michiel de Roode (thans in de Erfgoed Bibliotheek Hendrik Conscience te Antwerpen)",
             "depiction": null,
             "artdepiction": null
         },
@@ -1313,8 +1313,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Cornelis van Coeverden",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=koev001"
             },
             "quote": null,
             "depiction": null,
@@ -1335,8 +1335,8 @@
                 "url": "http://www.schrijverskabinet.nl/artikel/willem-en-cornelis-pot/"
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Cornelis van der Pot",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=pot_006"
             },
             "quote": "Op de Afbeelding van den heere Kornelis vander Pot,\nIn zyn Eds. leeven Lid van \u2019t Konstgenootschap Onder de Spreuk:\nNatura et Arte.\nNatuur heeft Vander Pot met yver, en verstand,\nEn zuivre deugd bezield; de Kunst boodt hem de hand,\nOp dat hy \u2019t steile pad der eedle weetenschappen,\nIn zyne blonde jeugd, manmoedig op zou stappen:\nMaar ach! de Dood heeft ons dien Letterheld benyd.\nZiet hier zyn beeltenis Apolloos Choor gewydt.\nBernardus de Bosch (1735), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 89.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Van-der-Pot-Cornelis.jpg",
@@ -1357,8 +1357,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Cornelis van Overstege",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=over025"
             },
             "quote": null,
             "depiction": null,
@@ -1423,8 +1423,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Dani\u00ebl Lingelbach",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=ling001"
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Lingelbach.jpg",
@@ -2039,8 +2039,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Frans Greenwood",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=gree005"
             },
             "quote": "Op de Beeltenisse van den Heere Frans Greenwood.\nDit \u2019s Greenwoods beeltenis, voor wien d\u2019aloutheit bukt,\nWiens diamanten stift op glaezen drinkbokaelen,\nWiens dicht- en schilderkunst haer, schaemrood, houd verrukt:\nDie kunst en wetenschap doet op een\u2019 eertroon praelen.\nZij hoort in hem Apol, als hij de snaeren drukt,\nEn ziet Apelles geest door zijn tafrelen straelen.\nNikolaes Teyssen (1752), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 223.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/Portret-Frans-Greenwood-Overzicht.jpg",
@@ -2049,7 +2049,7 @@
         "http://www.schrijverskabinet.nl/portret/frans-rijk/": {
             "title": "Frans Ryk",
             "subtitle": "Blijspeldichter ",
-            "bio": "1656 \u2013 1738",
+            "bio": "Amsterdam 1656 \u2013 Amsterdam 1738",
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1734",
             "origin": {
@@ -2446,7 +2446,7 @@
             "title": "Hadrianus Marius",
             "subtitle": "Kanselier van Gelderland en Neolatijns dichter",
             "bio": "onbekend \u2013 onbekend 1568",
-            "painter": "Van Halen",
+            "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1720",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend (foto Documentatiecentrum Rijksmuseum); voorheen collectie V. Rappard (1981)",
@@ -3347,7 +3347,7 @@
         "http://www.schrijverskabinet.nl/portret/jan-de-groot/": {
             "title": "Jan de Groot",
             "subtitle": "Advocaat en dichter te \u2019s Gravenhagen",
-            "bio": "Onbekend \u2013 \u2019s Gravenhage 1784",
+            "bio": "zestiende eeuw",
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
@@ -3359,8 +3359,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": "Jan de Groot",
-                "url": "http://www.dbnl.org/auteurs/auteur.php?id=groo123"
+                "name": null,
+                "url": null
             },
             "quote": null,
             "depiction": null,
@@ -3425,8 +3425,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Jan de Marre",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=marr001"
             },
             "quote": "Op de Afbeelding van den Heere Jan de Marre;\nDoor denzelfden Heere J.M. Quinkhard kunstig afgemaald.\nMen zie, indien Natuur alleen kan Dichters vormen,\nDat wonder in De Marre, ons hier verdeeld, volwrocht.\nDeze Amstelzwaan, gekweekt in de opgeruide stormen,\nBeschaamt de Goesche Zwaan, door grootscher Watertogt,\nDen Batavier ter eere, aan Javaas kunst te zingen.\nWaakt, Treurspeldichters! dees zal den prys ontwringen.\nStudio Fovetur Ingenium (1734), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 101.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/Portret-Jan-de-Marre-Overzicht.jpg",
@@ -3579,8 +3579,8 @@
                 "url": "http://www.schrijverskabinet.nl/artikel/jan-klinkenberg/"
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Jan Klinkenberg",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=klin020"
             },
             "quote": null,
             "depiction": null,
@@ -3689,8 +3689,8 @@
                 "url": "http://www.schrijverskabinet.nl/artikel/jan-van-arnhem/"
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Jan van Arnhem",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=arnh001"
             },
             "quote": null,
             "depiction": null,
@@ -3733,8 +3733,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Jan van der Rosieren",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=rosi008"
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Rosieren.jpg",
@@ -4217,8 +4217,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Joan Steengragt",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=stee023"
             },
             "quote": "Op de afbeelding van den wel\u00ebdelen heere Mr. Joan Steengracht,\nBewindhebber der Oostindische Maetschappy\u00eb ter kamer zeelandt, en eerste pensionaris der stat Middelburg. \nDe Dichtkunst bloost van vreugd\u2019, nu ze, in haer heiligdom,\n\u2019t Raetsheerelyk gelaet van Steengracht dus ziet pronken.\nDe zangberg heeft dit hoofdt de lauwerkroon geschonken;\nDe Rechtsgeleertheit hong dees\u2019 Heldt den tabbert om:\nDe zilvren glans der Deugd\u2019 en de onbezwalkte stralten\nDer Godvrucht\u2019 zetten voorts dit wezen luister by.\nDe Zeeuwsche Hoffstat ziet dus haren Raetsman pralen,\nWien \u2019t Ooste hulde doet, aen \u2019t roer der Maetschappy.\nZoo eert de Kunstmin hier, met Hollands Letterbraven,\nDees\u2019 Steengracht als een Bron vol onwaerdeerbre gaven.\nDirk Smits (1737), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 133.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Steengracht-001.jpg",
@@ -4393,8 +4393,8 @@
                 "url": "http://www.schrijverskabinet.nl/artikel/joannes-vollenhove/"
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Joannes Vollenhove",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=voll001"
             },
             "quote": "Op de Afbeelding van den Heere Joannes Vollenhove.\nI.\nDit \u2019s Godts Orakeltolk, de Haagsche Boetgezant,\nDe schrandre Vollenhove, in Dichtkunst diep ervaaren.\nHij boude kunst en taal. Zijn hemelsch vlug verstandt\nZong \u2019t Kruistriomfgezang van Euangeliesnaaren;\nEn hoe heldt Willem met de zege in \u2019t harnas blonk,\nWaarvoor die Vorst hem zelfs zijn gouden beeltnis schonk.\nII.\nDit \u2019s Vollenhove, dit \u2019s de Haagsche Guldemont,\nDie wakkre Bijbeltolk; een Noortstar der Po\u00ebten,\nIn Dichtkunst uitgleert: en van Gods geest bezeten,\nOntvoude hij Gods Kerk, en Oude en Nieuw Verbondt;\nOf kneedde \u2019t zondig hart, en deed alle ondeugd zwichten,\nDoor zijne Boetbazuin, en Kruistriomfgedichten.\nIII.\nDit is de Guldemont, \u2019t is Vollenhove, een Licht\nDen Christenkerke: in taal en dichtkunst diep ervaaren.\nWie zong ooit hooger toon dan \u2019t Kruistiomfgedicht?\nDe kerstof rolde alleen niet van \u2019s Mans gouden snaaren:\nHij boude in zijn gedicht Vorst Willems Krijgstrofeen;\nDie hem zijn borstbeelt schonk, in dierbaar goud gesne\u00ean.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 192-193.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/Portret-Joannes-Vollenhove-Overzicht.jpg",
@@ -4459,8 +4459,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Johan de Witt",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=witt001"
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Johan-de-Witt-1.jpg",
@@ -4592,7 +4592,7 @@
             },
             "dbnl": {
                 "name": "Johannes Brandt",
-                "url": "http://www.dbnl.org/auteurs/auteur.php?id=bran097"
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=bran004"
             },
             "quote": null,
             "depiction": null,
@@ -5713,10 +5713,10 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Nicolaas Versteeg",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=vers031"
             },
-            "quote": "Op de afbeelding van mynen kunstgenoot den heer Nikolaes Versteeg.",
+            "quote": "Op de afbeelding van mynen kunstgenoot den heer Nikolaes Versteeg.\nAl slooft, en slaeft, en draeft Versteeg, schier al den dag,\nTen dienst der koopmanschap, met yverende zinnen,\nVergeet hy echter niet den dienst der Zanggodinnen,\nMaer leeft, wanneer \u2019t zyn geest, in rust, gebeuren mag\nIn maetgezang den lof der Dichtkunst uit te meten,\nDes prykt zyn beeltenis in \u2019t midden der Po\u00ebten.\nLucas Pater (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 164.",
             "depiction": null,
             "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Versteeg-b.jpg"
         },
@@ -5889,8 +5889,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Petrus Baard",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=baar005"
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Baard.jpg",
@@ -6017,8 +6017,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "De anonieme aanklager  door Lieke van Deinsen",
+                "url": "http://www.schrijverskabinet.nl/artikel/petrus-schaak/"
             },
             "dbnl": {
                 "name": "Petrus Schaak",
@@ -6131,8 +6131,8 @@
                 "url": null
             },
             "dbnl": {
-                "name": null,
-                "url": null
+                "name": "Philippus d\u2019Orville",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=orvi001"
             },
             "quote": null,
             "depiction": null,
@@ -7460,6 +7460,6 @@
         }
     },
     "metadata": {
-        "date": "2020-01-29T11:10:22.829285"
+        "date": "2020-03-25T19:46:37.653076"
     }
 }
