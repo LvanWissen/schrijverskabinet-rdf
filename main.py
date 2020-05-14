@@ -1,3 +1,17 @@
+"""
+Pipeline that converts the data from http://www.schrijverskabinet.nl/ into RDF. 
+
+Built upon an adapted version of RDFAlchemy for Python (3.7). Install with:
+
+```bash
+pip install git+https://github.com/LvanWissen/RDFAlchemy.git
+```
+
+Questions:
+    Leon van Wissen (l.vanwissen@uva.nl)
+
+"""
+
 import time
 import datetime
 import json
@@ -159,7 +173,14 @@ class Person(Entity):
     deathDate = rdfSingle(schema.deathDate)
 
 
-def main(loadData=None):
+def main(loadData: str = None):
+    """Main function that starts the scraping and conversion to RDF.
+
+    Args:
+        loadData (str, optional): File pointer to a json file with earlier 
+        scraped data. If supplied, the data will not be fetched again. 
+        Defaults to None.
+    """
 
     if loadData:
         with open(loadData, 'r', encoding='utf-8') as infile:
@@ -193,7 +214,16 @@ def main(loadData=None):
     toRDF(DATA)
 
 
-def fetchUrls(url):
+def fetchUrls(url: str):
+    """Fetches portrait data (info + image) from an overview portrait page.
+
+    Args:
+        url (str): The url to download
+
+    Returns:
+        list: List of tuples with an url + img src for the portraits on the
+        overview page.
+    """
 
     r = requests.get(url)
 
@@ -216,7 +246,18 @@ def fetchUrls(url):
     return pagedata
 
 
-def fetchPortretPage(url, img, sleep=1):
+def fetchPortretPage(url: str, img: str, sleep: int = 1):
+    """Download data from an individual portrait page.
+
+    Args:
+        url (str): URL to the page
+        img (str): URL to the image (thumbnail for the page)
+        sleep (int, optional): Wait before returning (to not overload the 
+        server). Defaults to 1.
+
+    Returns:
+        dict: Dictionary with structured data from the portrait page. 
+    """
 
     r = requests.get(url)
     soup = BeautifulSoup(r.text, 'html.parser')
@@ -290,7 +331,18 @@ def fetchPortretPage(url, img, sleep=1):
     return data
 
 
-def person2uri(name, data):
+def person2uri(name: str, data: dict):
+    """Convert a reference to a person (str) to an URIRef.
+    Function to keep an URI for a reference of person (based on uniqueness of 
+    string). The data argument (dict) is used to store the references. 
+
+    Args:
+        name (str): A person's name
+        data (dict): Dictionary to store the reference for reuse
+
+    Returns:
+        tuple: URI or BNode to identify a person and the dictionary
+    """
 
     name = name.lower().replace(' ', '-')
     name = unidecode(name)
@@ -309,7 +361,16 @@ def person2uri(name, data):
         return data[name], data
 
 
-def datePortretParser(date):
+def datePortretParser(date: str):
+    """Return a PublicationEvent with filled dates for a date string.
+
+    Args:
+        date (str): Date reference from the portrait page
+
+    Returns:
+        PublicationEvent: PublicationEvent with hasEarliestBeginTimeStamp and
+        hasLatestEndTimeStamp properties filled for the publication year.
+    """
 
     date = date.strip()
 
@@ -344,7 +405,13 @@ def datePortretParser(date):
     ]
 
 
-def toRDF(d):
+def toRDF(d: dict):
+    """Convert the earlier harvested and structured data to RDF.
+
+    Args:
+        d (dict): Dictionary with structured portrait information, coming from 
+        the loadData() function. 
+    """
 
     ds = Dataset()
     dataset = ns.term('')
@@ -506,14 +573,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     download = DataDownload(
         None,
         contentUrl=URIRef(
-            "https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/0.2/data/schrijverskabinet.trig"
+            "https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/0.3/data/schrijverskabinet.trig"
         ),
         # name=Literal(),
         url=URIRef(
-            "https://github.com/LvanWissen/schrijverskabinet-rdf/tree/0.2/data"
+            "https://github.com/LvanWissen/schrijverskabinet-rdf/tree/0.3/data"
         ),
         encodingFormat="application/trig",
-        version="0.2")
+        version="0.3")
 
     date = Literal(datetime.datetime.now().strftime('%Y-%m-%d'),
                    datatype=XSD.datetime)
@@ -538,7 +605,10 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         description=[Literal(description, lang='nl')],
         descriptionSchema=[Literal(description, lang='nl')],
         creator=creators,
-        publisher=[URIRef("https://leonvanwissen.nl/me")],
+        publisher=[
+            URIRef("https://leonvanwissen.nl/me"),
+            URIRef("http://isni.org/isni/0000000388519087")
+        ],
         contributor=contributorslist,
         source=URIRef('http://www.schrijverskabinet.nl/'),
         isBasedOn=URIRef('http://www.schrijverskabinet.nl/'),
