@@ -91,7 +91,9 @@ class DatasetClass(Entity):
     descriptionSchema = rdfMultiple(schema.description)
     creator = rdfMultiple(schema.creator)
     publisher = rdfMultiple(dcterms.publisher)
+    publisherSchema = rdfMultiple(schema.publisher)
     contributor = rdfMultiple(dcterms.contributor)
+    contributorSchema = rdfMultiple(schema.contributor)
     source = rdfSingle(dcterms.source)
     isBasedOn = rdfSingle(schema.isBasedOn)
     date = rdfSingle(dcterms.date)
@@ -151,16 +153,6 @@ class PublicationEvent(Entity):
 
 class Place(Entity):
     rdf_type = schema.Place
-
-
-class Marriage(Entity):
-    rdf_type = bio.Marriage
-
-    date = rdfSingle(bio.date)
-    partner = rdfMultiple(bio.partner)
-    place = rdfSingle(bio.place)
-
-    subjectOf = rdfMultiple(schema.subjectOf)
 
 
 class Person(Entity):
@@ -585,15 +577,9 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     date = Literal(datetime.datetime.now().strftime('%Y-%m-%d'),
                    datatype=XSD.datetime)
 
-    contributorslist = []
-    for contrib in contributors.split(', '):
-        personuri, persondata = person2uri(contrib, persondata)
-        contributorslist.append(Person(personuri, name=[contrib]))
+    contributors = contributors.split(', ')
 
-    creators = []
-    for crea in [Literal("Lieke van Deinsen"), Literal("Ton van Strien")]:
-        personuri, persondata = person2uri(crea, persondata)
-        creators.append(Person(personuri, name=[crea]))
+    creators = ["Lieke van Deinsen", "Ton van Strien"]
 
     dataset = DatasetClass(
         ns.term(''),
@@ -607,9 +593,14 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
         creator=creators,
         publisher=[
             URIRef("https://leonvanwissen.nl/me"),
-            URIRef("http://isni.org/isni/0000000388519087")
+            URIRef("http://viaf.org/viaf/281741168")
         ],
-        contributor=contributorslist,
+        publisherSchema=[
+            URIRef("https://leonvanwissen.nl/me"),
+            URIRef("http://viaf.org/viaf/281741168")
+        ],
+        contributor=contributors,
+        contributorSchema=contributors,
         source=URIRef('http://www.schrijverskabinet.nl/'),
         isBasedOn=URIRef('http://www.schrijverskabinet.nl/'),
         date=date,
@@ -634,7 +625,6 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     ds.bind('sem', sem)
     ds.bind('void', void)
     ds.bind('foaf', foaf)
-    ds.bind('wd', URIRef("http://www.wikidata.org/entity/"))
 
     ds.serialize('data/schrijverskabinet.trig', format='trig')
 
