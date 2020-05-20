@@ -572,14 +572,13 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     download = DataDownload(
         None,
         contentUrl=URIRef(
-            "https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/0.3/data/schrijverskabinet.trig"
+            "https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/1.0/data/schrijverskabinet.trig"
         ),
         # name=Literal(),
         url=URIRef(
-            "https://github.com/LvanWissen/schrijverskabinet-rdf/tree/0.3/data"
+            "https://github.com/LvanWissen/schrijverskabinet-rdf/tree/1.0/data"
         ),
-        encodingFormat="application/trig",
-        version="0.3")
+        encodingFormat="application/trig")
 
     date = Literal(datetime.datetime.now().strftime('%Y-%m-%d'),
                    datatype=XSD.datetime)
@@ -623,6 +622,7 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
             URIRef("http://xmlns.com/foaf/0.1/")
         ],
         triples=sum(1 for i in ds.graph(identifier=ns).subjects()),
+        version="1.0",
         licenseprop=URIRef("https://creativecommons.org/licenses/by-sa/4.0/"))
 
     ds.bind('owl', OWL)
