@@ -1,9 +1,9 @@
 # Schrijverskabinet RDF
 
-| License     |                                                                                                                                                 |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Source code | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)                                     |
-| Data        | [![License: CC BY-SA 40](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/40/) |
+| License     |                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Source code | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)                                       |
+| Data        | [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) |
 
 ## Introduction
 The Panpoëticon Batavûm is a collection of small portraits of Dutch poets (and writers in general). The collection was set up at the beginning of the eighteenth century by the painter Arnoud Halen (1673-1732). As a collection the Panpoëticon is no longer intact, but fortunately researchers at Radboud University have made a beautiful digital reconstruction, which can be seen at http://www.schrijverskabinet.nl/.
@@ -30,7 +30,9 @@ The data was extracted from http://www.schrijverskabinet.nl/, which can be cited
 
 ## Conversion to RDF
 
-After scraping, the data is stored in a [JSON file](https://github.com/LvanWissen/schrijverskabinet-rdf/blob/master/data/data.json) and further processed into RDF. The conversion is done using a [script](https://github.com/LvanWissen/schrijverskabinet-rdf/blob/master/main.py) that follows the schema.org approach in modelling entities and relations. The data is returned as application/trig (see the [releases](https://github.com/LvanWissen/schrijverskabinet-rdf/releases) page for the latest stable/citable version).
+After scraping, the data is stored in a [JSON file](https://github.com/LvanWissen/schrijverskabinet-rdf/blob/master/data/data.json) and further processed into RDF. The conversion is done using a [script](https://github.com/LvanWissen/schrijverskabinet-rdf/blob/master/main.py) that follows the schema.org approach in modelling entities and relations. The data is returned as `application/trig` (see the [releases](https://github.com/LvanWissen/schrijverskabinet-rdf/releases) page for the latest stable/citable version).
+
+All persons from the portraits in the data have been linked to an author in the DBNL Author Thesaurus (http://data.bibliotheken.nl/id/dataset/dbnla) using the `owl:sameAs` property. This can be your starting point in connecting the Schrijverskabinet data to other external datasets.
 
 ## Cite
 

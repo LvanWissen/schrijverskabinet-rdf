@@ -81,8 +81,6 @@ class CreativeWork(Entity):
 
     mainEntity = rdfSingle(schema.mainEntity)
 
-    version = rdfSingle(schema.version)
-
 
 class DatasetClass(Entity):
 
@@ -120,6 +118,7 @@ class DatasetClass(Entity):
     spatialCoverage = rdfSingle(schema.spatialCoverage)
     temporalCoverage = rdfSingle(schema.temporalCoverage)
 
+    version = rdfSingle(schema.version)
 
 class DataDownload(CreativeWork):
     rdf_type = schema.DataDownload
