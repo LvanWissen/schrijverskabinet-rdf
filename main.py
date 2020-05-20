@@ -165,13 +165,15 @@ class Person(Entity):
     deathDate = rdfSingle(schema.deathDate)
 
 
-def main(loadData: str = None):
+def main(loadData: str = None, target: str = 'data/schrijverskabinet.trig'):
     """Main function that starts the scraping and conversion to RDF.
 
     Args:
         loadData (str, optional): File pointer to a json file with earlier 
         scraped data. If supplied, the data will not be fetched again. 
         Defaults to None.
+        target (str, optional): Destination file location. Defaults to 
+        'data/schrijverskabinet.trig'.       
     """
 
     if loadData:
@@ -203,7 +205,7 @@ def main(loadData: str = None):
     # RDF #
     #######
 
-    toRDF(DATA)
+    toRDF(DATA, target=target)
 
 
 def fetchUrls(url: str):
@@ -397,12 +399,13 @@ def datePortretParser(date: str):
     ]
 
 
-def toRDF(d: dict):
+def toRDF(d: dict, target: str):
     """Convert the earlier harvested and structured data to RDF.
 
     Args:
         d (dict): Dictionary with structured portrait information, coming from 
         the loadData() function. 
+        target (str): Destination file path.
     """
 
     ds = Dataset()
@@ -626,11 +629,12 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
     ds.bind('void', void)
     ds.bind('foaf', foaf)
 
-    ds.serialize('data/schrijverskabinet.trig', format='trig')
+    ds.serialize(target, format='trig')
 
     with open('data/persondata.json', 'w') as outfile:
         json.dump(persondata, outfile)
 
 
 if __name__ == "__main__":
-    main(loadData='data/data.json')
+    # 'data/data.json'
+    main(loadData=None, target='data/schrijverskabinet.trig')
