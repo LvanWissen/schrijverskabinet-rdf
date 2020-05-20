@@ -1,4 +1,7 @@
 # Schrijverskabinet RDF
+[![GitHub release](https://img.shields.io/github/release/LvanWissen/schrijverskabinet-rdf.svg)](https://gitHub.com/lvanwissen/schrijverskabinet-rdf/releases/)
+[![DOI](https://zenodo.org/badge/236473134.svg)](https://zenodo.org/badge/latestdoi/236473134)
+
 
 | License     |                                                                                                                                                   |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -15,7 +18,7 @@ The data was first converted to be used in an Amsterdam Time Machine / UvA CREAT
 ## Data
 
 The data was extracted from http://www.schrijverskabinet.nl/, which can be cited as:
-* Deinsen, L. van and T. van Strien (eds.), Het schrijverskabinet. Panpoëticon Batavûm, 2016,
+* Lieke van Deinsen & Ton van Strien (eds.), Het schrijverskabinet. Panpoëticon Batavûm, 2016,
 <http://www.schrijverskabinet.nl/>.
 
 ```bibtex
@@ -38,5 +41,18 @@ All persons from the portraits in the data have been linked to an author in the 
 
 Please cite both the original website (above) and this repository if you are (re)using the data or refering to the publication.
 
-** Zenodo **
+* Leon van Wissen, & Harm Nijboer. Schrijverskabinet RDF (Version 1.0) [Dataset], Zenodo. 2020, <http://doi.org/10.5281/zenodo.3835559>
+
+```bibtex
+@dataset{vanwissennijboer2020,
+  author       = {Wissen, Leon van and Nijboer, Harm},
+  title        = {Schrijverskabinet RDF},
+  month        = may,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.3835559},
+  url          = {https://doi.org/10.5281/zenodo.3835559}
+}
+```
 
