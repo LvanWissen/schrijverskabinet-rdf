@@ -12,6 +12,7 @@ Questions:
 
 """
 
+import os
 import time
 import datetime
 import json
@@ -55,6 +56,7 @@ class Entity(rdfSubject):
 
     label = rdfMultiple(RDFS.label)
     name = rdfMultiple(schema.name)
+    description = rdfMultiple(schema.description)
 
     mainEntityOfPage = rdfSingle(schema.mainEntityOfPage)
     sameAs = rdfMultiple(OWL.sameAs)
@@ -74,6 +76,8 @@ class CreativeWork(Entity):
 
     publication = rdfMultiple(schema.publication)
     author = rdfMultiple(schema.author)
+
+    text = rdfSingle(schema.text)
 
     mainEntity = rdfSingle(schema.mainEntity)
 
@@ -486,7 +490,7 @@ def toRDF(d: dict, target: str):
             depiction=URIRef(data['depiction']) if data['depiction'] else None,
         )
 
-        page = CreativeWork(URIRef(url))
+        page = CreativeWork(URIRef(url), text=data['quote'])
 
         if data['article']['name']:
 
@@ -636,5 +640,11 @@ Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vind
 
 
 if __name__ == "__main__":
-    # 'data/data.json'
-    main(loadData=None, target='data/schrijverskabinet.trig')
+
+    DATA = 'data/data.json'
+    TARGET = 'data/schrijverskabinet.trig'
+
+    if os.path.exists(DATA):
+        main(loadData=DATA, target=TARGET)
+    else:
+        main(loadData=None, target=TARGET)
