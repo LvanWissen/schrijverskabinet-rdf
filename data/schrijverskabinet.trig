@@ -2,18 +2,184 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix void: <http://rdfs.org/ns/void#> .
-@prefix wd: <http://www.wikidata.org/entity/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/> a void:Dataset,
+            schema:Dataset ;
+        dcterms:contributor "Ad Leerintveld",
+            "Alan Moss",
+            "Anna de Haas",
+            "Ans Veltman",
+            "Arie-Jan Gelderblom",
+            "Arnoud Visser",
+            "Dirk Imhof",
+            "Elly Groenenboom-Draai",
+            "Els Stronks",
+            "Feike Dietz",
+            "Frans Blom",
+            "Geert Mak",
+            "Gijsbert Rutten",
+            "Henk Looijesteijn",
+            "Hubert Meeus",
+            "Inger Leemans",
+            "Ivo Nieuwenhuis",
+            "Jan Noordegraaf",
+            "Jan Waszink",
+            "Jasper van der Steen",
+            "Jeroen Jansen",
+            "Johan Koppenol",
+            "Johanna Ferket",
+            "Joris Oddens",
+            "Josephina de Fouw",
+            "Karel Porteman",
+            "Kasper van Ommen",
+            "Kornee van der Haven",
+            "Lia van Gemert",
+            "Lieke van Deinsen",
+            "Marijke Meijer Drees",
+            "Marijke Tolsma",
+            "Marrigje Paijmans",
+            "Martine van Elk",
+            "Michiel Roscam Abbing",
+            "Michiel van Duijnen",
+            "Nelleke Moser",
+            "Nicoline van der Sijs",
+            "Nina Geerdink",
+            "Patrick van ‘t Hof",
+            "Peter Altena",
+            "Pieta van Beek",
+            "René van Stipriaan",
+            "Rick Honings",
+            "Riet Schenkeveld-van der Dussen",
+            "Roland de Bonth",
+            "Ruben E. Verwaal",
+            "Sarah Adams",
+            "Sophie Reinders",
+            "Sven Molenaar",
+            "Timothy De Paepe",
+            "Ton Harmsen",
+            "Ton van Strien" ;
+        dcterms:date "2020-05-20"^^xsd:datetime ;
+        dcterms:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
+
+Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
+
+In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
+
+Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (lieke.vandeinsen@kuleuven.be)."""@nl ;
+        dcterms:publisher <http://viaf.org/viaf/281741168>,
+            <https://leonvanwissen.nl/me> ;
+        dcterms:source <http://www.schrijverskabinet.nl/> ;
+        void:exampleResource <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/zacharias-heyns> ;
+        void:triples 8860 ;
+        void:vocabulary schema:,
+            sem:,
+            foaf: ;
+        schema:about <http://www.wikidata.org/entity/Q17319132> ;
+        schema:contributor "Ad Leerintveld",
+            "Alan Moss",
+            "Anna de Haas",
+            "Ans Veltman",
+            "Arie-Jan Gelderblom",
+            "Arnoud Visser",
+            "Dirk Imhof",
+            "Elly Groenenboom-Draai",
+            "Els Stronks",
+            "Feike Dietz",
+            "Frans Blom",
+            "Geert Mak",
+            "Gijsbert Rutten",
+            "Henk Looijesteijn",
+            "Hubert Meeus",
+            "Inger Leemans",
+            "Ivo Nieuwenhuis",
+            "Jan Noordegraaf",
+            "Jan Waszink",
+            "Jasper van der Steen",
+            "Jeroen Jansen",
+            "Johan Koppenol",
+            "Johanna Ferket",
+            "Joris Oddens",
+            "Josephina de Fouw",
+            "Karel Porteman",
+            "Kasper van Ommen",
+            "Kornee van der Haven",
+            "Lia van Gemert",
+            "Lieke van Deinsen",
+            "Marijke Meijer Drees",
+            "Marijke Tolsma",
+            "Marrigje Paijmans",
+            "Martine van Elk",
+            "Michiel Roscam Abbing",
+            "Michiel van Duijnen",
+            "Nelleke Moser",
+            "Nicoline van der Sijs",
+            "Nina Geerdink",
+            "Patrick van ‘t Hof",
+            "Peter Altena",
+            "Pieta van Beek",
+            "René van Stipriaan",
+            "Rick Honings",
+            "Riet Schenkeveld-van der Dussen",
+            "Roland de Bonth",
+            "Ruben E. Verwaal",
+            "Sarah Adams",
+            "Sophie Reinders",
+            "Sven Molenaar",
+            "Timothy De Paepe",
+            "Ton Harmsen",
+            "Ton van Strien" ;
+        schema:creator "Lieke van Deinsen",
+            "Ton van Strien" ;
+        schema:dateCreated "2020-05-20"^^xsd:datetime ;
+        schema:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
+
+Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
+
+In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
+
+Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (lieke.vandeinsen@kuleuven.be)."""@nl ;
+        schema:distribution [ a schema:DataDownload ;
+                schema:contentUrl <https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/1.0/data/schrijverskabinet.trig> ;
+                schema:encodingFormat "application/trig" ;
+                schema:url <https://github.com/LvanWissen/schrijverskabinet-rdf/tree/1.0/data> ] ;
+        schema:isBasedOn <http://www.schrijverskabinet.nl/> ;
+        schema:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        schema:name "Het Schrijverskabinet - Panpoëticon Batavûm"@nl ;
+        schema:publisher <http://viaf.org/viaf/281741168>,
+            <https://leonvanwissen.nl/me> ;
+        schema:url <http://www.schrijverskabinet.nl/> ;
+        schema:version "1.0" .
+}
 
 <https://data.create.humanities.uva.nl/id/schrijverskabinet/> {
     <http://www.schrijverskabinet.nl/portret/anna-maria-van-schurman/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-maria-van-schurman> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-maria-van-schurman> ;
+        schema:text """En wie kend Schurmans niet! dien by de Zang-Goddessen
+Van ’t oude Heydendom voorzeker op Parnas
+Tot Tiende Musa lang vergood, verhemeld, was,
+Met meerder schyn van rede, als die voor ’t kost’lyk kussen
+Der zotte Minnaars, om hun geyle vlam te blussen,
+Goddin der Bloemen wierd, mits datze aan ’t Roomsch gebiedt
+Het schand’lyk groot gewin haars schoots ten erfdeel liet.
+Hoe weynig mannen in den roem van vreemde Taalen,
+Die in gesprek, en schrift de Jonkvrouw afterhalen;
+Om; staande voets gereed in Prose of Poësy,
+In welk een stof, naar Grieksche, of Roomsche melody,
+Behalve, na de taal der Europaesche volken,
+Gelyk in Moederspraak te lesen, te vertolken
+De Arabers, Syriërs, Hebreërs, en Chaldêen.
+Op ’t hoogste; diepste, en swaarst der Hoofd-verborgendhêen,
+Naar ’t ligt van ’t Heylig woord, en sluytelyke reden,
+Ontegenspreekelyke oordeelen te besteden.
+Geen school-geleerdheyd, die haar kennis overtrof;
+Terwyl haar ommegang niet gemelyk nog dof,
+Al omme Vriendschap, en wellevendheyd deed blyken.
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 17.""" .
 
     <http://www.schrijverskabinet.nl/artikel/619-2/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/guilliam-van-nieulandt> ;
@@ -94,6 +260,11 @@
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw> ;
         schema:name "'Zonder Meester een Meester in ’t Pinçeel en Poësy'" .
+
+    <http://www.schrijverskabinet.nl/artikel/aubertus-miraeus/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aubertus-miraeus> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/steven-van-impe> ;
+        schema:name "Gevierd compilator en biobibliograaf" .
 
     <http://www.schrijverskabinet.nl/artikel/balthazar-huydecoper/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> ;
@@ -245,6 +416,11 @@
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser> ;
         schema:name "Makelaar in literaire roem" .
 
+    <http://www.schrijverskabinet.nl/artikel/gerard-outhof/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-outhof> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
+        schema:name "“Een schrander letterkenner’’" .
+
     <http://www.schrijverskabinet.nl/artikel/gerbrand-adriaenszoon-bredero/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerbrand-adriaensz-bredero> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> ;
@@ -259,6 +435,11 @@
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-tysens> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> ;
         schema:name "Een schrijver van hekelende blijspelen" .
+
+    <http://www.schrijverskabinet.nl/artikel/hendrik-graauwhart/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-graauwhart> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
+        schema:name "Een voorbeeldelijk en godvruchtig dichter" .
 
     <http://www.schrijverskabinet.nl/artikel/hendrik-schim/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-schim> ;
@@ -500,6 +681,11 @@
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn> ;
         schema:name "Vredesdichter en priestervriend" .
 
+    <http://www.schrijverskabinet.nl/artikel/johannes-le-francq-berkheij/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-le-francq-van-berkhey> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> ;
+        schema:name "Ongeremd gevierd en gehaat" .
+
     <http://www.schrijverskabinet.nl/artikel/johannes-meursius/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-meursius> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma> ;
@@ -574,6 +760,11 @@
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ludolph-smids> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> ;
         schema:name "Vlijtig verzamelaar" .
+
+    <http://www.schrijverskabinet.nl/artikel/lukas-pater/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-pater> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marleen-de-vries> ;
+        schema:name "Éminence grise van de grachtengordel" .
 
     <http://www.schrijverskabinet.nl/artikel/lukas-rotgans/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-rotgans> ;
@@ -685,6 +876,11 @@
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> ;
         schema:name "Een toneeldichter met ambitie" .
 
+    <http://www.schrijverskabinet.nl/artikel/pieter-leuter/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leuter> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> ;
+        schema:name "Rotterdammer in steen en verzen" .
+
     <http://www.schrijverskabinet.nl/artikel/pieter-rabus/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-rabus> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> ;
@@ -739,6 +935,11 @@
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sara-maria-van-der-wilp> ;
         schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> ;
         schema:name "Portret in polemiek" .
+
+    <http://www.schrijverskabinet.nl/artikel/simon-doekes/> a schema:ScholarlyArticle ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-doekes> ;
+        schema:author <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> ;
+        schema:name "Wijnkoper en zangbergstichter" .
 
     <http://www.schrijverskabinet.nl/artikel/sybille-van-griethuysen/> a schema:ScholarlyArticle ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sibylle-van-griethuysen> ;
@@ -806,13 +1007,22 @@
         schema:name "Een schrijvende uitgever" .
 
     <http://www.schrijverskabinet.nl/portret/abraham-blusse/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-blusse> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-blusse> ;
+        schema:text """Ter geleide van mijne beeltenis, in het Pan Poëticon Batavûm, thans behorende aen den heren Arnoud de Jonghe.
+Geen straalende eerzucht, uit verblinden waan geboren,
+Zend hier mijn Beeldtenis in Phoebus Tempelchooren,
+Waar ’t Panpoëticon, aan ’t kunstenkweekend IJ,
+De Dichters lauriert om hunne Poëzij:
+Maar ik voldeed alleen aan ’t vurige verlangen
+Van Kunstmeçeen de Jongh, om in een’ hoek te hangen.
+Abraham Blussé (1771), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 223.""" .
 
     <http://www.schrijverskabinet.nl/portret/abraham-bogaert/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-bogaert> .
 
     <http://www.schrijverskabinet.nl/portret/abraham-de-haen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-de-haen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/abraham-de-haen> ;
+        schema:text "Op de Afbeeldinge van den heere Abraham de Haen, den Jongen." .
 
     <http://www.schrijverskabinet.nl/portret/adam-lintz/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adam-lintz> .
@@ -821,7 +1031,18 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adam-sasbout> .
 
     <http://www.schrijverskabinet.nl/portret/adriaan-hoppestein/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaan-hoppestein> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaan-hoppestein> ;
+        schema:text """Dees tweede Nazo leert den Minaars ’t geestig vleien.
+Hoe teder slaat de galm van zijn verliefde klacht!
+Wie hoort den Dichter van ’t bevallig Zwaantje schreien,
+En schreit niet, nevens hem, om ’t meisje, dagh en nacht?
+Voorzichtig, Adriaan! voorzichtig! staak uw zingen.
+En jaag den jongeling geen minnekoorts op ’t lijf.
+Schoon gij geen ooren kwetst, gij kunt de zielen dwingen.
+Gij spant, voorwaar! gij spant uw snaaren veel te stijf.
+De liefde vraagt niet meer naar scherpgesleepe schichten:
+De Min stookt vuur, en vlam, door Hoppesteins gedichten.
+Philip Zweerts (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 67""" .
 
     <http://www.schrijverskabinet.nl/portret/adriaan-pars/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaan-pars> .
@@ -836,7 +1057,16 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaen-van-de-venne> .
 
     <http://www.schrijverskabinet.nl/portret/adriaen-van-der-vliet-2/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaen-van-der-vliet> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaen-van-der-vliet> ;
+        schema:text """Op de beeltenis van den heere Adriaen vander Vliet.
+Door de Kunstryken Schilder Dionys van Nymegen Geschilderd. 
+Nymegen maelde dus myn’ Kunstvriendt Vander Vliet,
+Wiens zang beluistert word door vliet- en veldgodinnen,
+Terwyl zijn heldeluit en streelend herderriet,
+Door vloeijend dichtmuzyk, elks gunst en aendacht winnen.
+De Roode onthoud hem des geen’ welverdienden lof,
+Maer zet zyn beeldt te pronk in Febus lauwerhof.
+Dirk Smits (1737), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 147.""" .
 
     <http://www.schrijverskabinet.nl/portret/adrianus-hofferus/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adrianus-hofferus> .
@@ -863,16 +1093,66 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/andries-pels> .
 
     <http://www.schrijverskabinet.nl/portret/anna-insma/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-insma> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-insma> ;
+        schema:text """Een lieffelijke galm, slaat Insma op haar luijt;
+Maar als Zij kweelt van Koertens fenixschaaren,
+Dan blijkt haar liefde, en Zucht gegroeijt door veele jaaren,
+Die nimmer door een damp van onmin, is gesluijt.
+Ongepubliceerd gedichtje op het portret van Insma in het album van Michiel de Roode (thans in de Erfgoed Bibliotheek Hendrik Conscience te Antwerpen)""" .
 
     <http://www.schrijverskabinet.nl/portret/anna-maria-van-schurman-2/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-maria-van-schurman> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-maria-van-schurman> ;
+        schema:text """En wie kend Schurmans niet! dien by de Zang-Goddessen
+Van ’t oude Heydendom voorzeker op Parnas
+Tot Tiende Musa lang vergood, verhemeld, was,
+Met meerder schyn van rede, als die voor ’t kost’lyk kussen
+Der zotte Minnaars, om hun geyle vlam te blussen,
+Goddin der Bloemen wierd, mits datze aan ‘t Roomsch gebiedt
+Het schand’lyk groot gewin haars schoots ten erfdeel liet.
+Hoe weynig mannen in den roem van vreemde Taalen,
+Die in gesprek, en schrift de Jonkvrouw afterhalen;
+Om; staande voets gereed in Prose of Poësy,
+In welk een stof, naar Grieksche, of Roomsche melody,
+Behalve, na de taal der Europaesche volken,
+Gelyk in Moederspraak te lesen, te vertolken
+De Arabers, Syriërs, Hebreërs, en Chaldêen.
+Op ’t hoogste; diepste, en swaarst der Hoofd-verborgendhêen,
+Naar ’t ligt van ‘t Heylig woord, en sluytelyke reden,
+Ontegenspreekelyke oordeelen te besteden.
+Geen school-geleerdheyd, die haar kennis overtrof;
+Terwyl haar ommegang niet gemelyk nog dof,
+Al omme Vriendschap, en wellevendheyd deed blyken.
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 17.""" .
 
     <http://www.schrijverskabinet.nl/portret/anna-rethaan/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-rethaan> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-rethaan> ;
+        schema:text """Dus maalde Quinkhard ’t beeld der schrandere Rethaan,
+Reeds in haar morgen zoet op waereldwyze blaên;
+Maar in haar middag op ’t gedurig onderzoek
+En ’t welbeleven van de wysheid uit Gods Boek.
+in haren avondstond sloeg zy, vol hemelvier
+En kunst, haar handen aan de Godgewyde lier,
+Totdat de duistre nacht, by haar te vroegen dood,
+Die zuivre dichtaêr en ’t voorbeeldig leven sloot.
+Pieter Boddaert (1737), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 145.""" .
 
     <http://www.schrijverskabinet.nl/portret/anna-roemer-visscher/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-roemers-visscher> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-roemers-visscher> ;
+        schema:text """Roem van ons’ eeuw, by wie sal ick u vergelycken?
+Sal ’t Sappho zyn? ô neen; die moet veer voor u wijcken,
+Want hadse schoon u geest, zy had niet uwe handt,
+Die u geen minder lof verkrijght als u verstant.
+Sal ’t dan Arachne zyn, die wel so trots van herten
+Op hare naey-kunst was, dat sy dorst Pallas terten?
+Neen; dese noch veel min het by u halen ken,
+Want had zy uwe naelt, zy had niet uwe pen.
+Wel aen begaefde Maeght, laet uwe wyse Dichten,
+So wel als uwe kunst, voor al de wereld lichten:
+Op dat, so wiese lees, u oordeel; ’t eenigh een,
+Een yeder ongelijck, sich selfs gelijck alleen.
+Johan Van Heemskerck (1622), ‘Eer-dicht, Ghesonden aen Ionck-Vrouw Anna Roemer Visschers, als zy my met hare Sinne-Poppen begift had.’ Uit: Pvb. Ovidii Nasonis Minne-kunst.
+ 
+Het portret dat van Anna Roemersdochter Visscher in het Panpoëticon Batavûm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.""" .
 
     <http://www.schrijverskabinet.nl/portret/anselmus-boetius-boodt/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anselmus-boetius-de-boodt> .
@@ -884,13 +1164,39 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anthony-janssen> .
 
     <http://www.schrijverskabinet.nl/portret/arnold-hoogvliet/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-hoogvliet> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-hoogvliet> ;
+        schema:text """Op de Afbeelding van den heer Arnold Hoogvliet.
+Aenschouw hier ’t siersel van het Panpoëticon;
+’t Is wakkre Hoogvliet, die, in Nederduitsche dichten,
+De Roomsche feesten zong, en als een heldre zon
+Den Duitschen Zangberg met haer stralen voor blyft lichten.
+De Godvrucht eert den heldt, om Abrams heldenwerk,
+En schryft zyn’ naem en lof aen ’t hoog gewelf der Kerk.
+Adriaen vander Vliet, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 166.""" .
 
     <http://www.schrijverskabinet.nl/portret/arnold-houbraken/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-houbraken> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-houbraken> ;
+        schema:text """‘k Zie dus Houbraken, die, door Poësy verligt,
+En met de Aaloudheyd-kunde, en Vinding onderrigt,
+Die beyde uytblinken in zyn schoone Taferelen,
+‘k Zie in die Oeffening zyn Geesten opgewekt
+Met Rym-lust, die zig zelfs hoe langs hoe meer ontdekt
+In een aanminnigheyd van welgestelde Vaarssen,
+Schoon niet geschoeidt ten maat van Grieksche, of Roomsche Laarssen,
+Maar in zyn Moeder-taal; wel ryk in Woorden-schat,
+Om uyt te beelden ’t geen het oordeel heeft bevat.
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 4.""" .
 
     <http://www.schrijverskabinet.nl/portret/arnold-moonen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-moonen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnold-moonen> ;
+        schema:text """Op de Afbeelding van den heere Arnold Moonen.
+Dit ’s Godts Orakeltolk, de Kunstgeleerde Moonen;
+Wiens toonen rijzen, als een schoonste dageraet,
+In Herderszangen; daar de Kunst verstomt voor staat!
+Dus vlecht dees Theokrijt zichzelven lauwerkroonen.
+Zijn zang verrukt elks oor door ’t hemelsch maatgeluit.
+Dus dooft dees Kunstzon ’t licht der mindre starren uit.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 191.""" .
 
     <http://www.schrijverskabinet.nl/portret/arnoldus-soek/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoldus-soek> .
@@ -899,25 +1205,55 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> .
 
     <http://www.schrijverskabinet.nl/portret/balthasar-bekker/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthasar-bekker> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthasar-bekker> ;
+        schema:text """Een predikant van Amsterdam heeft een gruwelijk boek geschreven, de Betoverde Wereld genaamd, opgepropt met schadelijke en ziel-verderfelijke valse stellingen, tot vermindering en verbreking van de geloofwaardigheid van de Schrift, loochenende hetgeen God van de engelen, goede en kwade, en van hun verschijningen en werkingen, geopenbaard heeft […]; met één woord, handelende daarin weinig anders dan een geslagen atheïst en profaan mens.
+Jacobus Koelman (ca.1700), Nederlands ondergang.""" .
 
     <http://www.schrijverskabinet.nl/portret/balthazar-huydecoper/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> ;
+        schema:text """Op het Afbeeldsel van den heere Balthazar Huydecoper. 
+Dus trof de Schilderkunst het levendig gezicht
+Van Huydecoper, in zyn edelste ommetrekken,
+De Fenix onzer eeuw, dat helderstraalend Licht,
+Waar by het Dichterdom zyn feilen kan ontdekken:
+Wat is de Schouwburg niet verschuldigt aan zyn vlyt?
+Daar hy, gants Neêrland lokt, door twee paar Dichtjuweelen!
+Wat onze Moederspraak, de onsterflykheid gewyd!
+Toen hy die redde in haar ontelbre taalkrakeelen;
+Maar wat onze Amstelstad, als zy dien dag beschouwt,
+Dat zulk een groot vernuft haar op ’t papier herbouwt.
+Jan de Marre (1737). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 139.""" .
 
     <http://www.schrijverskabinet.nl/portret/bernardus-de-bosch/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bernardus-de-bosch> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bernardus-de-bosch> ;
+        schema:text """Op de beeldtenis van den heere Bernardus de Bosch.
+De Bosch, de jongste Telg der Bybelpoëzy,
+Die ’s Heilands waereldkomst zo grootsch heeft opgezongen,
+Wiens lof en naam reeds zweeft op aller Dichtren tongen,
+Pronkt dus in Beeldtnis door d’ Apel van ’t vlagryk Y.
+Zyn Zangster streelt en sticht door haar Verlustigingen,
+Ja voert het hart tot God door alle hemelkringen.
+Lucas Pater (1741), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 156.""" .
 
     <http://www.schrijverskabinet.nl/portret/bonaventura-peeters/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bonaventura-peeters> .
 
     <http://www.schrijverskabinet.nl/portret/bonaventura-vulcanius/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bonaventura-vulcanius> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/bonaventura-vulcanius> ;
+        schema:text "Het portret dat van Bonaventura Vulcanius in het Panpoëticon Batavûm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon." .
 
     <http://www.schrijverskabinet.nl/portret/broerius-broes/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/brouerius-broes> .
 
     <http://www.schrijverskabinet.nl/portret/caspar-barlaeus/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-barlaeus> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-barlaeus> ;
+        schema:text """Op het portret van den E. Heer Kasper Barleus, Professor der Filosofy t’Amsterdam.
+Dus ziet men Baarles lichaam maalen.
+Maar was het lyf zoo groot als ’t brein,
+Hy reikte tot aan ’s hemels zaalen.
+All’ d’aardt is voor zyn geest te klein.
+De Wysheidt lyt geen nauwe paalen.
+Jan Vos (1662), Alle de gedichten I, 190.""" .
 
     <http://www.schrijverskabinet.nl/portret/caspar-brandt/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-brandt> .
@@ -926,10 +1262,34 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/caspar-van-kinschot> .
 
     <http://www.schrijverskabinet.nl/portret/catharina-questiers/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/catharina-questiers> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/catharina-questiers> ;
+        schema:text """Zoo schrandre wijsheit, die getempert is met zeder
+Die onberisplijk zijn, is d’ allergrootste schat,
+Zijt gy, o Catharijn’, het alderdierbaarst’ vat,
+Zoo wel in deugt, vernuft, als wel-gevormde leden.
+Wat Maagt heeft, op Parnas, dien hogen trap betreden
+Die vaak uw Zang godin, gelauweriert, betradt?
+Wat kunst, wat wetenschap, wat wijsheit, ’t wijste blad
+Ons leert, leert gy u zelfs, en geeft van reden reden.
+Men ziet in u ’t vernuft van Pallas; uw gelaat
+Vertoont de Majesteit van Juno; Venus staat,
+Vol zoete aanminnigheit, in uw bekoorlijk wezen;
+Dianaas kuisheit hoort elk uit uw’ wijze rêen.
+Zoo Febus ’t negental vermeerdert met noch een,
+Zult gy de tiende van de Sang-godinnen wezen.
+Joan Dullaert (1669), `In het Stamboeck van de wijze en vernuftige Juffrouw Catharina Questiers.’ In: Clioos Cytter […].""" .
 
     <http://www.schrijverskabinet.nl/portret/christina-leonora-neufville/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christina-leonora-de-neufville> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christina-leonora-de-neufville> ;
+        schema:text """Op de afbeelding der weledele jonkvrouwe Christina Leonora de Neufville,
+Geschilderd door den Heer Verkolje.
+Dit sierlyk Maagdebeeld,  in ’t leven ruim zo schoon,
+Stelt schrandre De Neufville ons op ’t panneel ten toon.
+Wat luister moet aan ’t Pan Poëticum niet geven
+Een Dichteres, begaafd met zo veel kunst en geest,
+Datze oor en hert verrukt van die haar Dichtwerk leest,
+’t Geen haren edlen Naam voor eeuwig zal doen leven?
+Pieter Boddaert (1742), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 219.""" .
 
     <http://www.schrijverskabinet.nl/portret/christoffel-pierson/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christoffel-pierson> .
@@ -938,7 +1298,14 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/christoffel-plantijn> .
 
     <http://www.schrijverskabinet.nl/portret/claes-bruin/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claes-bruin> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claes-bruin> ;
+        schema:text """Byschrift op de Afbeelding van den voortreflyken zededichter, den heere Claas Bruin,
+Berustende in het Panpoëticon Batavûm. Thans behoorende aan den Heere Michiel de Roode.
+Zo trof van Blommen ’s Licht der Zedepoëzy,
+Den Duitschen Seneca, den Cebes van het Y,
+Den onvermoeiden Bruin, die ieders hart en ooren
+Met zich ten hemel voert in de opperste englenchoren.
+Studio Fovetur Ingenium, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 31.""" .
 
     <http://www.schrijverskabinet.nl/portret/claude-de-grieck/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claude-de-grieck> .
@@ -947,7 +1314,22 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/claude-salmasius> .
 
     <http://www.schrijverskabinet.nl/portret/constantijn-huygens/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/constantijn-huygens> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/constantijn-huygens> ;
+        schema:text """Pooght ghij, met vliet van rouw, Gods toornevliet te stoppen,
+Voor koninginnen oor, een perl is elke traen.
+Al wat uw’ zanglust weeft, in ’t juighen, zie ick aen
+Voor purper, tot verbandt van koninklijke koppen.
+Zoo strooit de droeve dauw bekoorelijke droppen,
+En breekt, met sprenklen blank, het bloosen van de blaên,
+Als d’ ongerepte roos ’t ontmommen dar bestaen,
+En dat de nuchtre zon uitkipt de koele knoppen.
+Al wat uw’ pen ontmoet, zij zinkt ‘er grondigh in,
+Doorwroet de donkre mijn, en spit, met spitsen zin,
+Het diepe wonder uit, dat t’ schuil liep inde zaeken.
+Dit ’s meer. Die meenighmael dat wonder wel doorgrondt,
+Vindt daer niet wonders in dan uwe wondre vondt.
+Des moet hij van uw’ geest der wondren wonder maeken.
+P.C. Hooft (1625), `Aen den heere Constantin Huighens. ridder etc. op zijne ledighe uuren.’ In: Otia.""" .
 
     <http://www.schrijverskabinet.nl/portret/cornelia-van-der-veer/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelia-van-der-veer> .
@@ -968,7 +1350,18 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-schonaeus> .
 
     <http://www.schrijverskabinet.nl/portret/cornelis-sweerts/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-sweerts> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-sweerts> ;
+        schema:text """Zal ook mijn hand een blad aan uwe lofkroon hechten
+Mijn Vader? zal uw zoon voldoen aan zijnen plicht?
+Jaa, schoon de lasterzucht mijn liefde zou bevechten,
+Ik kus uw beeld, en eer uw lieffelijk gedicht.
+Wanneer gij u verzaadt met letterlekkernije,
+Dan straalt ‘er uit uw oog een glans van hemelvier,
+Dan zien wij hoe uw geest zich streelt door Poëzije,
+En vloeiende in den inkt, zich uitdrukt op ’t papier.
+Dus maalt ge een tafereel, dat ijder moet behaagen
+De hemel rekk’ nog lang mijn Vaders levensdagen.
+Philip Sweerts (1735). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 65.""" .
 
     <http://www.schrijverskabinet.nl/portret/cornelis-udemans/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-udemans> .
@@ -980,7 +1373,17 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-coeverden> .
 
     <http://www.schrijverskabinet.nl/portret/cornelis-van-der-pot/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-der-pot> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-der-pot> ;
+        schema:text """Op de Afbeelding van den heere Kornelis vander Pot,
+In zyn Eds. leeven Lid van ’t Konstgenootschap Onder de Spreuk:
+Natura et Arte.
+Natuur heeft Vander Pot met yver, en verstand,
+En zuivre deugd bezield; de Kunst boodt hem de hand,
+Op dat hy ’t steile pad der eedle weetenschappen,
+In zyne blonde jeugd, manmoedig op zou stappen:
+Maar ach! de Dood heeft ons dien Letterheld benyd.
+Ziet hier zyn beeltenis Apolloos Choor gewydt.
+Bernardus de Bosch (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 89.""" .
 
     <http://www.schrijverskabinet.nl/portret/cornelis-van-overstege/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelis-van-overstege> .
@@ -989,7 +1392,32 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/cornelius-valerius> .
 
     <http://www.schrijverskabinet.nl/portret/daniel-heinsius/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/daniel-heinsius> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/daniel-heinsius> ;
+        schema:text """[…] Dit is al mynen wensch; ô Phenix van ons tyen!
+O sonne van ons lant, daer in wy ons verblyen:
+En trotsen al dat leeft, daer door de Gentsche Maegt,
+Ver boven Griecken rijt, naer Roomen niet en vraegt.
+Ick hope noch te sien dat eens ons Vlaemsche mannen
+’t Jock sullen moede sijn, verdryven de tyrannen;
+Dan sal uw’ waerdig beelt sijn op de merckt geplant,
+Daer keyser Karel staet, maer op zijn rechter hant.
+Daer sullen nevens u geschildert sijn Godinnen,
+Die uwen grooten geest, en vremde talen minnen,
+Die sullen altijt staen getuygen voor de lien,
+Van dat wy dag voor dag verwondert in u sien.
+Hoe dat u niet alleen de Griecksch’ of Roomsche spraken,
+Of Fransch, of Nederduytsch allom vermaert en maken,
+Maer dat ghy spreken kont soo treffelick Chaldeeus,
+En u soo wel verstaet in ’t Syrs en in ’t Hebreeus.
+Hoe dat uw’ kloeck verstant soo hooge staet verheven,
+Dat noch om doot, noch tijt, noch vyant en moet geven.
+Hoe ghy in alle konst soo wonder sijt volmaeckt,
+Dat boven uwen geest noyt mensch en heeft geraeckt.
+Laet, Goden! latet toe, dat ick sulcks mag beoogen,
+Eer dat de kouwe doot mijn oogen doet verdroogen;
+Is ’t dat ick eens zijn beelt mag op ons merckt sien staen,
+Ick ben dan wel te vreen recht naer het graf te gaen.
+Jacob Zevecote, `Aan Heer Daniel Heinsius.’ In: Gedichten.""" .
 
     <http://www.schrijverskabinet.nl/portret/daniel-lingelbach/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/daniel-lingelbach> .
@@ -1022,19 +1450,34 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-volkertszoon-coornhert> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-adriaansz-van-distelburg/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-disselburg> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-graswinckel/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirck-graswinckel> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-rafaelsz-camphuysen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-rafaelsz-camphuysen> ;
+        schema:text """Men volge Diederyk, die wel de Afgodery
+In Digteren bestraft, maar noyt de Poësy,
+Gerigt naar ’t Heylig Woord, en Christelyke Zeden.
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 8.""" .
 
     <http://www.schrijverskabinet.nl/portret/dirk-schelte/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-schelte> .
 
     <http://www.schrijverskabinet.nl/portret/dirk-smits/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-smits> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-smits> ;
+        schema:text """Op de Afbeelding van mijnen vriend; den heere Dirk Smits;
+Door Dionijs van Nymegen geschilderd. 
+’t Penseel van Dionijs wilde eer iets groots betrachten,
+Des maalde ’t Smits, met all’ de trekken der Natuur:
+’t Vernuft van mynen Vriend, grofzwanger van Gedachten,
+Blinkt uit in de oogen by zijn hemelsch yvervuur:
+De schoone Dichtkunst zag haar’ grooten Zoon geschilderd,
+En riep, verwonderd, uit: “De Kunst ontfang haar’ loon!
+Dees Dichter streelt en roert de zielen, hoe verwilderd;
+De Schilder tart Natuur; men vlecht’ hun elk een kroon!”
+Willem van der Pot (1734), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 56.""" .
 
     <http://www.schrijverskabinet.nl/portret/dominicus-baudius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dominicus-baudius> .
@@ -1043,10 +1486,17 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/edo-neuhusius> .
 
     <http://www.schrijverskabinet.nl/portret/elizabeth-wolff/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elizabeth-wolff> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elizabeth-wolff> ;
+        schema:text """‘Het Vaderland mogt in onzen leeftijd roem dragen op een paar Vrouwen, zoo als deszelfs tijden en zeden ze behoefden, maar zoo als de natuur ze zelden vormt, en zoo als de vriendschap ze nog zeldzamer vereenigt. Gelijk het in de huislijke opvoeding en verkeering de vrouwelijke zachtheid en bevalligheid zijn, die, met redenlijken godsdienst en zuivere zeden gepaard, beschaven en veredelen, het geen ‘er tuws en stugs is in den mannelijken aard, ja hervormingen van karakters voortbrengen, waaraan de afgetrokkene zedekunde zou gewanhoopt hebben: zoo zouden het waarlijk ook in de beschaving en verbetering der Volkeren wonderen zijn, welke vrouwenhanden konden verrigten, wanneer zij zich met genoegzame vrijmoedigheid aan de hervorming van al het verkeerde, aan de verzachting van al het woeste in de volkszeden konden leenen. Dit deden elisabeth bekker en agatha deken, elk toegerust met uitstekende, doch wijdverschillende, gaven, die door zamenwerking een zeker geheel uitmaakten, welks bezit, eeniglijk tot deszelfs nut besteed, het Vaderland een zegen des Hemels heeft mogen achten. […]’
+Anon. (1805), in: Vaderlandsche Letteroefeningen.""" .
 
     <http://www.schrijverskabinet.nl/portret/erycius-puteanus/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/erycius-puteanus> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/erycius-puteanus> ;
+        schema:text """XII, `Borgher’
+Siet, o Borgher wat ghy zyt,
+Wat betaemt naer eysch van tijdt:
+Menght met eer al u ghewin:
+Eer wat meer, ghewin wat min.""" .
 
     <http://www.schrijverskabinet.nl/portret/everard-syceram/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/everard-syceram> .
@@ -1064,49 +1514,137 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/franciscus-plante> .
 
     <http://www.schrijverskabinet.nl/portret/francois-halma/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/francois-halma> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/francois-halma> ;
+        schema:text """Rampzalig nachtgespuis van razende Ongodisten,
+Die Godt natuur noemt, gout uw’ Godt schat, of den buik:
+Vertrek van waar gy komt, keer hellewaart, en duik,
+Met al uw doornige en verwarde Spinozisten.
+Waanwysheit, die u dient van blinde Epikuristen,
+Of Mahomets gebroet, lokt zielen in haar fuik
+Vergeefs met snode kunst van reênloos reêngebruik:
+Godts waarheit triomfeert, en tart al ’s afgronts listen.
+Men lett’, hoe HALMA ’t recht van aller dingen Heer.
+Met pers en pen vertolkt, en eigen bladt verweer’.
+De hel mag zulk een werk begrimmen: zalige Engelen
+Begroeten ’t met muzyk. My dunkt alrede, ik hoor
+De wachters van Godts troon met vreugt in ’t hoogste koor
+Wie voor Godt eer dus pleit, een’ lof- en eerkrans strengelen.
+J. Vollenhove""" .
 
     <http://www.schrijverskabinet.nl/portret/francois-snelling/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/francois-snelling> .
 
     <http://www.schrijverskabinet.nl/portret/frans-de-haes/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-de-haes> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-de-haes> ;
+        schema:text """Op de afbeelding van den heere Frans de Haes.
+De Haes, die zich niet kreunt aen ’s werelds woest getier,
+Is hier gelegert in de schaêuw’ van loflauwrier:
+Als hy is afgeslooft van ’t rennen, ginds en weder,
+Door handeläkkers of den ruimen lettertuin,
+Stygt hy, met éénen sprong’, op Pindus hooge kruin,
+En vlyd zich in den schoot der zanggodinnen neder.
+Dirk Smits (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 118.""" .
 
     <http://www.schrijverskabinet.nl/portret/frans-godin/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-godin> .
 
     <http://www.schrijverskabinet.nl/portret/frans-greenwood/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-greenwood> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-greenwood> ;
+        schema:text """Op de Beeltenisse van den Heere Frans Greenwood.
+Dit ’s Greenwoods beeltenis, voor wien d’aloutheit bukt,
+Wiens diamanten stift op glaezen drinkbokaelen,
+Wiens dicht- en schilderkunst haer, schaemrood, houd verrukt:
+Die kunst en wetenschap doet op een’ eertroon praelen.
+Zij hoort in hem Apol, als hij de snaeren drukt,
+En ziet Apelles geest door zijn tafrelen straelen.
+Nikolaes Teyssen (1752), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 223.""" .
 
     <http://www.schrijverskabinet.nl/portret/frans-rijk/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-ryk> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-ryk> ;
+        schema:text """Op de Beeldtenis van den heere Frans Ryk.
+Thalië en Melpomeen, beide even dier verbonden
+Aan haren Gunstling Ryk, die Amstels Schouwtooneel
+Stoffeert, en geestig siert met Vrankryks eêlste vonden,
+Vergoodden dus zyn Beeld door Quinkhards kunstpenseel.
+Vlied, Midas Neven, die vergeefs haar’ Lof wilt smooren;
+Vlied, of dees Martiaal ontdekt uw ezelooren.
+Studio Fovetur Ingenium (1733), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 39.""" .
 
     <http://www.schrijverskabinet.nl/portret/frans-van-hoogstraten/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-van-hoogstraten> .
 
     <http://www.schrijverskabinet.nl/portret/frans-van-steenwijk/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-van-steenwijk> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-van-steenwijk> ;
+        schema:text """Op de afbeeldinge van den heere Frans van Steenwyk den Jongen;
+Kunstig geschilderd door den Heere J.M. Quinkhard.
+Hy, die Andronikus leert zuiver Neêrduitsch spreeken,
+Die Beleazers deugd voert op het hoog toneel,
+Die Nadirs heldenmoed grootmoedig af doet steeken,
+Die keurige oogen streelt door ’t gladde dichtpenseel;
+De schrandre Steenwyk, doet, door Quinkhards fixe trekken,
+Zyn beeldtenis, maar zelf best zynen geest ontdekken.
+Verschooning voor Lof (1745), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 220.""" .
 
     <http://www.schrijverskabinet.nl/portret/fransina-jacoba-westrem/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/fransina-jacoba-westrem> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/fransina-jacoba-westrem> ;
+        schema:text """Op het Afbeeldsel van de welëdele juffrouwe mejuffrouwe Fransina Jacoba van Westrem,
+Echtgenoote van den weleerw. en geleerden heere Frederik Christiaan Coets, Bedienaar des H. Evengeliums te Arnhem.
+Door den beroemdem J.M. Quinkhard geschilderd. 
+Zie hier van Westrems Beeld door Quinkhards hand gemaald;
+De Godsvrucht, deftigheid en deugd blinkt uit dit weezen
+Niet minder dan haar Geest, aan die haar’ schriften leezen,
+Waarom haar Beeldtenis in Choor der Dichtren praalt.
+De Zangberg heeft met recht haar Poëzy te danken,
+Wyl zy de ziel vergast op zuivre hemelklanken.
+Dirk Cloes Lutkeman (1734), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 54.""" .
 
     <http://www.schrijverskabinet.nl/portret/gebrand-adriaensz-bredero/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerbrand-adriaensz-bredero> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerbrand-adriaensz-bredero> ;
+        schema:text """Grafschrift van Garbrandt Breedero &c.
+Die elk deedt lachen, wordt hier nu van elk beschreit.
+Hy dwong het volk door klucht te luistren naar hun plichten.
+Zoo baard’ hy deugdt door jok, dat errenst wierdt ontzeidt.
+Wie dat geen Preekstoel vreest, heeft vrees voor hekeldichten.
+Jan Vos (1662), in: Alle de Gedichten I.""" .
 
     <http://www.schrijverskabinet.nl/portret/geeraerd-brandt/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geeraerd-brandt> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geeraerd-brandt> ;
+        schema:text """Op de afbeelding van den heere Geeraerdt Brandt. 
+Dit’s Brandt, wiens schrander brein, met kunst en zedigheit,
+De Kerkhervorming heeft, door kracht en taal, beschreven.
+De Ruiter, zoo vol moedt, als oordeel en beleit,
+Den grootsten Waterheldt; door ’t al voor plagh te beven,
+Heeft hij vereeuwigt door zijn pen. Gansch Nederlandt
+Roemt zijne Dichtkunst, taal, en stijl en vlugh verstandt.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 195.""" .
 
     <http://www.schrijverskabinet.nl/portret/george-hendrik-petri/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/george-hendrik-petri> .
 
     <http://www.schrijverskabinet.nl/portret/gerard-jacob-georg-bacot/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-jacob-georg-bacot> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-jacob-georg-bacot> ;
+        schema:text """Een prooi van Burgertwist en Haat,
+Om Plicht gevolgd, beroofd verdreeven,
+BACOT, nu zonder Kerkwaad,
+Trof Kunst in Steinfurt dus naar ’t leven.
+G.J.G. Bacot (1790), Handelingen 1790, 7.""" .
 
     <http://www.schrijverskabinet.nl/portret/gerard-van-loon/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-van-loon> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-van-loon> ;
+        schema:text """Wie zou, beroemde Man! uw’ lof oit willen heelen?
+Die zo veel edel werk, zo nuttig brengt in ’t licht!
+Gij roert zomtijds noch wel uw’ braaven geest uit spelen,
+En zingt, in zuiver Duitsch, een keurig maatgedicht.
+Maar als wij u, Van Loon! zo onvermoeid, zien zweeten,
+’t Zij gij de munten schuift zo sierlijk voor de hand:
+Hetzij gij opdelft dat bijna al was vergeeten,
+Hoe dier verplicht gy dan ’t beproefde Vaderland!
+Het doe uw beeltenis op gouden munten zetten,
+Opdat die uitblinke in de beste kabinnetten.
+Philip Zweerts (1735). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 64.""" .
 
     <http://www.schrijverskabinet.nl/portret/gerardus-outhof/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-outhof> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-outhof> .
 
     <http://www.schrijverskabinet.nl/portret/gerardus-vossius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-vossius> .
@@ -1118,7 +1656,20 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-tysens> .
 
     <http://www.schrijverskabinet.nl/portret/govert-bidloo/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/govert-bidloo> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/govert-bidloo> ;
+        schema:text """‘k Was hier ten eynde werks; maar ben ik wel gerust,
+En schynd de Broeder-Liefde in my niet uytgeblust
+Dat ik zyns niet gedenk! daar hy my staat op zyde
+In ’t Pan-Poëticon. Dat hoede God! dat lyde
+Myn agting, heugenis, nog bloed-gemeenschap niet
+Ten minsten is ’t my een troost in ’t treurige verdriet,
+Dat my de swakheyd, en ’t verre afgelege woonen,
+Verhinderden aan hem den jongsten pligt te thoonen;
+Hem by te staan in dat belemmerd oogenblik
+Van sterven, om de ziele, op de allerlaasten snik,
+Met myn gebeeden te vertroosten, te geleyën
+Ter Zalige Eeuwigheyd in hoope aan hem bescheyën;
+Lambert Bidloo (1720), Panpoëticon Batavum, 280.""" .
 
     <http://www.schrijverskabinet.nl/portret/govert-klinkhamer/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/govert-klinkhamer> .
@@ -1145,13 +1696,30 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendricus-vos> .
 
     <http://www.schrijverskabinet.nl/portret/hendrik-bruno/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-bruno> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrick-bruno> ;
+        schema:text """Twee knopen naeyt gy mijn met vele steeken aen,
+‘k Heb u te danken dat gy’t voor my hebt gedaen:
+En soo ik wederom u kan met nayen paejen:
+Twee knoopen sal ik u, met eene steeck aen naejen.
+Pieter Elsevier (1667), `Den Po[…]t Bruno aen een Dienst-maegt, die hem twee Knoopen aen sijn Wambays naeyden, zeyt:’. In: Den lacchenden Apoll.""" .
 
     <http://www.schrijverskabinet.nl/portret/hendrik-graauwhart/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-graauwhart> .
 
     <http://www.schrijverskabinet.nl/portret/hendrik-schim/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-schim> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-schim> ;
+        schema:text """Op de Beeltenis van den heere Hendrik Schim
+De kristen Flakkus, die zyn Serafynenveer
+Doopte in de Heilbron, om met vloeiende gedichten,
+Tot ’s Heilants heerlykheit en eeuwigduurende eer,
+De schoone Kerkbruit aan zyn’ yver te verpligten;
+De vlugge Schim, wien ’t vuur der Kunst uit d’oogen straalt,
+Werdt dus door Diönys naar ’t leven afgemaalt:
+Die zwygende Poëet kan woordenschilders treffen;
+Maar stryk, ô Maasäpel, ’t penseel van ’t zonnevier,
+En schilder hem om ’t hooft een’ Paradyslaurier;
+Op dat men zyn verdienste en d’uwe moog’ verheffen.
+Arnold Hoogvlieg, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 88.""" .
 
     <http://www.schrijverskabinet.nl/portret/hendrik-smetius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-smetius> .
@@ -1169,22 +1737,65 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermannus-angelkot-sr> .
 
     <http://www.schrijverskabinet.nl/portret/hermanus-van-der-burg/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermanus-van-der-burg> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hermanus-van-der-burg> ;
+        schema:text """TER GEDACHTENISSE VAN LAMBERT BIDLO,
+APOTHEKER EN POËET.
+Hier rust de Schryver van het Pan Poëeticon,
+Die ’t Nederlands Gedicht tot in den grond verston
+Doch, die meêr zaakelyk dan sierlyk in zyn dichten,
+Veel min bedacht was op vermaaken dan op stichten:
+Hy voerde op Amsteldams Parnas, Zwaard, Galg en Rad;
+Schoon ’t by een ygelyk nog is en blyft onzeker,
+Wie aan dien straffen Arts en koddigen Aptheker,
+Die hooge Vierschaar en dat recht gegeeven hadd’;
+En echter blykt dat Hy ‘er menig, naa hun leeven,
+Door zyne scharpe Penn’,die niemand heeft gespaart,
+Een strenge Geesseling’,Brandmerk of ’t dubbeld Zwaard,
+En eene Konstsneede in het aanzicht heeft gegeeven,
+Zulks ik hem aanmerk, ook hoe zeer Apol zyn’gunst
+Hem schonk, als onbeschoft straatschenner van de Kunst.
+Uit: H. van den Burg, Aanhangsel van gedigten, of Derde deel zyner mengelpoëzy. Amsterdam, `voor den maker’, 1741(p. 88).""" .
 
     <http://www.schrijverskabinet.nl/portret/hieronymus-sweerts/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hieronymus-sweerts> .
 
     <http://www.schrijverskabinet.nl/portret/hubert-kornelisz-poot/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-korneliszoon-poot> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-korneliszoon-poot> ;
+        schema:text """Gy dichters, die uw’ tyt en zweet
+Zoo vlytigh nacht en dagh besteedt
+Om eenen rykdom op te gâren
+Van vonden uit uitheemsche blâren,
+Scheurt nu alle uwe boeken vry
+En werpt uw dichtpen aen een zy,
+Gy moet uw’ arbeit u beklagen,
+Terwyl een lantman op koomt dagen;
+Een lantman, die van vrou Natuur
+Alleen bezielt met yvervuur
+De kunst hier tart der letterbraven,
+Daer hy een’ schat ontsluit van gaven
+En niet alleen een eenigh dicht
+Aen Neêrlant levert in het licht,
+Maer eenen bondel van gedichten,
+Die met vermaek den lezer stichten […].
+Joan de Haes (1722), ‘Op de gedichten van H.K. Poot’. In: Mengeldichten II.""" .
 
     <http://www.schrijverskabinet.nl/portret/hubertus-gregorius-van-vryhoff/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubertus-gregorius-van-vryhoff> .
 
     <http://www.schrijverskabinet.nl/portret/hubertus-miraeus/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aubertus-miraeus> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aubertus-miraeus> ;
+        schema:text "Het portret dat van Aubertus Miraeus in het Panpoëticon Batavûm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon." .
 
     <http://www.schrijverskabinet.nl/portret/hugo-de-groot/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hugo-de-groot> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hugo-de-groot> ;
+        schema:text """Aan Delft
+Poogt Delft de Groot een graf te delven?
+Hier is zijn lijk: maar voor het brein
+Zijn alle graaven veel te klein:
+Wie ’t doen wil moet all d’aardt verwelven.
+De geest is grooter dan de Groot.
+De wijsheidt vult de werreldtkloot.
+Jan Vos (1662), ‘Op Hugo de Groot’. In: Gedichten I.""" .
 
     <http://www.schrijverskabinet.nl/portret/ijsbrand-vincent/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ijsbrand-vincent> .
@@ -1220,7 +1831,24 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-van-maerlant> .
 
     <http://www.schrijverskabinet.nl/portret/jacob-westerbaen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-westerbaen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-westerbaen> ;
+        schema:text """Hoe schoone Parel aan de Kroon der Poësy
+Is Westerbaan! Hoe hoog in ’t vloeiënden Gety
+Van allerhande drift het Topzeyl op te halen!
+Maar wien is ’t mogelyk te danken, te betalen
+’s Mans overgroote vlyt, en moeite, om ’t Neerlands Digt
+Hoe heerlyk uyt zig zelfs, als met een Zonne-ligt
+Uyt straalen, en den Geest van Romen glanz te geven,
+Naar ’t yders wensch verhoopt zyn Rym te zien verheven:
+’t Zy dat hem Treur-spel, of der Helden-Roem gevalt,
+Of eerelyk in Jok des Weirelds Wan gestalt
+In Bly-spel thoonen wil; of ’t al te hevig Minnen
+Door Klaag-gezangen tragt Ziel-roerig te bezinnen;
+In dit, en meerder heeft de groote Westerbaan,
+Door zyn Vertaling en bevat’lyk doen verstaan,
+En Maro, Naso, en Terentius ontslooten,
+Ten hulp der Poësy van zyne Lands-genooten […].
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 17.""" .
 
     <http://www.schrijverskabinet.nl/portret/jacob-willemsen/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-willemsen> .
@@ -1229,7 +1857,9 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacobus-arminius> .
 
     <http://www.schrijverskabinet.nl/portret/jacobus-bellamy/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacobus-bellamy> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacobus-bellamy> ;
+        schema:text """Dat dan ook het tegenwoordig geslacht genot en voedsel voor verstand, smaak en hart opzamele uit deze lettervruchten, die zeker niet alle van hetzelfde gehalte zijn, maar toch alle met eenig regt den eernaam dragen, onder welken zij ons worden aangeboden, en wier bevallige verscheidenheid van toon en stof aan alle soorten van lezers, zoo wel den minnaar van het proza als dien der poëzij, zoo wel den sentimentelen als den luimigen, zoo wel den wijsgeerigen als den eenvoudigen, zijne gading zal doen vinden.
+Anon., recensie van Proeven voor het Verstand, den Smaak en het Hart, door Bellamy en eenigen zijner Kunstvrienden. In: Vaderlandsche letteroefeningen, 1826.""" .
 
     <http://www.schrijverskabinet.nl/portret/jacobus-eyndius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacobus-eyndius> .
@@ -1250,10 +1880,22 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacques-van-musschert> .
 
     <http://www.schrijverskabinet.nl/portret/jakob-zeeus/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-zeeus> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-zeeus> ;
+        schema:text """Dit ’s ’t aangezicht van Zeeus, Apolloos Troetelkindt;
+Die aan de blanke Merk een Dichter wierd geboren.
+Hij van het Negental, gevoed, gestreelt, bemint,
+Liet zich, al in zijn jeugd, gelijk een wonder hooren:
+Zijn grootsche Poëzij, rolt heerlijk, glad van toon,
+Vol kunst, en houding, vol verhevene gedachten.
+Zijn wolf in ’t Schaapsvel spant van zijne kunst de kroon;
+Een Dichtstuk, dat zich, om zijn majesteit doet achten,
+Het wel zijn’ grooten Naam heeft tijdt en doot ontrukt,
+En dien op ’t voorhooft van d’onsterflijkheid gedrukt.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 177.""" .
 
     <http://www.schrijverskabinet.nl/portret/jan-baptista-wellekens/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-baptista-wellekens> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-baptista-wellekens> ;
+        schema:text "Op de afbeelding van wylen den heere Jan Baptista Wellekens." .
 
     <http://www.schrijverskabinet.nl/portret/jan-de-cerf/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-cerf> .
@@ -1265,7 +1907,16 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-kruyff-jr> .
 
     <http://www.schrijverskabinet.nl/portret/jan-de-marre/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-marre> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-marre> ;
+        schema:text """Op de Afbeelding van den Heere Jan de Marre;
+Door denzelfden Heere J.M. Quinkhard kunstig afgemaald.
+Men zie, indien Natuur alleen kan Dichters vormen,
+Dat wonder in De Marre, ons hier verdeeld, volwrocht.
+Deze Amstelzwaan, gekweekt in de opgeruide stormen,
+Beschaamt de Goesche Zwaan, door grootscher Watertogt,
+Den Batavier ter eere, aan Javaas kunst te zingen.
+Waakt, Treurspeldichters! dees zal den prys ontwringen.
+Studio Fovetur Ingenium (1734), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 101.""" .
 
     <http://www.schrijverskabinet.nl/portret/jan-de-regt/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-regt> .
@@ -1301,7 +1952,16 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-norel> .
 
     <http://www.schrijverskabinet.nl/portret/jan-six/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-six> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-six> ;
+        schema:text """Op het Afbeeldsel van den Welëdelen Grootächtbaaren heere, den heere Jan Six,
+In zyn WelEds. leven Heer van Wimmenum en Vromade, Burgemeester en Raad der Stad Amsterdam, enz. enz. enz.
+Gy, die de Poëzy durft hoonen en versmaaden,
+Wykt af, op ’t aanzien van deez’ achtbren Burgerheer!
+’t Is Six, op Pindus top ontuild met eeuwige eer;
+Een Paerel aan de Kroon der zes- en- dertig Raaden.
+Zyn Beeld en Dicht, dat hy den Nazaat achter laat,
+Toont dat een eedle kunst geen’ eedlen Man misstaat.
+Lucas Pater (1734), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 53.""" .
 
     <http://www.schrijverskabinet.nl/portret/jan-van-arnhem/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-arnhem> .
@@ -1331,7 +1991,18 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-van-scorel> .
 
     <http://www.schrijverskabinet.nl/portret/jan-vos/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-vos> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-vos> ;
+        schema:text """Dog immer is ’t Jan Vos in geenen deel geweest.
+Dit zouw hem Seneca, beroepen door zyn geest,
+Indien ’t hem mooglyk was slegts eenmaal op te ryzen,
+Met zyn Thyestes, zelf van woord tot woord, bewyzen;
+Terwyl ik anderszins, om de agting, die ik draag
+Voor de Oudheên-kundigheyd, en grootsche styl, wel graag
+Belyd myn ongeduld, schoon ’t werk mogt zyn gebrekkig,
+Van de onbeschofte schoft te zien besmeurdt zoo drekkig:
+Waarom myn Digt-lust dien verkeerden Salomon
+Met Roede, en Brandmerk bant van ’t Pan-Poëticon.
+Lambert Bidloo, Panpoëticon Batavûm, 1720, 224.""" .
 
     <http://www.schrijverskabinet.nl/portret/jan-zoet/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-zoet> .
@@ -1361,7 +2032,14 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeronimo-de-bosch> .
 
     <http://www.schrijverskabinet.nl/portret/jeske-reinou-van-der-malen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jetske-reinou-van-der-malen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jetske-reinou-van-der-malen> ;
+        schema:text """Dus maelt de Vriesche Apel de Sapho van zyn Land;
+Den roem van haare kunnen, in Poëzy ervaaren:
+’t Is Vander Malen, die, beroemd door vlug verstand,
+Van Deugd en Godsvrucht word bekranst met lauwerblaêren:
+Dies zy met recht verdient het Helicons Meceen,
+In Neêrlands Dichtchoor haar een hooge plaats verleen’.
+Lucas Pater (1738), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 155.""" .
 
     <http://www.schrijverskabinet.nl/portret/joachim-oudaen/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joachim-oudaen> .
@@ -1373,13 +2051,37 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-de-haes> .
 
     <http://www.schrijverskabinet.nl/portret/joan-jacob-mauricius/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-jacob-mauricius> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-jacob-mauricius> ;
+        schema:text """Op de Afbeelding van den heere Mr. Jan Jacob Mauricius,
+Resident der H.H. Straten generaal, by den Nedersaxischen kreits; 
+Mede door den Heere J.M. Quinkhard Kunstig geschilderd. 
+Juich vry, ô Elvestroom! om de eer, dat Nederland
+Zyn heil, en ’t uwe, door Mauricius doet bloeijen:
+De zangberg juicht niet min om dit geleerd Verstand,
+’t Geen Amstels Treurtooneel in luister aan doet groeijen:
+Noch blyder juicht de Kerk, wanneer zyn dichtpenseel
+Gods liefdewondren maalt in ’s Heilands Kruistafreel.
+Studio Foventur Ingenium, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 102.""" .
 
     <http://www.schrijverskabinet.nl/portret/joan-steengragt/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-steengragt> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-steengragt> ;
+        schema:text """Op de afbeelding van den welëdelen heere Mr. Joan Steengracht,
+Bewindhebber der Oostindische Maetschappyë ter kamer zeelandt, en eerste pensionaris der stat Middelburg. 
+De Dichtkunst bloost van vreugd’, nu ze, in haer heiligdom,
+’t Raetsheerelyk gelaet van Steengracht dus ziet pronken.
+De zangberg heeft dit hoofdt de lauwerkroon geschonken;
+De Rechtsgeleertheit hong dees’ Heldt den tabbert om:
+De zilvren glans der Deugd’ en de onbezwalkte stralten
+Der Godvrucht’ zetten voorts dit wezen luister by.
+De Zeeuwsche Hoffstat ziet dus haren Raetsman pralen,
+Wien ’t Ooste hulde doet, aen ’t roer der Maetschappy.
+Zoo eert de Kunstmin hier, met Hollands Letterbraven,
+Dees’ Steengracht als een Bron vol onwaerdeerbre gaven.
+Dirk Smits (1737), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 133.""" .
 
     <http://www.schrijverskabinet.nl/portret/joan-van-broekhuizen/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-van-broekhuizen> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-van-broekhuizen> ;
+        schema:text "Op de afbeelding van den heere Joan Broekhuizen." .
 
     <http://www.schrijverskabinet.nl/portret/joan-van-paffenrode/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-van-paffenrode> .
@@ -1388,7 +2090,34 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joan-vermeulen> .
 
     <http://www.schrijverskabinet.nl/portret/joannes-antonides-van-der-goes/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-antonides-van-der-goes> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-antonides-van-der-goes> ;
+        schema:text """Op de Afbeelding van den Heere Joannes Antonides vander Goes. 
+I.
+De Schilderkunst trof dus Antonides, naar ’t leven,
+De Goesche Zwaan, die al seen Hemelsch Kunstlicht praalt!
+Hij ’t wonder van zijn’ tijdt, daar Vondels Geest uit straalt,
+Heeft zelf zijn kunstvuur, kracht en eêl vernuft beschreven,
+Met gouden lettren, in zijn grootsche Poëzij.
+Hij zong Bellone aan bandt, eer ’t iemant dorst verwachten;
+En vloog op vleugels van zijn schrandre kunstgedachten,
+Den ganschen Aertkloot rond; om ’t Waereld dwingent IJ
+In top te heffen, en zijn’ Stroomgodt te versieren,
+Als opperste Monarch, van s’ Waerelds Hooftrivieren.
+II.
+Hier staat Antonides, Apolloos zoon, verbeelt;
+De Goesche Zwaan; wier kunst, en grootsche Maatgedichten
+Het al, in houding, zwier en glans, voor zich doen zwichten,
+Wat buiten Vondel, door de Dichtkunst is geteelt.
+Wie twijfelt, sta zijn oog op ’s Mans geleerde blaren;
+Daar klinkt zijn Glorie op verrukkende IJstroomsnaaren.
+III.
+Dus wort Antonides, de Goesche Zwaan, verbeelt;
+In kunst Heldt Vondels Zoon, en Neêrlandts eer, en luister,
+De glorie van Parnas, waarin het Dichtvuur speelt,
+En straalt met zwier en glans, gelijk een star in ’t duister.
+Hij heeft zijn Kunstfaam, in zijn grootsche Poëzij,
+Vereeuwigt, met den Lof van ’t Kunst- en scheeprijk IJ.
+Joan Vermeulen (1739). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 175-176.""" .
 
     <http://www.schrijverskabinet.nl/portret/joannes-badon/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-badon> .
@@ -1400,10 +2129,36 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-van-zuren> .
 
     <http://www.schrijverskabinet.nl/portret/joannes-vollenhove/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-vollenhove> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joannes-vollenhove> ;
+        schema:text """Op de Afbeelding van den Heere Joannes Vollenhove.
+I.
+Dit ’s Godts Orakeltolk, de Haagsche Boetgezant,
+De schrandre Vollenhove, in Dichtkunst diep ervaaren.
+Hij boude kunst en taal. Zijn hemelsch vlug verstandt
+Zong ’t Kruistriomfgezang van Euangeliesnaaren;
+En hoe heldt Willem met de zege in ’t harnas blonk,
+Waarvoor die Vorst hem zelfs zijn gouden beeltnis schonk.
+II.
+Dit ’s Vollenhove, dit ’s de Haagsche Guldemont,
+Die wakkre Bijbeltolk; een Noortstar der Poëten,
+In Dichtkunst uitgleert: en van Gods geest bezeten,
+Ontvoude hij Gods Kerk, en Oude en Nieuw Verbondt;
+Of kneedde ’t zondig hart, en deed alle ondeugd zwichten,
+Door zijne Boetbazuin, en Kruistriomfgedichten.
+III.
+Dit is de Guldemont, ’t is Vollenhove, een Licht
+Den Christenkerke: in taal en dichtkunst diep ervaaren.
+Wie zong ooit hooger toon dan ’t Kruistiomfgedicht?
+De kerstof rolde alleen niet van ’s Mans gouden snaaren:
+Hij boude in zijn gedicht Vorst Willems Krijgstrofeen;
+Die hem zijn borstbeelt schonk, in dierbaar goud gesneên.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 192-193.""" .
 
     <http://www.schrijverskabinet.nl/portret/johan-baptista-houwaert/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-baptista-houwaert> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-baptista-houwaert> ;
+        schema:text """‘k Meen Raadsheer Houwaard, thans zoo walgelyk te lezen,
+Dat hy voor pond papier tot scheuren werd verwezen.
+Lambert Bidloo, Panpoëticon Batavum (1720)""" .
 
     <http://www.schrijverskabinet.nl/portret/johan-de-brune/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-de-brune> .
@@ -1415,7 +2170,52 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-frederik-gronovius> .
 
     <http://www.schrijverskabinet.nl/portret/johan-pieter-broeckhoff/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-pieter-broeckhoff> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-pieter-broeckhoff> ;
+        schema:text """Op de inwijding van den heere Johan Pieter Broeckhoff, in het. Pan Poëticon Batavûm.
+Intaminatis fulget Honoribus 
+Vind ik, mijn Broeckhoff! u, naar ’t leven afgemaald,
+In ‘t Panpoëticon, om uwe kunst verheven,
+Gij zult met Vondels, Hoofts, Antonidessen leven,
+Van ’t licht der Poëzij, van goelijk vuur bestraald;
+Gij prijkt dan in den rang van Neêrlands Kunstgenooten,
+De Jongh siert met uw Beeld zijn Zaal van Lettergrooten!
+Van Lettergrooten, die voorheen aan ’t Scheeprijk IJ,
+Aan Maas- en Merwestroom op grootsche toonen zongen,
+Wier lof na hunnen dood nog leeft op alle tongen,
+Vermaard in Nederland door de eedle Poëzij,
+Gij moogt, mijn Kunstörest! met hen naar d’eerprijs dingen,
+Die deugd en ondeugd schetste in uw Bespiegelingen.
+Gij vlegt der Deugd een kroon van onverderflijk loof,
+Verheft haar heerlijkheid op uwe fiksche snaaren,
+Wie ziet hier de ondeugd niet ten duistren afgrond vaaren?
+Voor pligt, vermaaning en voor zedelessen doof,
+Van al wat eerlijk heet, verbasterd en verwilderd,
+In haarre afschuwelijkheid met echte verf geschilderd.
+Roemt Neêrland op uw werk, Kunststukken voor den tijd,
+Daar houding, vinding, geest zich met sieraard verëenden,
+Daar hoogsels, diepsels, licht en schaduw kracht verleenden,
+Aan ’t laat Nageslacht als spiegels toegewijd;
+Die op dit Letteröost ons twee jaar lang onthaalde,
+Verdient, dat hij tot loon in uwe Kunstzaal praalde.
+Daar zal hij met een’ Smits, een’ Hoogvliet, Vlaardings lust,
+Die ons zijn’ Abraham, in ’t goud der kunst, liet horen,
+De Marre, Feitama, tot Poëzij gebooren,
+De Haes, van Braam en Poot, met gaven toegerust,
+En andre Dichters, reeds ter starren ingevlogen,
+Tot een Gedenkzijl zijn, verheerlijkt in elks oogen.
+Zo eert men Helden, die tot nut van ’t algemeen
+In ’t strijdperk voor het Land en zijne Vrijheid traden,
+Zo kroont men Dichters met een’ krans van lauwerbladen,
+Wien ’t licht der weetenschap gelijk een zon bescheen;
+Zo blijft, ô Broeckhoff! van de sterflijkheid beveiligd,
+Uw naam met uwen lof aan de eeuwigheid geheiligd.
+Zo rigtge een’ Tempel op, die eer aan kunst vergeld,
+En volgt de Roode na met onvermoeide stappen,
+De Jongh! die Poëzij bemint, en weetenschappen,
+Zo word uw roem alom in Nederland vermeld,
+Zo blijven Dichters in gedachtenis verheven
+Door u, en gij met hun voor ’t oog der waereld leven.
+Philalethes (1771), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 229-231.""" .
 
     <http://www.schrijverskabinet.nl/portret/johan-van-den-broucke/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-van-den-broucke> .
@@ -1433,13 +2233,39 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-cools> .
 
     <http://www.schrijverskabinet.nl/portret/johannes-haverkamp/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-haverkamp> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-haverkamp> ;
+        schema:text """Op het Afbeeldzel van den heere Johannes Haverkamp. 
+Dus trof Apelles Zoon, het werktuig van ’t verstant,
+Dat ’t Lands geschichten maalt op een volmaakten trant;
+Uitheemsche volken, in hun zege en ongelukken,
+Uit ’s Waerelds donkere eeuw in onzen dag kan rukken;
+Waar aan de dappre Zweed oneindig is verpligt,
+Daar ’t zyne Koningen een eeuwige eerzuil sticht;
+Terwyl ons Schouwtooneel dat oor en ziel kan treffen,
+Zyn Dichttaffreelen tot den Hemel moet verheffen:
+Wie is dat groot vernuft, door omtrek niet bepaalt?
+’t Is Haverkamp, die hier in ’t koor der Dichtren praalt.
+Jan de Marre (1737). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 140.""" .
 
     <http://www.schrijverskabinet.nl/portret/johannes-le-francq-van-berkhey/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-le-francq-van-berkhey> .
 
     <http://www.schrijverskabinet.nl/portret/johannes-meursius/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-meursius> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-meursius> ;
+        schema:text """Dat ik uw Voorhoofd kuss, myn Leydsman naar Athene .
+Heb ik zoo lang verzuymdt te melden uwen Naam
+In ’t Panpoëticon, zoo Lofryk door de Faam,
+‘k Zal u, zelfs van de wieg, myn schuldigheyd betalen.
+‘k Laat dan, wien ’t lusten mag, Hoogdravend op te halen
+Een hoogen Adeldom, en herkomste uyt een Stad,
+Ik zoek myn Meursius, daar hy zyn oirsprong had,
+Slegts uyt een Schamel Dorp in Holland opgeschooten,
+Om ’t Wonder van zyn Geest onsterflyk te vergrooten;
+[…]
+[Mijn Meursius] Die al de Duysternis der Grieken.
+Waar voor alle Arenden, door ’t slepen van hun wieken,
+Betuygden blind te zyn, heldagend heeft verligt…
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 7.""" .
 
     <http://www.schrijverskabinet.nl/portret/johannes-polyander-kerckhoven/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-polyander-kerckhoven> .
@@ -1451,7 +2277,8 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-stalpart-van-der-wiel> .
 
     <http://www.schrijverskabinet.nl/portret/johannes-van-braam/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-van-braam> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-van-braam> ;
+        schema:text "Op de Afbeelding van den heere Joannes van Braam." .
 
     <http://www.schrijverskabinet.nl/portret/johannes-van-spaen/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-van-spaen> .
@@ -1460,7 +2287,14 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joos-lambrechts> .
 
     <http://www.schrijverskabinet.nl/portret/joost-van-den-vondel/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-den-vondel> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-den-vondel> ;
+        schema:text """Dit ’s Vondel, d’ Aertspoëet, de Fenix van zijn’ tijdt;
+De fiere Rijnzwaan; ’t licht van Neêrlandts Hooftpoëten;
+Met Pallas brein bezielt, van Febus geest bezeten;
+De Dichtkunst heeft zijn’ Naam aan d’eeuwigheid gewijdt.
+Spaar ’t schittrend diamant om dezen Heldt te sieren;
+Want Febus schonk Hem zelf zijn heilige Laurieren.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 173.""" .
 
     <http://www.schrijverskabinet.nl/portret/joost-van-geel/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-geel> .
@@ -1487,7 +2321,19 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/katharina-lescailje> .
 
     <http://www.schrijverskabinet.nl/portret/kornelis-boon-engelant/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornelis-boon-van-engelant> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornelis-boon-van-engelant> ;
+        schema:text """Op het Afbeeldzel van den heere Kornelis Boon van Engelant. 
+Wat Deftigheid! wat zwier! wat onbepaalt vermogen
+Vertoond zich in den schets van Boon van Engelant!
+Het vuur der Dichtkunst, dat uit de edele oogen brand,
+Straalt als een heldre Baak de Dichtren in hunne oogen!
+De Merwe, roem vry op zyn Maro, grootsch van stof,
+De Vecht, de Vliet, de Schie, de Rotte, en ’t kielryk Ye,
+Al schoolen van de kunst! op Helden die hun lof,
+En naam vereeuwigden door edle Poëzye;
+De gryze Maas, zo wel beroemd als deze fes,
+Lauwriert de schrandre kruin van dezen Sofokles.
+Jan de Marre (1737). Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 139.""" .
 
     <http://www.schrijverskabinet.nl/portret/kornelis-van-arkel/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornelis-van-arkel> .
@@ -1499,13 +2345,28 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laevinus-torrentius> .
 
     <http://www.schrijverskabinet.nl/portret/lambert-bidloo/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-bidloo> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-bidloo> ;
+        schema:text """Aan Lambert Bidloo (fragment).
+Zo rent gy schrandre man door alle letterperken,
+Vaar voort, de prys hangt op, voor uw doorluchte werken,
+Een prys van grooter nut, voor die het recht waardeert,
+Als naa ’t Olimphiesch spel den helden wierd vereerd.
+Pieter Langendijk (1751),  De gedichten, deel 3, 131.""" .
 
     <http://www.schrijverskabinet.nl/portret/lambert-paludanus-van-den-broek/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lambert-paludanus-van-den-broek> .
 
     <http://www.schrijverskabinet.nl/portret/laurens-bake/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-bake> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-bake> ;
+        schema:text """Op de afbeelding van den heere Laurens Bake,
+Heere van Wulverhorst enz. enz.
+Dit’s Baak, der Dichtren Baak, die van Gods geest bezeten,
+Door onnavolgbre Poëzij,
+Op ’t heilig woord geschoeid, den Grootvorst der Poëeten
+In kracht en schoonheid streeft voorbij.
+Wat eerkroon voegt’s Mans hoofd, om ’t naar waardij te sieren?
+Een krans van eeuwige Lauwrieren.
+Lambert van den Broek (1736), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 129.""" .
 
     <http://www.schrijverskabinet.nl/portret/laurens-janszoon-coster/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/laurens-janszoon-coster> .
@@ -1519,9 +2380,6 @@
     <http://www.schrijverskabinet.nl/portret/leonard-de-fuyter/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/leonard-de-fuyter> .
 
-    <http://www.schrijverskabinet.nl/portret/lucas-pater/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-pater> .
-
     <http://www.schrijverskabinet.nl/portret/lucas-trip/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-trip> .
 
@@ -1530,6 +2388,17 @@
 
     <http://www.schrijverskabinet.nl/portret/ludolph-smids/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ludolph-smids> .
+
+    <http://www.schrijverskabinet.nl/portret/lukas-pater/> a schema:CreativeWork ;
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-pater> ;
+        schema:text """Weêrklank ter afbeeldinge van den heere Lucas Pater.
+Dit ’s Pater, die al vroeg, door zuivre Poëzy
+In Gracchus dood zyn’ naam beroemd maakt aan het Y.
+Apol, schoon uwe gunst mij ook ten Zangberg noodde
+’t Is vruchtloos; ‘k zie de kiel van myne hoop gestrand:
+Die Zoon verkrygt den prys, tot eer van Amstelland,
+En siert het Dichtrenkoor van Kunstmeceen de Roode.
+Jan de Marre (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 79.""" .
 
     <http://www.schrijverskabinet.nl/portret/lukas-rotgans/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-rotgans> .
@@ -1550,10 +2419,35 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martinus-hamconius> .
 
     <http://www.schrijverskabinet.nl/portret/matthaeus-brouerius-van-nidek/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-brouerius-van-nidek> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-brouerius-van-nidek> ;
+        schema:text """Brouërius! gij hebt door kloek, door naarstig slooven,
+‘Aaloude dingen, haast verlooren, weêr hersteld.
+Geen werk viel u te zwaar. Gij kwaamt het al te boven,
+En droegt in ’t letterperk u als een wakker held.
+Gij weet een’ grooten schat van zaaken op te zoeken.
+Van ouds, van nieus, van daar noch nooit om is gedacht.
+Na honderd jaaren, zal ’t sieraad der woordenboeken
+Getuigen van uw’ naam, en uw beroemd geslacht.
+Dat niets uw’ lof verdoov’, die, met het puik der tongen
+Het goed en ’t kwaad der Tong, doorluchtig hebt gezongen.
+Philip Zweerts (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 67.""" .
 
     <http://www.schrijverskabinet.nl/portret/mattheus-gansneb-tengnagel/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-gansneb-tengnagel> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/mattheus-gansneb-tengnagel> ;
+        schema:text """Maar welk een Eerlyk oor is duld’lyk in Tengnagel
+Te hooren dat zoo vuyl uytgieten van Jan Hagel!
+Men noemde een aartigheyd van Vinding, Digter-gril,
+Dat hy het heymelykst der Sluyk-Min straffen wil.
+Men ziet zyn Maneschyn dus gunstig door de ving’ren,
+Bordeelen in, en uyt, als huys-genoot doorsling’ren
+En ’t geen ‘er omgaat, met der Hoeren monster-rol,
+Naam-kundigen op te doen, als afgesloofde Pol,
+En Opper Roffiaan, naneef van Juvenalis.
+En meer gelyk te zyn den vuyl-bek Martialis,
+Als Zedenmeester, met wiens mantel ook dit paar
+Bedekken wilde ’t vuylst der woorden, en gebaar
+Van ’t Roomsche Hoerendom.
+Lambert Bidloo (1720), Panpoëticon Batavum, boek 16.""" .
 
     <http://www.schrijverskabinet.nl/portret/matthijs-balen/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/matthijs-balen> .
@@ -1577,7 +2471,15 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-simon-van-winter> .
 
     <http://www.schrijverskabinet.nl/portret/nicolaas-versteeg/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-versteeg> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-versteeg> ;
+        schema:text """Op de afbeelding van mynen kunstgenoot den heer Nikolaes Versteeg.
+Al slooft, en slaeft, en draeft Versteeg, schier al den dag,
+Ten dienst der koopmanschap, met yverende zinnen,
+Vergeet hy echter niet den dienst der Zanggodinnen,
+Maer leeft, wanneer ’t zyn geest, in rust, gebeuren mag
+In maetgezang den lof der Dichtkunst uit te meten,
+Des prykt zyn beeltenis in ’t midden der Poëten.
+Lucas Pater (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 164.""" .
 
     <http://www.schrijverskabinet.nl/portret/nicolaus-gradius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaus-grudius> .
@@ -1610,13 +2512,43 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-datheen> .
 
     <http://www.schrijverskabinet.nl/portret/petrus-francius/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-francius> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-francius> ;
+        schema:text """Op de Afbeelding van den heere Petrus Francius,
+Hoogleeraar in de historien, welsprekentheit en Grieksche tale, in de doorluchtige schole te Amsterdam. 
+Dus heeft de Schilderkunst ons Francius vertoont:
+Maar niet zijn Hemelsch brein; zoo als ‘t, met zeelaurieren,
+Den grootsten Waterheldt, de Ruiter, heeft gekroont,
+En trotsch aan d’ eeuwigheit gewijdt op zijn papieren.
+Dit is de Fenix der welsprekentheit aan ’t IJ,
+’t Sieraat der eedle Roomsche, en Grieksche Poëzij.
+Joan Vermeulen (1739), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 37.""" .
 
     <http://www.schrijverskabinet.nl/portret/petrus-johannes-kasteleijn/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-johannes-kasteleijn> .
 
     <http://www.schrijverskabinet.nl/portret/petrus-paulus-rubens/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-paulus-rubens> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-paulus-rubens> ;
+        schema:text """Wie isser oyt gheweest van over hondert jaeren
+Die soo in d’edel Const van teeck’nen was ervaren?
+En in Poëtery, jae alderhande tael
+In’t leven ende spraeck hy wist het altemael.
+Hoe wonder wist hy niet van als te inventeren
+Een schat-kist voor de jeucht om jevrich naer te leeren:
+Hoe wonder heeft hy niet het licht van sijn verstandt
+Ontsteken aen t’pinceel van Titiaen in brandt.
+Hy was in sin soo fray in groot en cleyn figuren
+In Landtschap heel plaisant, wist alles uyt te vueren.
+Gaet naer’t Escoriael in Spanien vermaert
+Daer heeft sijn cloeck verstant het merck der Const ghebaert.
+Hoe menich geestich quant can sijn verstant verscherpen
+Als hy sijn Conste siet in d’edel stadt Antwerpen
+In ons Lieffvrouwen Kerck, een recht Const Cabinet
+Daer heeft hy menich stuck van sijn pinceel gheset.
+Tot Brussel, Mechelen, tot Gendt en ander steden
+Iae in Italien wordt sijn Schildry beleden
+Te wesen d’uyterste dat naer het leven treckt
+Die door de Edel Const het leven schier ontdeckt.
+Cornelis de Bie (1662), Het gulden cabinet van de edel vry schilderconst.""" .
 
     <http://www.schrijverskabinet.nl/portret/petrus-schaak/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petrus-schaak> .
@@ -1631,7 +2563,8 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philip-malfait> .
 
     <http://www.schrijverskabinet.nl/portret/philip-sweerts/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philip-sweerts> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philip-sweerts> ;
+        schema:text "Op de afbeelding van den heere Philip Zweerts." .
 
     <http://www.schrijverskabinet.nl/portret/philippus-dorville/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/philippus-dorville> .
@@ -1643,31 +2576,168 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pierius-winsemius> .
 
     <http://www.schrijverskabinet.nl/portret/pieter-boddaert/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-boddaert> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-boddaert> ;
+        schema:text """Op het afbeeldsel van den welëdelen heere,
+Den heere Mr. Pieter Boddaert Cornelisz.
+Griffier des edelmogenden leenhofs van vlaanderen, en zeeraads in zeeland. 
+Wie Boddaert kennen wil, den schranderen Griffier,
+Beschouwe in dit tafreel de trekken van zyn weezen:
+De Godsvrucht kroont zyn hoofd met heiligen lauwrier,
+Terwyl ’s Mans eedle deugd in Zeeland word geprezen.
+Zyn Zangster, die altoos een lust der Christnen was,
+Koos David tot Apol, en Sion tot Parnas.
+Lukas Pater (1736), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 122.""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-bor/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-bor> .
 
     <http://www.schrijverskabinet.nl/portret/pieter-burman/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-burman> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-burman> ;
+        schema:text """Op de Afbeeldingen van eenige Nederlandsche dichteren, 
+Als van de Heeren: Pieter Burman. 
+De groote Burman, wiens bekwaamheid in ’t welspreeken
+Vermaard is overal daar wijsheid wordt bemind,
+Zingt als een Orfeus of Arion, onbezweeken:
+Dees, Pallas wakkre Zoon! is ook den Muzen vrind.
+Men leere uit dit gezicht, vol viers, ’t verstandig peinzen.
+O hooggeleerde geest! dat u de Schilder maal’
+Daar Van der Doezen, daar de Groot, geleerde Heinzen,
+En Vossen zich in verf vertoonen op metaal.
+Want waarom zoude uw beeld niet bij hun beelden pronken?
+Daar reeds de faam hunn’ roem ook heeft u geschonken.
+Anoniem, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 63.""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-cornelisz-hooft/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-cornelisz-hooft> ;
+        schema:text """Dus ziet men Hooft, het hooft der schryvers en Poëeten:
+Maar ’t oordeel, ryk van geest, wordt door hem zelf gemaalt.
+Apols vernuft is door Apels niet af te meeten.
+Staat-nutte schranderheidt wordt door geen verf bepaalt.
+Zyn geesten vliegen op de vleugels van zyn pennen,
+En baanen hem een spoor, om naar ’t gestarnt te gaan.
+De wyzen kan men best aan hunne schriften kennen.
+Zoo ziet men Tacitus en Maro in zyn blaân.
+Men hoeft het hooft van Hooft met geen laurier te naadren.
+De schoonste praalkrans wordt gevlecht van schrandre blaadren.
+Jan Vos (1662), `Den Eed. Gestr. Heer P. Kornelisz. Hooft, Ridder, Drost van Muide, Baljuw van Gooilandt, &c. Door Sandrart geschildert.’ In: Vos, Alle de gedichten I.""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-de-groot/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-de-groot> .
 
     <http://www.schrijverskabinet.nl/portret/pieter-hogerbeets/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-hogerbeets> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-hogerbeets> ;
+        schema:text """Beter weynich en goet:
+Dan snood in overvloet.
+(motto voorafgaand aan de Nederlandse gedichten van Pieter Hogerbeets)""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-la-rue/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-de-la-rue> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-de-la-rue> ;
+        schema:text """Aan den Heere Michiel de Roode.
+By gelegenheid dat ik my op zyn aanhoudend verzoek, ter vermeerdering van zyn Pan Poëticon, 
+Door den wakkeren Portraitschilder J.M. Quinkhard in het klein liet schilderen. 
+Waarheen vervoert u d’overmaat
+Van onverdiende gunst’,
+De Roode! om Quinkhards kunst
+Te laaten treffen myn gelaat,
+En dat te plaatsen by
+Uw’ Neêrlands Digterry:
+Die Digterry in vroeger’ tyd,
+’t Werk van Van Halens hand,
+Dog nu in beter’ stand
+Gebragt, en veel vermeerd door vlyt
+En kosten, die gy mild
+Daar aan besteeden wilt?
+Gy drongt, met vriendelyken dwang,
+Slechts op ’t gezicht belust,
+My, ganschlyk onbewust
+Van ’t oogmerk, dat ge reeds voorlang
+Genomen hadt, om my
+Te zien in schildery.
+Ik had (gy weet het uit myn’ mond)
+Nooit lust, dat ik in prent
+By yder wierd bekend,
+En veil dus voor elks oogen stond;
+Schoon iemand heuschlyk dat
+My aangeboden had.
+Dog wie kon zulk een’ dwang weêrstaan,
+Wie had zoo hard een’ borst
+Dat hy vlak weigren dorst
+Een’ eereblyk, hem aangedaan,
+Door ’t plaatsen by de bloem
+Der Dichtren, hoogst in roem?
+Uw kabinet houd hen bedekt
+Voor ’t oog van ’t wust gemeen;
+Maar toont hen aan elkeen’
+Die, door een’ zugt tot kunst gewekt,
+Veel’ Mannen, groot van naam,
+Daar ziet gebragt te saam’.
+Hoofddigters van den eersten bloei
+Der Digtkunst’ vind men hier:
+Men vind ‘er, wier papier
+Haar toont in een’ volmaakten groei,
+Sint Hoofts en Vondels tyd,
+Op ’t cierlyxt uitgedyd.
+Die vrugtbaarheid houd nog steeds aan,
+En zweeft en leeft, vol glans,
+In Huydecoper thans,
+In Feitama (wiens spelen slaan
+d’ Aeloudheid naar de kroon)
+In Hoogvliet, Schim en Boon.
+De besten van verscheiden aart,
+Daar Neêrland roem op draagt,
+Wie stof en toon behaagt,
+In ’t nette schryn byéén geschaard,
+Verquikken hier ’t gezigt
+Door verwe, als ’t oor door digt.
+Wat toonde Roomes pantheon?
+Verdigtsels, anders niet.
+’t Zyn wezens, die men ziet
+In Amstels Pan Poëticon.
+Wie kiest dan niet dit zyn
+Voor dien versierden schyn?
+Beroemde Geesten aan het Y,
+Aan Rhyn, of Maas, of Scheld’
+Hoe is ‘t, dat gy vergeldt,
+Naar heur verdiensten en waardy,
+De Roodes milde gunst
+Ter eere van de kunst?
+De meesten queeten in hunn’ pligt
+Zig, yder reeds om ’t beste;
+Dies koome ik ook op ’t lest
+En offer u myn dankgedigt:
+Want zulk een’ Letterkroon
+Agt gy den liefsten loon.
+De vader Bidloo had voorheen
+Vereerd Van Halens vlyt;
+Maar, in veel korter tyd,
+Ziet gy alreeds, hoe meenigéén
+Der braafste Digtren stof
+Verschaft heeft tot uw’ lof.
+Verheug u nog, De Roode, lang,
+In het bespieglen van
+Uw fraai vermeerderd Pan,
+En in verscheiden lofgezang,
+Dat menige edle veêr
+Gesteld heeft u ter eer.
+Pieter de la Ruë (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 94-98.""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-langendijk/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-langendijk> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-langendijk> ;
+        schema:text """ô Langendijk! die uwen zangberg hebt aan ’t Sparen,
+Dat zo veel Dichters plag te kweeken aan zijn’ room,
+Wanneer gij in den Hout beweegt uw zachte snaaren,
+Zingt dan de nachtegaal niet schooner in den boom?
+Gij vloeit, gelijk een beek, langs veld en boterweijen.
+Uw lof praalt als de zon die op de duinen blinkt.
+Wanneer gij boert, en jokt, verdient gij groene meijen;
+Dan gaat den Schouwburg aan: dan lacht men dat het klinkt.
+ô Langendijk! die u vermaakt in ’s Landskronijken,
+Uw Trouw en liefde tot de kunst, moet altoos blijken. 
+Philip Zweerts, Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 66.""" .
 
     <http://www.schrijverskabinet.nl/portret/pieter-le-clercq/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-le-clercq> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-le-clercq> ;
+        schema:text "Op de Afbeelding van den heere Pieter le Clercq." .
 
     <http://www.schrijverskabinet.nl/portret/pieter-leonard-van-de-kasteele/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leonard-van-de-kasteele> .
@@ -1697,7 +2767,18 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-vreede> .
 
     <http://www.schrijverskabinet.nl/portret/regeer-anslo/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/reyer-anslo> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/reyer-anslo> ;
+        schema:text """’t Gevalt myn Digt-lust, hier den Lands-lien op te dragen
+Een Man, die in den Styl van Vaarssen onzer dagen
+Zoo min berisp’lyk is, dat, buyten Vittery,
+En Spinne-Vuyligheyd, op zyne Poësy
+Digt-kondig Onderzoek, hoe fyn, hoe scharp, kan smalen,
+Of door Bet-wetery ten opspraak afterhalen.
+‘k Meen Ansloo , wiens Gedigt , van ’t bloeien myner Jeugd,
+Als dat van Zuylichem tot heden my geheugdt,
+En des verdienstig, door myn dank’bre pligt verschuldigt,
+Het Panpoëticon te werden in gehuldigdt.
+Bidloo (1720), Panpoëticon Batavum, 127.""" .
 
     <http://www.schrijverskabinet.nl/portret/reinier-neuhusius/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/reinier-neuhusius> .
@@ -1733,7 +2814,15 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sibylle-van-griethuysen> .
 
     <http://www.schrijverskabinet.nl/portret/sijbrand-feitama/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sijbrand-feitama> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sijbrand-feitama> ;
+        schema:text """Op het Afbeeldsel van den heere Sybrand Feitama. 
+Hierzietge, Aanschouwers! een’ van Febus grootste Zoonen,
+Den schrandren Feitama, die door verrukkend Dicht
+En eedle Treurstof, zich een zuil op Pindus sticht,
+Alwaar de Muzen hem met veil en Lauwren kroonen.
+Men eer’ de Beeldtenis van Neêrlands Fenelon,
+Door Quinkhards hand gemaald in ‘t Pan-Poëticon. 
+Lucas Pater (1733), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 37.""" .
 
     <http://www.schrijverskabinet.nl/portret/simon-abbes-gabbema/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-abbes-gabbema> .
@@ -1784,7 +2873,44 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-baudart> .
 
     <http://www.schrijverskabinet.nl/portret/willem-bilderdijk/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-bilderdijk> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-bilderdijk> ;
+        schema:text """Aan de bestuurders van het Taal- en Dichtlievend genootschap 
+Ter spreuke voerende:
+“Kunst wordt door arbeid Verkregen;” 
+By ’t plaatsen van mijne afbeelding in het Pan Poëticon Batavum. 
+Zo wort dan ook mijn beeld by Nederlands Homeeren,
+Den roem van ’t vaderland en ’t siersel van hunn’ tijd,
+Wier namen, kunde en smaak, met diep ontzach vereeren,
+Het staatlijk tempelchoor der glorie ingewijd! –
+Kan ’t zijn; of heeft me een waan, een ijdle droom bevangen?
+Meceenen! wijst me uw keur zoo groot een voorrecht toe,
+En breekt mijn tong niet los in dankbre vreugdezangen?
+Is ’t mooglijk, dat mijn drift niet aan mijn’ plicht voldoe!
+Helaas! ontroerd, verward, verbijsterd, opgetogen,
+Verrukt, door zoo veel eer, mijn vroege jeugd vergond,
+Ontbreekt d’ ontroerden geest het staamlend spraakvermogen;
+’t Erkentlijk hart welt op; maar de aandrift sluit den mond.
+Een zedig zwijgen smeekt uw heuschheid slechts verschooning
+Voor d’ ingetogen’ schroom met mijn geringe kunst;
+Bekommerd, dat wellicht haar dorre plichtbetooning,
+U-zelv’ mocht blozen doen om ’t voorwerp van uw gunst.
+Want hoe vermat ze zich, met weidsche dichtsieraden,
+Of trotschen woordentooi, u onder ’t oog te treên;
+Die nooit, dan in den schaaûw van uwe lauwerbladen
+Dan onder uw geleide, in ’t licht des daags verscheen?
+U, welker naam en roem haar dichtgebreken dekken!
+Wier lofspraak, haar verkwist door uw grootmoedigheid,
+Wier gunst en eergeschenk, haar voor verdiensten strekken,
+Waarmeê heur eigen waan haar-zelv het hart niet vleit!
+Hoe dan, hoe waar ze in staat, een dankbewijs te geven,
+En u, en de eereplaats, haar toegewezen, waard?
+Of zou ze in ’t openbaar uw aller stem weêrstreven?
+Die valsche nedrigheid verried een’ trotschen aart:
+Zy zwijgt dan, en ontfangt, doch schaamrood en verslagen,
+Al de eer, waarmede uw hand haar schedle overstort:
+Maar gy, by zoo veel gunst, haar zwakheid toegedragen,
+Leert haar, op welk een wijs zy ze eenmaal waardig word’!
+Willem Bilderdijk (1779), Verspreide gedichten II, 178.""" .
 
     <http://www.schrijverskabinet.nl/portret/willem-de-groot/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-de-groot> .
@@ -1796,13 +2922,22 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-goeree> .
 
     <http://www.schrijverskabinet.nl/portret/willem-ogier/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-ogier> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-ogier> ;
+        schema:text """Brabandsche Poësy gewoon werd uytgejouwd,
+Maar gy, bezoek Ogiers, zoo gy my iets betrouwd;
+Die, in zyn taal, en styl, en zedelyke Bloemen,
+Meer Amsterdammer, als Antwerper, is te noemen
+By wien niets ergelyk voor ’t allertederst oor,
+In straf van ’t vuylste quaad der zonden komt te voor,
+Waarom zyn Beeltenis, als waardig Neêrlands Digter,
+In ’t Pan-Poëticon geëerd werd door den Stigter.
+Lambert Bidloo, Panpoëticon Batavûm, 1720, 184.""" .
 
     <http://www.schrijverskabinet.nl/portret/willem-op-den-hooff/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-op-den-hooff> .
 
     <http://www.schrijverskabinet.nl/portret/willem-spiering/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiering> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiring> .
 
     <http://www.schrijverskabinet.nl/portret/willem-van-der-borcht/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-borcht> .
@@ -1811,7 +2946,18 @@
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-hoeven> .
 
     <http://www.schrijverskabinet.nl/portret/willem-van-der-pot/> a schema:CreativeWork ;
-        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-pot> .
+        schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-pot> ;
+        schema:text """De zilvren Maasstroom danst wanneer hij u hoort zingen,
+O Van der Pot! en zet zijn gretige ooren schrap,
+Uw stad prijst niet alleen de drie paar lievelingen
+Van Febus, al wat speelt roemt ook het Broederschap.
+Dat, door Natuur, de Kunst weet kracht en vuur te geeven.
+Het broederschap, daar gij een waardig lid van zijt!
+Dat, door een zuivre drift, en edle zucht gedreeven,
+De Dichtkunst niet onteert door jaloezij, of nijd.
+Uw lof bloeie onverwelkt, ô braave Kunstgenooten!
+De gansche Zangberg blijve als gij in een geslooten.
+Philip Zweerts (1735), Arnoud van Halen’s Pan Poëticon Batavûm verheerlijkt, 69.""" .
 
     <http://www.schrijverskabinet.nl/portret/willem-van-heemskerk/> a schema:CreativeWork ;
         schema:mainEntity <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-heemskerk> .
@@ -1852,6 +2998,16 @@
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bacot-RP-P-OB-62.769-2.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/101> a schema:VisualArtwork ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-outhof> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
+        schema:name "Portret van Gerard Outhof"@nl ;
+        schema:publication [ a schema:PublicationEvent ;
+                sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
+                sem:hasLatestEndTimeStamp "1732-12-31"^^xsd:date ] ;
+        schema:temporal "1700 – 1732"@nl ;
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Outhof.jpg> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/102> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-van-loon> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Gerard van Loon"@nl ;
@@ -1860,16 +3016,6 @@
                 sem:hasLatestEndTimeStamp "1734-12-31"^^xsd:date ] ;
         schema:temporal "1732 – 1734"@nl ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Loon-gerard-van-1.jpg> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/102> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-outhof> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
-        schema:name "Portret van Gerardus Outhof"@nl ;
-        schema:publication [ a schema:PublicationEvent ;
-                sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
-                sem:hasLatestEndTimeStamp "1732-12-31"^^xsd:date ] ;
-        schema:temporal "1700 – 1732"@nl ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Outhof.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/103> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-vossius> ;
@@ -3390,20 +4536,9 @@
                 sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
                 sem:hasLatestEndTimeStamp "1720-12-31"^^xsd:date ] ;
         schema:temporal "1700 – 1720"@nl ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Anna-Roemer-Visscher-1.jpg> .
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Anna-Roemer-Visscher_klein.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/240> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-pater> ;
-        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
-        schema:name "Portret van Lucas Pater"@nl ;
-        schema:publication [ a schema:PublicationEvent ;
-                sem:hasEarliestBeginTimeStamp "1732-01-01"^^xsd:date ;
-                sem:hasLatestEndTimeStamp "1735-12-31"^^xsd:date ] ;
-        schema:temporal "1732 – 1735"@nl ;
-        owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.5002> ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Pater-1.jpg> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/241> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-trip> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-reyers> ;
         schema:name "Portret van Lucas Trip"@nl ;
@@ -3413,7 +4548,7 @@
         schema:temporal "1782"@nl ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Trip-1.jpg> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/242> a schema:VisualArtwork ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/241> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucretia-wilhelmina-van-merken> ;
         schema:artist [ a schema:Person ;
                 schema:name "Onbekend" ] ;
@@ -3424,7 +4559,7 @@
         schema:temporal "1792"@nl ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Merken-1.jpg> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/243> a schema:VisualArtwork ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/242> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ludolph-smids> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
         schema:name "Portret van Ludolph Smids"@nl ;
@@ -3433,6 +4568,17 @@
                 sem:hasLatestEndTimeStamp "1720-12-31"^^xsd:date ] ;
         schema:temporal "1700 – 1720"@nl ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Smids-1.jpg> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/243> a schema:VisualArtwork ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-pater> ;
+        schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
+        schema:name "Portret van Lukas Pater"@nl ;
+        schema:publication [ a schema:PublicationEvent ;
+                sem:hasEarliestBeginTimeStamp "1732-01-01"^^xsd:date ;
+                sem:hasLatestEndTimeStamp "1735-12-31"^^xsd:date ] ;
+        schema:temporal "1732 – 1735"@nl ;
+        owl:sameAs <http://hdl.handle.net/10934/RM0001.COLLECT.5002> ;
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Pater-1.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/244> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-rotgans> ;
@@ -4236,9 +5382,9 @@
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-maurits-quinkhard> ;
         schema:name "Portret van Simon Doekes"@nl ;
         schema:publication [ a schema:PublicationEvent ;
-                sem:hasEarliestBeginTimeStamp "1732-01-01"^^xsd:date ;
-                sem:hasLatestEndTimeStamp "1771-12-31"^^xsd:date ] ;
-        schema:temporal "1732 – 1771"@nl .
+                sem:hasEarliestBeginTimeStamp "1738-01-01"^^xsd:date ;
+                sem:hasLatestEndTimeStamp "1738-12-31"^^xsd:date ] ;
+        schema:temporal "1738"@nl .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/316> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-eikelenberg> ;
@@ -4403,7 +5549,7 @@
                 sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
                 sem:hasLatestEndTimeStamp "1732-12-31"^^xsd:date ] ;
         schema:temporal "1700 – 1732"@nl ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Miraeus-1.jpg> .
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Miraeus_Klein.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/330> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-g-van-focquenbroch> ;
@@ -4448,9 +5594,9 @@
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Op-den-Hooff-1.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/334> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiering> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiring> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
-        schema:name "Portret van Willem Spiering"@nl ;
+        schema:name "Portret van Willem Spiring"@nl ;
         schema:publication [ a schema:PublicationEvent ;
                 sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
                 sem:hasLatestEndTimeStamp "1732-12-31"^^xsd:date ] ;
@@ -4558,7 +5704,7 @@
                 sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
                 sem:hasLatestEndTimeStamp "1720-12-31"^^xsd:date ] ;
         schema:temporal "1700 – 1720"@nl ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vulcanius-b.jpg> .
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Vulcanis.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/39> a schema:VisualArtwork ;
         schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/brouerius-broes> ;
@@ -4973,9 +6119,9 @@
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Coornhert.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/76> a schema:VisualArtwork ;
-        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> ;
+        schema:about <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-disselburg> ;
         schema:artist <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-van-halen> ;
-        schema:name "Portret van Dirk Adriaansz. van Distelburg"@nl ;
+        schema:name "Portret van Dirk Adriaansz. van Disselburg"@nl ;
         schema:publication [ a schema:PublicationEvent ;
                 sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date ;
                 sem:hasLatestEndTimeStamp "1732-12-31"^^xsd:date ] ;
@@ -5298,6 +6444,9 @@
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma> a schema:Person ;
         schema:name "Marijke Tolsma" .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marleen-de-vries> a schema:Person ;
+        schema:name "Marleen de Vries" .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans> a schema:Person ;
         schema:name "Marrigje Paijmans" .
 
@@ -5333,6 +6482,9 @@
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sophie-reinders> a schema:Person ;
         schema:name "Sophie Reinders" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/steven-van-impe> a schema:Person ;
+        schema:name "Steven Van Impe" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen> a schema:Person ;
         schema:name "Ton Harmsen" .
@@ -5385,7 +6537,7 @@
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/adam-sasbout/> ;
         schema:name "Adam Sasbout" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/5> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/sasb002> .
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/sasb003> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/adriaan-pars> a schema:Person ;
         schema:birthDate "1641"^^xsd:gYear ;
@@ -5520,17 +6672,6 @@
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser> a schema:Person ;
         schema:name "Arnoud Visser" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aubertus-miraeus> a schema:Person ;
-        schema:birthDate "1573"^^xsd:gYear ;
-        schema:birthPlace _:brussel ;
-        schema:deathDate "1640"^^xsd:gYear ;
-        schema:deathPlace _:brussel ;
-        schema:disambiguatingDescription "Kapelaan, bibliothecaris en geschiedschrijver" ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hubertus-miraeus/> ;
-        schema:name "Aubertus Miraeus" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/33> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/mira001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthasar-bekker> a schema:Person ;
         schema:birthDate "1634"^^xsd:gYear ;
@@ -5819,11 +6960,12 @@
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/74> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/pers001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-distelburg> a schema:Person ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-adriaansz-van-disselburg> a schema:Person ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/dirk-adriaansz-van-distelburg/> ;
-        schema:name "Dirk Adriaansz. van Distelburg" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/76> .
+        schema:name "Dirk Adriaansz. van Disselburg" ;
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/76> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/diss001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/edo-neuhusius> a schema:Person ;
         schema:birthDate "1581"^^xsd:gYear ;
@@ -5881,7 +7023,8 @@
         schema:disambiguatingDescription "Onbekend" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/francois-snelling/> ;
         schema:name "François Snelling" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/90> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/90> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/snel005> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-blom> a schema:Person ;
         schema:name "Frans Blom" .
@@ -5955,21 +7098,8 @@
         schema:disambiguatingDescription "Geschiedschrijver, penningkundige en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/gerard-van-loon/> ;
         schema:name "Gerard van Loon" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/101> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/loon003> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-outhof> a schema:Person ;
-        schema:birthDate "1673"^^xsd:gYear ;
-        schema:birthPlace _:amsterdam ;
-        schema:deathDate "1733"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Kampen" ] ;
-        schema:disambiguatingDescription "Predikant en rector te Kampen " ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/gerardus-outhof/> ;
-        schema:name "Gerardus Outhof" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/102> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/outh001> ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Outhof-1.jpg> .
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/loon003> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerardus-vossius> a schema:Person ;
         schema:birthDate "1557"^^xsd:gYear ;
@@ -6046,6 +7176,7 @@
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hadrianus-marius/> ;
         schema:name "Hadrianus Marius" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/112> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/nico004> ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Marius-1.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/heiman-dullaart> a schema:Person ;
@@ -6079,18 +7210,8 @@
         schema:disambiguatingDescription "Luthers predikant en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hendricus-vos/> ;
         schema:name "Hendricus Vos" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/116> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-graauwhart> a schema:Person ;
-        schema:birthDate "1661"^^xsd:gYear ;
-        schema:birthPlace _:amsterdam ;
-        schema:deathDate "1732"^^xsd:gYear ;
-        schema:deathPlace _:amsterdam ;
-        schema:disambiguatingDescription "Diamantzetter en dichter " ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hendrik-graauwhart/> ;
-        schema:name "Hendrik Graauwhart" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/117> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/graa019> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/116> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/vos_095> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-pothoven> a schema:Person ;
         schema:name "Hendrik Pothoven" .
@@ -6152,7 +7273,8 @@
         schema:disambiguatingDescription "Schilder " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jacob-de-ryck/> ;
         schema:name "Jacob de Ryck" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/133> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/133> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/ryck040> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacob-de-witt> a schema:Person ;
         schema:birthDate "1589"^^xsd:gYear ;
@@ -6266,9 +7388,14 @@
         schema:disambiguatingDescription "Conrector van de Latijnse school te Haarlem " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jacobus-storm/> ;
         schema:name "Jacobus Storm" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/149> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/149> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/stor074> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jacques-van-musschert> a schema:Person ;
+        schema:birthDate "1700"^^xsd:gYear ;
+        schema:birthPlace _:amsterdam ;
+        schema:deathDate "1741"^^xsd:gYear ;
+        schema:deathPlace _:bloemendaal ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jacques-van-musschert/> ;
         schema:name "Jacques van Musschert" ;
@@ -6296,10 +7423,15 @@
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/cerf001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-groot> a schema:Person ;
+        schema:birthDate "1554"^^xsd:gYear ;
+        schema:birthPlace _:delft ;
+        schema:deathDate "1640"^^xsd:gYear ;
+        schema:deathPlace _:leiden ;
         schema:disambiguatingDescription "Advocaat en dichter te ’s Gravenhagen" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/jan-de-groot/> ;
         schema:name "Jan de Groot" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/153> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/153> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/groo016> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-de-marre> a schema:Person ;
         schema:birthDate "1696"^^xsd:gYear ;
@@ -6437,7 +7569,8 @@
         schema:disambiguatingDescription "Onbekend " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/j-c-wystrat/> ;
         schema:name "J.C. Wystrat" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/130> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/130> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/wyds001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeronimo-de-bosch> a schema:Person ;
         schema:birthDate "1740"^^xsd:gYear ;
@@ -6519,6 +7652,7 @@
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/joannes-van-zuren/> ;
         schema:name "Joannes van Zuren" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/199> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/zure001> ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Zurenus-2.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-de-brune> a schema:Person ;
@@ -6615,17 +7749,6 @@
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/211> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/have011> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-le-francq-van-berkhey> a schema:Person ;
-        schema:birthDate "1729"^^xsd:gYear ;
-        schema:birthPlace _:leiden ;
-        schema:deathDate "1812"^^xsd:gYear ;
-        schema:deathPlace _:denhaag ;
-        schema:disambiguatingDescription "Arts, schilder en dichter " ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johannes-le-francq-van-berkhey/> ;
-        schema:name "Johannes le Francq van Berkhey" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/212> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/fran011> .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-polyander-kerckhoven> a schema:Person ;
         schema:birthDate "1568"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
@@ -6647,7 +7770,8 @@
         schema:disambiguatingDescription "Advocaat, gezant van het Zweedse hof te ’s Gravenhage, filoloog en Neolatijns dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johannes-rutgers/> ;
         schema:name "Johannes Rutgers" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/215> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/215> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/rutg007> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-van-braam> a schema:Person ;
         schema:birthDate "1677"^^xsd:gYear ;
@@ -6668,7 +7792,8 @@
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johannes-van-spaen/> ;
         schema:name "Johannes van Spaen" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/218> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/218> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/spaa004> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joost-van-geel> a schema:Person ;
         schema:birthDate "1631"^^xsd:gYear ;
@@ -6769,18 +7894,6 @@
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/238> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/stev009> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-pater> a schema:Person ;
-        schema:birthDate "1707"^^xsd:gYear ;
-        schema:birthPlace _:amsterdam ;
-        schema:deathDate "1781"^^xsd:gYear ;
-        schema:deathPlace _:amsterdam ;
-        schema:disambiguatingDescription "Koopman en dichter" ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/lucas-pater/> ;
-        schema:name "Lucas Pater" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/240> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/pate002> ;
-        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Pater.jpg> .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lucas-trip> a schema:Person ;
         schema:birthDate "1712"^^xsd:gYear ;
         schema:birthPlace _:groningen ;
@@ -6788,7 +7901,7 @@
         schema:disambiguatingDescription "Burgemeester en dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/lucas-trip/> ;
         schema:name "Lucas Trip" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/241> ;
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/240> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/trip001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marcus-zuerius-boxhorn> a schema:Person ;
@@ -7080,17 +8193,6 @@
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/291> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/kast001> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leuter> a schema:Person ;
-        schema:birthDate "1729"^^xsd:gYear ;
-        schema:birthPlace _:rotterdam ;
-        schema:deathDate "1785"^^xsd:gYear ;
-        schema:deathPlace _:rotterdam ;
-        schema:disambiguatingDescription "Steenhouwer en dichter te Rotterdam" ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/pieter-leuter/> ;
-        schema:name "Pieter Leuter" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/292> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/leut001> .
-
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-nieuwland> a schema:Person ;
         schema:birthDate "1764"^^xsd:gYear ;
         schema:birthPlace [ a schema:Place ;
@@ -7136,7 +8238,8 @@
         schema:disambiguatingDescription "Koopman en dichter " ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/pieter-verleus/> ;
         schema:name "Pieter Verleus" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/297> .
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/297> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/verl068> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-vlaming> a schema:Person ;
         schema:birthDate "1686"^^xsd:gYear ;
@@ -7199,17 +8302,6 @@
         schema:name "Simon de Vries" ;
         schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/314> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/vrie047> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-doekes> a schema:Person ;
-        schema:birthDate "1672"^^xsd:gYear ;
-        schema:birthPlace _:emden ;
-        schema:deathDate "1755"^^xsd:gYear ;
-        schema:deathPlace _:amsterdam ;
-        schema:disambiguatingDescription "Dichter" ;
-        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/simon-doekes/> ;
-        schema:name "Simon Doekes" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/315> ;
-        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/doek001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-eikelenberg> a schema:Person ;
         schema:birthDate "1663"^^xsd:gYear ;
@@ -7338,11 +8430,15 @@
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/hoof009> ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Op-den-Hooff.jpg> .
 
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiering> a schema:Person ;
-        schema:disambiguatingDescription "Onbekend " ;
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-spiring> a schema:Person ;
+        schema:birthPlace _:utrecht ;
+        schema:deathDate "1739"^^xsd:gYear ;
+        schema:deathPlace _:amsterdam ;
+        schema:disambiguatingDescription "Vertaler" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/willem-spiering/> ;
-        schema:name "Willem Spiering" ;
-        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/334> .
+        schema:name "Willem Spiring" ;
+        schema:subjectOf <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/334> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/spie064> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/willem-van-der-borcht> a schema:Person ;
         schema:birthDate "1621"^^xsd:gYear ;
@@ -7489,8 +8585,7 @@
         schema:birthDate "1621"^^xsd:gYear ;
         schema:birthPlace _:goes ;
         schema:deathDate "1696"^^xsd:gYear ;
-        schema:deathPlace [ a schema:Place ;
-                schema:name "Bloemendaal" ] ;
+        schema:deathPlace _:bloemendaal ;
         schema:disambiguatingDescription "Dichter" ;
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/anthony-jansen/> ;
         schema:name "Anthony Janssen" ;
@@ -7535,6 +8630,18 @@
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/arnold-moonen/>,
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/30> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/moon002> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aubertus-miraeus> a schema:Person ;
+        schema:birthDate "1573"^^xsd:gYear ;
+        schema:birthPlace _:brussel ;
+        schema:deathDate "1640"^^xsd:gYear ;
+        schema:deathPlace _:brussel ;
+        schema:disambiguatingDescription "Kapelaan, bibliothecaris en geschiedschrijver" ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hubertus-miraeus/> ;
+        schema:name "Aubertus Miraeus" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/aubertus-miraeus/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/33> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/mira001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/balthazar-huydecoper> a schema:Person ;
         schema:birthDate "1695"^^xsd:gYear ;
@@ -7928,6 +9035,20 @@
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/100> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/baco001> .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerard-outhof> a schema:Person ;
+        schema:birthDate "1673"^^xsd:gYear ;
+        schema:birthPlace _:amsterdam ;
+        schema:deathDate "1733"^^xsd:gYear ;
+        schema:deathPlace [ a schema:Place ;
+                schema:name "Kampen" ] ;
+        schema:disambiguatingDescription "Predikant en rector te Kampen " ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/gerardus-outhof/> ;
+        schema:name "Gerard Outhof" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/gerard-outhof/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/101> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/outh001> ;
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Outhof-1.jpg> .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gerbrand-adriaensz-bredero> a schema:Person ;
         schema:birthDate "1585"^^xsd:gYear ;
         schema:birthPlace _:amsterdam ;
@@ -7979,6 +9100,18 @@
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/114> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/brun004> ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bruno-1.jpg> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-graauwhart> a schema:Person ;
+        schema:birthDate "1661"^^xsd:gYear ;
+        schema:birthPlace _:amsterdam ;
+        schema:deathDate "1732"^^xsd:gYear ;
+        schema:deathPlace _:amsterdam ;
+        schema:disambiguatingDescription "Diamantzetter en dichter " ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/hendrik-graauwhart/> ;
+        schema:name "Hendrik Graauwhart" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/hendrik-graauwhart/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/117> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/graa019> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hendrik-schim> a schema:Person ;
         schema:birthDate "1695"^^xsd:gYear ;
@@ -8561,6 +9694,18 @@
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/cool039> ;
         foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Cools-1.jpg> .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-le-francq-van-berkhey> a schema:Person ;
+        schema:birthDate "1729"^^xsd:gYear ;
+        schema:birthPlace _:leiden ;
+        schema:deathDate "1812"^^xsd:gYear ;
+        schema:deathPlace _:denhaag ;
+        schema:disambiguatingDescription "Arts, schilder en dichter " ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/johannes-le-francq-van-berkhey/> ;
+        schema:name "Johannes le Francq van Berkhey" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/johannes-le-francq-berkheij/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/212> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/fran011> .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johannes-meursius> a schema:Person ;
         schema:birthDate "1579"^^xsd:gYear ;
         schema:birthPlace _:loosduinen ;
@@ -8748,7 +9893,7 @@
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/lucretia-wilhelmina-van-merken/> ;
         schema:name "Lucretia Wilhelmina van Merken" ;
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/lucretia-wilhelmina-merken/>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/242> ;
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/241> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/merk001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ludolph-smids> a schema:Person ;
@@ -8760,8 +9905,21 @@
         schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/ludolph-smids/> ;
         schema:name "Ludolph Smids" ;
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/ludolph-smids/>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/243> ;
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/242> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/smid001> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-pater> a schema:Person ;
+        schema:birthDate "1707"^^xsd:gYear ;
+        schema:birthPlace _:amsterdam ;
+        schema:deathDate "1781"^^xsd:gYear ;
+        schema:deathPlace _:amsterdam ;
+        schema:disambiguatingDescription "Koopman en dichter" ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/lukas-pater/> ;
+        schema:name "Lukas Pater" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/lukas-pater/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/243> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/pate002> ;
+        foaf:depiction <http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Pater.jpg> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lukas-rotgans> a schema:Person ;
         schema:birthDate "1653"^^xsd:gYear ;
@@ -8902,9 +10060,6 @@
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/peeter-heyns/>,
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/264> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/heyn002> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> a schema:Person ;
-        schema:name "Peter Altena" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/petronella-moens> a schema:Person ;
         schema:birthDate "1762"^^xsd:gYear ;
@@ -9055,6 +10210,18 @@
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/pieter-langendijk/>,
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/289> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/lang020> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-leuter> a schema:Person ;
+        schema:birthDate "1729"^^xsd:gYear ;
+        schema:birthPlace _:rotterdam ;
+        schema:deathDate "1785"^^xsd:gYear ;
+        schema:deathPlace _:rotterdam ;
+        schema:disambiguatingDescription "Steenhouwer en dichter te Rotterdam" ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/pieter-leuter/> ;
+        schema:name "Pieter Leuter" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/pieter-leuter/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/292> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/leut001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieter-rabus> a schema:Person ;
         schema:birthDate "1660"^^xsd:gYear ;
@@ -9222,6 +10389,18 @@
         schema:subjectOf <http://www.schrijverskabinet.nl/artikel/sybrand-feitama/>,
             <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/312> ;
         owl:sameAs <http://data.bibliotheken.nl/id/dbnla/feit003> .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/simon-doekes> a schema:Person ;
+        schema:birthDate "1672"^^xsd:gYear ;
+        schema:birthPlace _:emden ;
+        schema:deathDate "1755"^^xsd:gYear ;
+        schema:deathPlace _:amsterdam ;
+        schema:disambiguatingDescription "Dichter en koopman" ;
+        schema:mainEntityOfPage <http://www.schrijverskabinet.nl/portret/simon-doekes/> ;
+        schema:name "Simon Doekes" ;
+        schema:subjectOf <http://www.schrijverskabinet.nl/artikel/simon-doekes/>,
+            <https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/315> ;
+        owl:sameAs <http://data.bibliotheken.nl/id/dbnla/doek001> .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/theodoor-rodenburg> a schema:Person ;
         schema:birthDate "1578"^^xsd:gYear ;
@@ -9391,14 +10570,14 @@
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> a schema:Person ;
         schema:name "Nina Geerdink" .
 
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> a schema:Person ;
+        schema:name "Peter Altena" .
+
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> a schema:Person ;
         schema:name "Timothy De Paepe" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/aert-schouman> a schema:Person ;
         schema:name "Aert Schouman" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> a schema:Person ;
-        schema:name "Roland de Bonth" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dionys-van-nymegen> a schema:Person ;
         schema:name "Dionys van Nymegen" .
@@ -9411,6 +10590,9 @@
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lia-van-gemert> a schema:Person ;
         schema:name "Lia van Gemert" .
+
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> a schema:Person ;
+        schema:name "Roland de Bonth" .
 
     <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicolaas-reyers> a schema:Person ;
         schema:name "Nicolaas Reyers" .
@@ -9439,6 +10621,9 @@
 
     _:bergenopzoom a schema:Place ;
         schema:name "Bergen op Zoom" .
+
+    _:bloemendaal a schema:Place ;
+        schema:name "Bloemendaal" .
 
     _:bolsward a schema:Place ;
         schema:name "Bolsward" .
@@ -9554,11 +10739,12 @@
     _:gouda a schema:Place ;
         schema:name "Gouda" .
 
-    _:utrecht a schema:Place ;
-        schema:name "Utrecht" .
-
     _:leeuwarden a schema:Place ;
         schema:name "Leeuwarden" .
+
+    _:utrecht a schema:Place ;
+        schema:name "Utrecht",
+            "Utrecht 1653" .
 
     _:delft a schema:Place ;
         schema:name "Delft" .
@@ -9590,257 +10776,5 @@
 
     _:amsterdam a schema:Place ;
         schema:name "Amsterdam" .
-}
-
-{
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/> a void:Dataset,
-            schema:Dataset ;
-        dcterms:contributor <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ad-leerintveld>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/alan-moss>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ans-veltman>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arie-jan-gelderblom>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elly-groenenboom-draai>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-blom>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geert-mak>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-rutten>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-meeus>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-waszink>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jasper-van-der-steen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-koppenol>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joris-oddens>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/karel-porteman>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kasper-van-ommen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornee-van-der-haven>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lia-van-gemert>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-meijer-drees>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martine-van-elk>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-van-duijnen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nelleke-moser>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieta-van-beek>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rene-van-stipriaan>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sophie-reinders>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sven-molenaar>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
-        dcterms:date "2020-03-25"^^xsd:datetime ;
-        dcterms:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
-
-Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
-
-In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
-
-Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (lieke.vandeinsen@kuleuven.be)."""@nl ;
-        dcterms:publisher <https://leonvanwissen.nl/me> ;
-        dcterms:source <http://www.schrijverskabinet.nl/> ;
-        void:exampleResource <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/zacharias-heyns> ;
-        void:triples 8710 ;
-        void:vocabulary schema:,
-            sem:,
-            foaf: ;
-        schema:about wd:Q17319132 ;
-        schema:creator <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen>,
-            <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> ;
-        schema:dateCreated "2020-03-25"^^xsd:datetime ;
-        schema:description """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
-
-Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
-
-In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
-
-Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (lieke.vandeinsen@kuleuven.be)."""@nl ;
-        schema:distribution [ a schema:DataDownload ;
-                schema:contentUrl <https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/0.2/data/schrijverskabinet.trig> ;
-                schema:encodingFormat "application/trig" ;
-                schema:url <https://github.com/LvanWissen/schrijverskabinet-rdf/tree/0.2/data> ;
-                schema:version "0.2" ] ;
-        schema:isBasedOn <http://www.schrijverskabinet.nl/> ;
-        schema:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
-        schema:name "Het Schrijverskabinet - Panpoëticon Batavûm"@nl ;
-        schema:url <http://www.schrijverskabinet.nl/> .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ad-leerintveld> a schema:Person ;
-        schema:name "Ad Leerintveld" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/alan-moss> a schema:Person ;
-        schema:name "Alan Moss" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/anna-de-haas> a schema:Person ;
-        schema:name "Anna de Haas" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ans-veltman> a schema:Person ;
-        schema:name "Ans Veltman" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arie-jan-gelderblom> a schema:Person ;
-        schema:name "Arie-Jan Gelderblom" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/arnoud-visser> a schema:Person ;
-        schema:name "Arnoud Visser" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/dirk-imhof> a schema:Person ;
-        schema:name "Dirk Imhof" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/elly-groenenboom-draai> a schema:Person ;
-        schema:name "Elly Groenenboom-Draai" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/els-stronks> a schema:Person ;
-        schema:name "Els Stronks" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/feike-dietz> a schema:Person ;
-        schema:name "Feike Dietz" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/frans-blom> a schema:Person ;
-        schema:name "Frans Blom" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/geert-mak> a schema:Person ;
-        schema:name "Geert Mak" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/gijsbert-rutten> a schema:Person ;
-        schema:name "Gijsbert Rutten" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/henk-looijesteijn> a schema:Person ;
-        schema:name "Henk Looijesteijn" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/hubert-meeus> a schema:Person ;
-        schema:name "Hubert Meeus" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/inger-leemans> a schema:Person ;
-        schema:name "Inger Leemans" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ivo-nieuwenhuis> a schema:Person ;
-        schema:name "Ivo Nieuwenhuis" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-noordegraaf> a schema:Person ;
-        schema:name "Jan Noordegraaf" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jan-waszink> a schema:Person ;
-        schema:name "Jan Waszink" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jasper-van-der-steen> a schema:Person ;
-        schema:name "Jasper van der Steen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/jeroen-jansen> a schema:Person ;
-        schema:name "Jeroen Jansen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johan-koppenol> a schema:Person ;
-        schema:name "Johan Koppenol" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/johanna-ferket> a schema:Person ;
-        schema:name "Johanna Ferket" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/joris-oddens> a schema:Person ;
-        schema:name "Joris Oddens" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/josephina-de-fouw> a schema:Person ;
-        schema:name "Josephina de Fouw" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/karel-porteman> a schema:Person ;
-        schema:name "Karel Porteman" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kasper-van-ommen> a schema:Person ;
-        schema:name "Kasper van Ommen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/kornee-van-der-haven> a schema:Person ;
-        schema:name "Kornee van der Haven" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lia-van-gemert> a schema:Person ;
-        schema:name "Lia van Gemert" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-meijer-drees> a schema:Person ;
-        schema:name "Marijke Meijer Drees" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marijke-tolsma> a schema:Person ;
-        schema:name "Marijke Tolsma" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/marrigje-paijmans> a schema:Person ;
-        schema:name "Marrigje Paijmans" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/martine-van-elk> a schema:Person ;
-        schema:name "Martine van Elk" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-roscam-abbing> a schema:Person ;
-        schema:name "Michiel Roscam Abbing" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/michiel-van-duijnen> a schema:Person ;
-        schema:name "Michiel van Duijnen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nelleke-moser> a schema:Person ;
-        schema:name "Nelleke Moser" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nicoline-van-der-sijs> a schema:Person ;
-        schema:name "Nicoline van der Sijs" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/nina-geerdink> a schema:Person ;
-        schema:name "Nina Geerdink" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/patrick-van-t-hof> a schema:Person ;
-        schema:name "Patrick van ‘t Hof" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/peter-altena> a schema:Person ;
-        schema:name "Peter Altena" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/pieta-van-beek> a schema:Person ;
-        schema:name "Pieta van Beek" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rene-van-stipriaan> a schema:Person ;
-        schema:name "René van Stipriaan" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/rick-honings> a schema:Person ;
-        schema:name "Rick Honings" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/riet-schenkeveld-van-der-dussen> a schema:Person ;
-        schema:name "Riet Schenkeveld-van der Dussen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/roland-de-bonth> a schema:Person ;
-        schema:name "Roland de Bonth" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ruben-e-verwaal> a schema:Person ;
-        schema:name "Ruben E. Verwaal" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sarah-adams> a schema:Person ;
-        schema:name "Sarah Adams" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sophie-reinders> a schema:Person ;
-        schema:name "Sophie Reinders" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/sven-molenaar> a schema:Person ;
-        schema:name "Sven Molenaar" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/timothy-de-paepe> a schema:Person ;
-        schema:name "Timothy De Paepe" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-harmsen> a schema:Person ;
-        schema:name "Ton Harmsen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/lieke-van-deinsen> a schema:Person ;
-        schema:name "Lieke van Deinsen" .
-
-    <https://data.create.humanities.uva.nl/id/schrijverskabinet/person/ton-van-strien> a schema:Person ;
-        schema:name "Ton van Strien" .
 }
 
