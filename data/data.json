@@ -62,31 +62,9 @@
                 "name": "Abraham de Haen",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=haen001"
             },
-            "quote": "Op de Afbeeldinge van den heere Abraham de Haen, den Jongen.",
+            "quote": "Op de Afbeeldinge van den heere Abraham de Haen, den Jongen.\nDit is het wezen van vernuftigen De Haen,\nDen roem van \u2019t Y, in dicht- en schilderkunde ervaren;\nMet recht mag, in den rang van wakkre kunstenaaren,\nDeeze eedle beeldtenis een hooge plaats beslaan:\nHy weet het scherpziende oog, en \u2019t luisterend oor te streelen;\nHy schildert met zyn pen, en spreekt met zyn penseelen.\nBernardus de Bosch (1740), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 207.",
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/De-Haen-1.jpg",
             "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/De-Haen.jpg"
-        },
-        "http://www.schrijverskabinet.nl/portret/adam-lintz/": {
-            "title": "Adam Lintz",
-            "subtitle": "Rekenmeester en dichter te Amsterdam ",
-            "bio": "Tweede helft zeventiende eeuw",
-            "painter": "Arnoud van Halen",
-            "date": "1700 \u2013 1732",
-            "origin": {
-                "name": "Verzameling J. Esti\u00e9, Amsterdam",
-                "url": null
-            },
-            "article": {
-                "name": null,
-                "url": null
-            },
-            "dbnl": {
-                "name": "Adam Lintz",
-                "url": "http://www.dbnl.org/auteurs/auteur.php?id=lint025"
-            },
-            "quote": null,
-            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Lintz-001.jpg",
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Lintz.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/adam-sasbout/": {
             "title": "Adam Sasbout",
@@ -106,14 +84,36 @@
                 "name": "Adam Sasbout",
                 "url": "https://www.dbnl.org/auteurs/auteur.php?id=sasb003"
             },
-            "quote": null,
+            "quote": "Het portret dat van Adam Sasbout in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Sasbout-1.jpg"
+            "artdepiction": null
+        },
+        "http://www.schrijverskabinet.nl/portret/adam-lintz/": {
+            "title": "Adam van Lintz",
+            "subtitle": "Rekenmeester en dichter te Amsterdam ",
+            "bio": "L\u00fcbeck 1635 \u2013 Amsterdam 1705",
+            "painter": "Arnoud van Halen",
+            "date": "1700 \u2013 1732",
+            "origin": {
+                "name": "Verzameling J. Esti\u00e9, Amsterdam",
+                "url": null
+            },
+            "article": {
+                "name": "Een rijmende rekenmeester door Henk Looijesteijn",
+                "url": "http://www.schrijverskabinet.nl/artikel/adam-van-lintz/"
+            },
+            "dbnl": {
+                "name": "Adam van Lintz",
+                "url": "http://www.dbnl.org/auteurs/auteur.php?id=lint025"
+            },
+            "quote": null,
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Lintz-001.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Lintz.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/adriaan-hoppestein/": {
             "title": "Adriaan Hoppestein",
             "subtitle": "Dichter en jurist",
-            "bio": "1682 - 1751",
+            "bio": "1682 \u2013 1751",
             "painter": "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard",
             "date": "(1700 \u2013 1732) en (1732 \u2013 1771)",
             "origin": {
@@ -152,7 +152,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Pars-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/adriaan-tymens/": {
             "title": "Adriaan Tymens",
@@ -262,7 +262,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Hofferus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/adrianus-relandus/": {
             "title": "Adrianus Reland",
@@ -290,7 +290,7 @@
             "title": "Adrianus van Assendelft",
             "subtitle": "Predikant te Leiden ",
             "bio": "Haarlem 1736 \u2013 Leiden 1809",
-            "painter": "Reyers",
+            "painter": "Nicolaas Reyers",
             "date": "1775",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -306,14 +306,14 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/08/RP-P-1909-509.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/adrianus-van-royen/": {
             "title": "Adrianus van Royen",
             "subtitle": "Hoogleraar in de geneeskunde en kruidkunde te Leiden ",
             "bio": "Leiden 1704 \u2013 Leiden 1779",
-            "painter": "Lelie",
-            "date": "1792",
+            "painter": "Nicolaas Reyers",
+            "date": "1775",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
                 "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4981"
@@ -372,7 +372,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Muncq-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/alexander-morus/": {
             "title": "Alexander Morus",
@@ -421,7 +421,7 @@
         "http://www.schrijverskabinet.nl/portret/anna-insma/": {
             "title": "Anna Insma",
             "subtitle": "Dichteres",
-            "bio": "1655 \u2013 1707",
+            "bio": "Amsterdam 1656 \u2013 Amsterdam 1707",
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
@@ -429,8 +429,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "De onbekende Anna  door Lieke van Deinsen",
+                "url": "http://www.schrijverskabinet.nl/artikel/anna-insma/"
             },
             "dbnl": {
                 "name": "Anna Insma",
@@ -448,7 +448,7 @@
             "date": "1700 \u2013 1720",
             "origin": {
                 "name": "Centraal Museum Utrecht",
-                "url": "http://centraalmuseum.nl/ontdekken/object/?q=Schurman&img_only=1#o:23"
+                "url": "http://hdl.handle.net/21.12130/collect.1F36D802-DECC-4E74-9F22-AC69A8CF3714"
             },
             "article": {
                 "name": "\u2018Eene jonkvrouw van wonderlicke geleertheid\u2019 door Pieta van Beek",
@@ -470,7 +470,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Centraal Museum Utrecht",
-                "url": "http://centraalmuseum.nl/ontdekken/object/?q=Schurman&img_only=1#o:1013"
+                "url": "http://hdl.handle.net/21.12130/collect.C0F07755-6418-4AD8-864E-408F8A6EA855"
             },
             "article": {
                 "name": "\u2018Eene jonkvrouw van wonderlicke geleertheid\u2019 door Pieta van Beek",
@@ -502,9 +502,9 @@
                 "name": "Anna Rethaan",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=reth001"
             },
-            "quote": "Dus maalde Quinkhard \u2019t beeld der schrandere Rethaan,\nReeds in haar morgen zoet op waereldwyze bla\u00ean;\nMaar in haar middag op \u2019t gedurig onderzoek\nEn \u2019t welbeleven van de wysheid uit Gods Boek.\nin haren avondstond sloeg zy, vol hemelvier\nEn kunst, haar handen aan de Godgewyde lier,\nTotdat de duistre nacht, by haar te vroegen dood,\nDie zuivre dichta\u00ear en \u2019t voorbeeldig leven sloot.\nPieter Boddaert (1737), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 145.",
+            "quote": "Dus maalde Quinkhard \u2019t beeld der schrandere Rethaan,\nReeds in haar morgen zoet op waereldwyze bla\u00ean;\nMaar in haar middag op \u2019t gedurig onderzoek\nEn \u2019t welbeleven van de wysheid uit Gods Boek.\nin haren avondstond sloeg zy, vol hemelvier\nEn kunst, haar handen aan de Godgewyde lier,\nTotdat de duistre nacht, by haar te vroegen dood,\nDie zuivre dichta\u00ear en \u2019t voorbeeldig leven sloot.\nPieter Boddaert (1737), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 145.\n \nHet portret dat van Anna Rethaan in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Anna-Rethaan.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/anna-roemer-visscher/": {
             "title": "Anna Roemers Visscher",
@@ -526,7 +526,7 @@
             },
             "quote": "Roem van ons\u2019 eeuw, by wie sal ick u vergelycken?\nSal \u2019t Sappho zyn? \u00f4 neen; die moet veer voor u wijcken,\nWant hadse schoon u geest, zy had niet uwe handt,\nDie u geen minder lof verkrijght als u verstant.\nSal \u2019t dan Arachne zyn, die wel so trots van herten\nOp hare naey-kunst was, dat sy dorst Pallas terten?\nNeen; dese noch veel min het by u halen ken,\nWant had zy uwe naelt, zy had niet uwe pen.\nWel aen begaefde Maeght, laet uwe wyse Dichten,\nSo wel als uwe kunst, voor al de wereld lichten:\nOp dat, so wiese lees, u oordeel; \u2019t eenigh een,\nEen yeder ongelijck, sich selfs gelijck alleen.\nJohan Van Heemskerck (1622), \u2018Eer-dicht, Ghesonden aen Ionck-Vrouw Anna Roemer Visschers, als zy my met hare Sinne-Poppen begift had.\u2019 Uit: Pvb. Ovidii Nasonis Minne-kunst.\n \nHet portret dat van Anna Roemersdochter Visscher in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Anna-Roemer-Visscher_klein.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/anselmus-boetius-boodt/": {
             "title": "Anselmus Boetius de Boodt",
@@ -539,8 +539,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "De Brugse Leonardo? door Karel Porteman",
+                "url": "http://www.schrijverskabinet.nl/artikel/anselmus-boetius-boodt/"
             },
             "dbnl": {
                 "name": "Anselmus Boetius de Boodt",
@@ -548,7 +548,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Boetius-de-Boodt-RP-P-OB-4993.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/anthony-hartsen/": {
             "title": "Anthony Hartsen",
@@ -612,9 +612,9 @@
                 "name": "Arnold Hoogvliet",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=hoog032"
             },
-            "quote": "Op de Afbeelding van den heer Arnold Hoogvliet.\nAenschouw hier \u2019t siersel van het Panpo\u00ebticon;\n\u2019t Is wakkre Hoogvliet, die, in Nederduitsche dichten,\nDe Roomsche feesten zong, en als een heldre zon\nDen Duitschen Zangberg met haer stralen voor blyft lichten.\nDe Godvrucht eert den heldt, om Abrams heldenwerk,\nEn schryft zyn\u2019 naem en lof aen \u2019t hoog gewelf der Kerk.\nAdriaen vander Vliet, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 166.",
+            "quote": "Op de Afbeelding van den heer Arnold Hoogvliet.\nAenschouw hier \u2019t siersel van het Panpo\u00ebticon;\n\u2019t Is wakkre Hoogvliet, die, in Nederduitsche dichten,\nDe Roomsche feesten zong, en als een heldre zon\nDen Duitschen Zangberg met haer stralen voor blyft lichten.\nDe Godvrucht eert den heldt, om Abrams heldenwerk,\nEn schryft zyn\u2019 naem en lof aen \u2019t hoog gewelf der Kerk.\nAdriaen vander Vliet, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 166.\n \nHet portret dat van Arnold Hoogvliet in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Hoogvliet-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/arnold-houbraken/": {
             "title": "Arnold Houbraken",
@@ -658,7 +658,7 @@
             },
             "quote": "Op de Afbeelding van den heere Arnold Moonen.\nDit \u2019s Godts Orakeltolk, de Kunstgeleerde Moonen;\nWiens toonen rijzen, als een schoonste dageraet,\nIn Herderszangen; daar de Kunst verstomt voor staat!\nDus vlecht dees Theokrijt zichzelven lauwerkroonen.\nZijn zang verrukt elks oor door \u2019t hemelsch maatgeluit.\nDus dooft dees Kunstzon \u2019t licht der mindre starren uit.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 191.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Moonen-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/arnoldus-soek/": {
             "title": "Arnoldus Soek",
@@ -690,7 +690,7 @@
             "date": "1725 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, kopie naar schilderij van Christoffel Lubinietski",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4934"
             },
             "article": {
                 "name": "'Zonder Meester een Meester in \u2019t Pin\u00e7eel en Po\u00ebsy'  door Josephina de Fouw",
@@ -702,7 +702,7 @@
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Van-Halen-SK-A-1738-2-afwijkend-formaat-2.jpg",
-            "artdepiction": null
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/12/SK-A-1738.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/hubertus-miraeus/": {
             "title": "Aubertus Miraeus",
@@ -724,7 +724,7 @@
             },
             "quote": "Het portret dat van Aubertus Miraeus in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Miraeus_Klein.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/balthasar-bekker/": {
             "title": "Balthasar Bekker",
@@ -768,7 +768,7 @@
             },
             "quote": "Op het Afbeeldsel van den heere Balthazar Huydecoper. \nDus trof de Schilderkunst het levendig gezicht\nVan Huydecoper, in zyn edelste ommetrekken,\nDe Fenix onzer eeuw, dat helderstraalend Licht,\nWaar by het Dichterdom zyn feilen kan ontdekken:\nWat is de Schouwburg niet verschuldigt aan zyn vlyt?\nDaar hy, gants Ne\u00earland lokt, door twee paar Dichtjuweelen!\nWat onze Moederspraak, de onsterflykheid gewyd!\nToen hy die redde in haar ontelbre taalkrakeelen;\nMaar wat onze Amstelstad, als zy dien dag beschouwt,\nDat zulk een groot vernuft haar op \u2019t papier herbouwt.\nJan de Marre (1737). Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 139.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Huydecoper-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/bernardus-de-bosch/": {
             "title": "Bernardus de Bosch",
@@ -834,13 +834,13 @@
             },
             "quote": "Het portret dat van Bonaventura Vulcanius in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Vulcanis.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/broerius-broes/": {
             "title": "Brou\u00ebrius Broes",
             "subtitle": "Theoloog ",
             "bio": "Veld 1757 \u2013 Leiden 1799",
-            "painter": "Lelie",
+            "painter": "Adriaan de Lelie",
             "date": "1792",
             "origin": {
                 "name": "Onbekend",
@@ -878,7 +878,7 @@
             },
             "quote": "Op het portret van den E. Heer Kasper Barleus, Professor der Filosofy t\u2019Amsterdam.\nDus ziet men Baarles lichaam maalen.\nMaar was het lyf zoo groot als \u2019t brein,\nHy reikte tot aan \u2019s hemels zaalen.\nAll\u2019 d\u2019aardt is voor zyn geest te klein.\nDe Wysheidt lyt geen nauwe paalen.\nJan Vos (1662), Alle de gedichten I, 190.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Barlaeus-RP-T-1885-A-480-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/caspar-brandt/": {
             "title": "Caspar Brandt",
@@ -891,8 +891,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Dominee, dichter en historicus  door Steff Nellis",
+                "url": "http://www.schrijverskabinet.nl/artikel/caspar-brandt/"
             },
             "dbnl": {
                 "name": "Caspar Brandt",
@@ -900,7 +900,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Brandt-Caspar-RP-P-OB-48.859.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/caspar-van-kinschot/": {
             "title": "Caspar van Kinschot",
@@ -944,7 +944,7 @@
             },
             "quote": "Zoo schrandre wijsheit, die getempert is met zeder\nDie onberisplijk zijn, is d\u2019 allergrootste schat,\nZijt gy, o Catharijn\u2019, het alderdierbaarst\u2019 vat,\nZoo wel in deugt, vernuft, als wel-gevormde leden.\nWat Maagt heeft, op Parnas, dien hogen trap betreden\nDie vaak uw Zang godin, gelauweriert, betradt?\nWat kunst, wat wetenschap, wat wijsheit, \u2019t wijste blad\nOns leert, leert gy u zelfs, en geeft van reden reden.\nMen ziet in u \u2019t vernuft van Pallas; uw gelaat\nVertoont de Majesteit van Juno; Venus staat,\nVol zoete aanminnigheit, in uw bekoorlijk wezen;\nDianaas kuisheit hoort elk uit uw\u2019 wijze r\u00eaen.\nZoo Febus \u2019t negental vermeerdert met noch een,\nZult gy de tiende van de Sang-godinnen wezen.\nJoan Dullaert (1669), `In het Stamboeck van de wijze en vernuftige Juffrouw Catharina Questiers.\u2019 In: Clioos Cytter [\u2026].",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Questiers-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/christina-leonora-neufville/": {
             "title": "Christina Leonora de Neufville",
@@ -998,7 +998,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Museum Plantin-Moretus, Antwerpen",
-                "url": "http://search.museumplantinmoretus.be/Details/fullCatalogue/149335"
+                "url": "https://dams.antwerpen.be/asset/qZuDYgLTUekjOmJYqMGpbamZ#id"
             },
             "article": {
                 "name": "Een uitgever buiten categorie\u00a0 door Dirk Imhof",
@@ -1032,7 +1032,7 @@
             },
             "quote": "Byschrift op de Afbeelding van den voortreflyken zededichter, den heere Claas Bruin,\nBerustende in het Panpo\u00ebticon Batav\u00fbm. Thans behoorende aan den Heere Michiel de Roode.\nZo trof van Blommen \u2019s Licht der Zedepo\u00ebzy,\nDen Duitschen Seneca, den Cebes van het Y,\nDen onvermoeiden Bruin, die ieders hart en ooren\nMet zich ten hemel voert in de opperste englenchoren.\nStudio Fovetur Ingenium, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 31.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bruin-RP-P-OB-48.863-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/claude-de-grieck/": {
             "title": "Claude de Grieck",
@@ -1045,8 +1045,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Vernieuwer van het Brusselse theater door Sofie Moors",
+                "url": "http://www.schrijverskabinet.nl/artikel/claude-de-grieck/"
             },
             "dbnl": {
                 "name": "Claude de Grieck",
@@ -1076,12 +1076,12 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Salmasius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/constantijn-huygens/": {
             "title": "Constantijn Huygens",
             "subtitle": "Dichter, secretaris van prins Frederik Hendrik en prins Willem II, eerste raad en rekenmeester van Willem III",
-            "bio": "Den Haag 1596 \u2013 Den haag 1687",
+            "bio": "Den Haag 1596 \u2013 Den Haag 1687",
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
@@ -1142,7 +1142,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/de-Bie.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/cornelis-ketel/": {
             "title": "Cornelis Ketel",
@@ -1162,9 +1162,9 @@
                 "name": "Cornelis Ketel",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=kete001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Cornelis Ketel in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Ketel-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/cornelis-liens/": {
             "title": "Cornelis Liens",
@@ -1186,7 +1186,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Liens-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/cornelis-musius/": {
             "title": "Cornelis Musius",
@@ -1208,7 +1208,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Musius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/cornelis-schonaeus/": {
             "title": "Cornelis Schonaeus",
@@ -1252,7 +1252,7 @@
             },
             "quote": "Zal ook mijn hand een blad aan uwe lofkroon hechten\nMijn Vader? zal uw zoon voldoen aan zijnen plicht?\nJaa, schoon de lasterzucht mijn liefde zou bevechten,\nIk kus uw beeld, en eer uw lieffelijk gedicht.\nWanneer gij u verzaadt met letterlekkernije,\nDan straalt \u2018er uit uw oog een glans van hemelvier,\nDan zien wij hoe uw geest zich streelt door Po\u00ebzije,\nEn vloeiende in den inkt, zich uitdrukt op \u2019t papier.\nDus maalt ge een tafereel, dat ijder moet behaagen\nDe hemel rekk\u2019 nog lang mijn Vaders levensdagen.\nPhilip Sweerts (1735). Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 65.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Sweerts-Cornelis-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/cornelis-udemans/": {
             "title": "Cornelis Udemans",
@@ -1302,7 +1302,7 @@
             "title": "Cornelis van Coeverden",
             "subtitle": "Dichter ",
             "bio": "Onbekend \u2013 Rotterdam 1759",
-            "painter": "Reyers",
+            "painter": "Nicolaas Reyers",
             "date": "1774",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -1384,7 +1384,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Valerius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/daniel-heinsius/": {
             "title": "Dani\u00ebl Heinsius",
@@ -1448,7 +1448,7 @@
                 "name": "Dani\u00ebl van Alphen",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=alph007"
             },
-            "quote": null,
+            "quote": "Byschrift op de Afbeelding\nVan Den\nWeleerwaardigen En Zeer Geleerden Heere!\nJo\u00e4nnes Van Spaan\nWaardig Evangeliedienaar der Gemeinte J:C: in s gravenhaage\nBerustende in het\nPan Poeticon Batavum.\nWe aanschouwen hier het puik der tempel-radenaaren,\nDie \u2019t vorstlyk s gravenhaag door leer en leven sticht:\nVan Spaan! Die op de wys der juichende eng\u2019lenschaaren,\nJehova\u2019s glorie zingt, in Neerlands maatgedicht\nLang leef dees wakkre man! zoo zal de Godsdienst bloeien,\nEn de Ed\u2019le Po\u00ebzy in hooger aanzien groeien.\n3 mey 1774\nDoor: Anna van der Aa de Sterke (UBL LTK 2098, f.50r)",
             "depiction": null,
             "artdepiction": null
         },
@@ -1472,7 +1472,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Willink-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/david-questiers/": {
             "title": "David Questiers",
@@ -1516,7 +1516,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-Hoogstraten-Jan-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/desiderius-erasmus/": {
             "title": "Desiderius Erasmus",
@@ -1536,9 +1536,9 @@
                 "name": "Desiderius Erasmus",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=eras001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Erasmus in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Erasmus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/diederik-liebergen/": {
             "title": "Diederik Liebergen",
@@ -1617,8 +1617,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Uitgever en schrijver met een neus voor literaire trends door Tine De Koninck",
+                "url": "http://www.schrijverskabinet.nl/artikel/dirck-pietersz-pers/"
             },
             "dbnl": {
                 "name": "Dirck Pietersz. Pers",
@@ -1626,13 +1626,13 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Pers-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/dirck-volkertsz-coornhert/": {
             "title": "Dirck Volkertszoon Coornhert",
             "subtitle": "Theoloog, musicus, kunstenaar en schrijver ",
             "bio": "Amsterdam 1522 \u2013 Gouda 1590",
-            "painter": "Arnoud van Halen, verbeterd door Quinkhard",
+            "painter": "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard",
             "date": "(1700 \u2013 1720) en (1732 \u2013 1771)",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret (gebaseerd op gravure door Franciscus van der Steen) onbekend; voorheen collectie Pierre Amalric (1978)",
@@ -1648,7 +1648,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Coornhert.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/dirk-adriaansz-van-distelburg/": {
             "title": "Dirk Adriaansz. van Disselburg",
@@ -1692,7 +1692,7 @@
             },
             "quote": "Men volge Diederyk, die wel de Afgodery\nIn Digteren bestraft, maar noyt de Po\u00ebsy,\nGerigt naar \u2019t Heylig Woord, en Christelyke Zeden.\nLambert Bidloo (1720), Panpo\u00ebticon Batavum, boek 8.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Camphuysen-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/dirk-schelte/": {
             "title": "Dirk Schelte",
@@ -1714,7 +1714,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Schelte-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/dirk-smits/": {
             "title": "Dirk Smits",
@@ -1736,7 +1736,7 @@
             },
             "quote": "Op de Afbeelding van mijnen vriend; den heere Dirk Smits;\nDoor Dionijs van Nymegen geschilderd. \n\u2019t Penseel van Dionijs wilde eer iets groots betrachten,\nDes maalde \u2019t Smits, met all\u2019 de trekken der Natuur:\n\u2019t Vernuft van mynen Vriend, grofzwanger van Gedachten,\nBlinkt uit in de oogen by zijn hemelsch yvervuur:\nDe schoone Dichtkunst zag haar\u2019 grooten Zoon geschilderd,\nEn riep, verwonderd, uit: \u201cDe Kunst ontfang haar\u2019 loon!\nDees Dichter streelt en roert de zielen, hoe verwilderd;\nDe Schilder tart Natuur; men vlecht\u2019 hun elk een kroon!\u201d\nWillem van der Pot (1734), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 56.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Smits-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/dominicus-baudius/": {
             "title": "Dominicus Baudius",
@@ -1780,7 +1780,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Neuhusius-Edo.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/elizabeth-wolff/": {
             "title": "Elizabeth Wolff",
@@ -1802,7 +1802,7 @@
             },
             "quote": "\u2018Het Vaderland mogt in onzen leeftijd roem dragen op een paar Vrouwen, zoo als deszelfs tijden en zeden ze behoefden, maar zoo als de natuur ze zelden vormt, en zoo als de vriendschap ze nog zeldzamer vereenigt. Gelijk het in de huislijke opvoeding en verkeering de vrouwelijke zachtheid en bevalligheid zijn, die, met redenlijken godsdienst en zuivere zeden gepaard, beschaven en veredelen, het geen \u2018er tuws en stugs is in den mannelijken aard, ja hervormingen van karakters voortbrengen, waaraan de afgetrokkene zedekunde zou gewanhoopt hebben: zoo zouden het waarlijk ook in de beschaving en verbetering der Volkeren wonderen zijn, welke vrouwenhanden konden verrigten, wanneer zij zich met genoegzame vrijmoedigheid aan de hervorming van al het verkeerde, aan de verzachting van al het woeste in de volkszeden konden leenen. Dit deden elisabeth bekker en agatha deken, elk toegerust met uitstekende, doch wijdverschillende, gaven, die door zamenwerking een zeker geheel uitmaakten, welks bezit, eeniglijk tot deszelfs nut besteed, het Vaderland een zegen des Hemels heeft mogen achten. [\u2026]\u2019\nAnon. (1805), in: Vaderlandsche Letteroefeningen.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Wolff-003.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/erycius-puteanus/": {
             "title": "Erycius Puteanus",
@@ -1824,7 +1824,7 @@
             },
             "quote": "XII, `Borgher\u2019\nSiet, o Borgher wat ghy zyt,\nWat betaemt naer eysch van tijdt:\nMenght met eer al u ghewin:\nEer wat meer, ghewin wat min.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Puteanus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/everard-syceram/": {
             "title": "Everard Syceram",
@@ -1912,7 +1912,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Junius-Franciscus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/franciscus-plante/": {
             "title": "Franciscus Plant\u00e9",
@@ -1956,7 +1956,7 @@
             },
             "quote": "Rampzalig nachtgespuis van razende Ongodisten,\nDie Godt natuur noemt, gout uw\u2019 Godt schat, of den buik:\nVertrek van waar gy komt, keer hellewaart, en duik,\nMet al uw doornige en verwarde Spinozisten.\nWaanwysheit, die u dient van blinde Epikuristen,\nOf Mahomets gebroet, lokt zielen in haar fuik\nVergeefs met snode kunst van re\u00eanloos re\u00eangebruik:\nGodts waarheit triomfeert, en tart al \u2019s afgronts listen.\nMen lett\u2019, hoe HALMA \u2019t recht van aller dingen Heer.\nMet pers en pen vertolkt, en eigen bladt verweer\u2019.\nDe hel mag zulk een werk begrimmen: zalige Engelen\nBegroeten \u2019t met muzyk. My dunkt alrede, ik hoor\nDe wachters van Godts troon met vreugt in \u2019t hoogste koor\nWie voor Godt eer dus pleit, een\u2019 lof- en eerkrans strengelen.\nJ. Vollenhove",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Halma-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/francois-snelling/": {
             "title": "Fran\u00e7ois Snelling",
@@ -2032,7 +2032,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": "https://www.rijksmuseum.nl/nl/collectie/SK-A-1968"
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.5013"
             },
             "article": {
                 "name": null,
@@ -2066,7 +2066,7 @@
             },
             "quote": "Op de Beeldtenis van den heere Frans Ryk.\nThali\u00eb en Melpomeen, beide even dier verbonden\nAan haren Gunstling Ryk, die Amstels Schouwtooneel\nStoffeert, en geestig siert met Vrankryks e\u00ealste vonden,\nVergoodden dus zyn Beeld door Quinkhards kunstpenseel.\nVlied, Midas Neven, die vergeefs haar\u2019 Lof wilt smooren;\nVlied, of dees Martiaal ontdekt uw ezelooren.\nStudio Fovetur Ingenium (1733), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 39.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Rijk.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/frans-van-hoogstraten/": {
             "title": "Frans van Hoogstraten",
@@ -2154,7 +2154,7 @@
             },
             "quote": "Op de afbeelding van den heere Geeraerdt Brandt. \nDit\u2019s Brandt, wiens schrander brein, met kunst en zedigheit,\nDe Kerkhervorming heeft, door kracht en taal, beschreven.\nDe Ruiter, zoo vol moedt, als oordeel en beleit,\nDen grootsten Waterheldt; door \u2019t al voor plagh te beven,\nHeeft hij vereeuwigt door zijn pen. Gansch Nederlandt\nRoemt zijne Dichtkunst, taal, en stijl en vlugh verstandt.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 195.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Brandt-Gerard-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/george-hendrik-petri/": {
             "title": "George Hendrik Petri",
@@ -2198,7 +2198,7 @@
             },
             "quote": "Een prooi van Burgertwist en Haat,\nOm Plicht gevolgd, beroofd verdreeven,\nBACOT, nu zonder Kerkwaad,\nTrof Kunst in Steinfurt dus naar \u2019t leven.\nG.J.G. Bacot (1790), Handelingen 1790, 7.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bacot-RP-P-OB-62.769-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/gerardus-outhof/": {
             "title": "Gerard Outhof",
@@ -2233,8 +2233,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Penningkundig meesterbrein door Steff Nellis",
+                "url": "http://www.schrijverskabinet.nl/artikel/gerard-van-loon/"
             },
             "dbnl": {
                 "name": "Gerard van Loon",
@@ -2242,7 +2242,7 @@
             },
             "quote": "Wie zou, beroemde Man! uw\u2019 lof oit willen heelen?\nDie zo veel edel werk, zo nuttig brengt in \u2019t licht!\nGij roert zomtijds noch wel uw\u2019 braaven geest uit spelen,\nEn zingt, in zuiver Duitsch, een keurig maatgedicht.\nMaar als wij u, Van Loon! zo onvermoeid, zien zweeten,\n\u2019t Zij gij de munten schuift zo sierlijk voor de hand:\nHetzij gij opdelft dat bijna al was vergeeten,\nHoe dier verplicht gy dan \u2019t beproefde Vaderland!\nHet doe uw beeltenis op gouden munten zetten,\nOpdat die uitblinke in de beste kabinnetten.\nPhilip Zweerts (1735). Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 64.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Loon-gerard-van-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/gerardus-vossius/": {
             "title": "Gerardus Vossius",
@@ -2264,7 +2264,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vossius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/gebrand-adriaensz-bredero/": {
             "title": "Gerbrand Adriaensz Bredero",
@@ -2318,7 +2318,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.5005"
             },
             "article": {
                 "name": "Een schrijver van hekelende blijspelen  door Anna de Haas",
@@ -2343,8 +2343,8 @@
                 "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4980"
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Arts en dichter  door Ton van Strien",
+                "url": "http://www.schrijverskabinet.nl/artikel/govert-bidloo/"
             },
             "dbnl": {
                 "name": "Govert Bidloo",
@@ -2374,7 +2374,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Klinkhamer-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/guilliam-van-nieulandt/": {
             "title": "Guilliam van Nieulandt",
@@ -2396,7 +2396,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Nieulandt-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/gysbert-japicx/": {
             "title": "Gysbert Japicx",
@@ -2418,7 +2418,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Japicx-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hadrianus-junius/": {
             "title": "Hadrianus Junius",
@@ -2440,7 +2440,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Junius-Hadrianus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hadrianus-marius/": {
             "title": "Hadrianus Marius",
@@ -2469,9 +2469,9 @@
             "subtitle": "Schilder en dichter",
             "bio": "Rotterdam 1636 \u2013 Rotterdam 1684",
             "painter": "Arnoud van Halen",
-            "date": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+            "date": "1700-1732",
             "origin": {
-                "name": "Onbekend",
+                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
                 "url": null
             },
             "article": {
@@ -2484,7 +2484,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Dullaert-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hendrik-bruno/": {
             "title": "Hendrick Bruno",
@@ -2572,7 +2572,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Graauwhart-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hendrik-schim/": {
             "title": "Hendrik Schim",
@@ -2629,8 +2629,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Een Dordtenaar in het Dichterkunstpaleis door Roland de Bonth",
+                "url": "http://www.schrijverskabinet.nl/artikel/hendrik-van-bracht/"
             },
             "dbnl": {
                 "name": "Hendrik van Bracht",
@@ -2726,7 +2726,7 @@
             },
             "quote": "TER GEDACHTENISSE VAN LAMBERT BIDLO,\nAPOTHEKER EN PO\u00cbET.\nHier rust de Schryver van het Pan Po\u00ebeticon,\nDie \u2019t Nederlands Gedicht tot in den grond verston\nDoch, die me\u00ear zaakelyk dan sierlyk in zyn dichten,\nVeel min bedacht was op vermaaken dan op stichten:\nHy voerde op Amsteldams Parnas, Zwaard, Galg en Rad;\nSchoon \u2019t by een ygelyk nog is en blyft onzeker,\nWie aan dien straffen Arts en koddigen Aptheker,\nDie hooge Vierschaar en dat recht gegeeven hadd\u2019;\nEn echter blykt dat Hy \u2018er menig, naa hun leeven,\nDoor zyne scharpe Penn\u2019,die niemand heeft gespaart,\nEen strenge Geesseling\u2019,Brandmerk of \u2019t dubbeld Zwaard,\nEn eene Konstsneede in het aanzicht heeft gegeeven,\nZulks ik hem aanmerk, ook hoe zeer Apol zyn\u2019gunst\nHem schonk, als onbeschoft straatschenner van de Kunst.\nUit: H. van den Burg, Aanhangsel van gedigten, of Derde deel zyner mengelpo\u00ebzy. Amsterdam, `voor den maker\u2019, 1741(p. 88).",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Burg-van-den-1-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hieronymus-sweerts/": {
             "title": "Hieronymus Sweerts",
@@ -2792,7 +2792,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vryhoff-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/hugo-de-groot/": {
             "title": "Hugo de Groot",
@@ -2823,7 +2823,7 @@
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "name": "Priv\u00e9verzameling, geveild in 2020 te Hilversum",
                 "url": null
             },
             "article": {
@@ -2835,8 +2835,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=vinc001"
             },
             "quote": null,
-            "depiction": null,
-            "artdepiction": null
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Vincent2.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/10/Vincent.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/j-c-wystrat/": {
             "title": "J.C. Wystrat",
@@ -2880,7 +2880,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Weyerman-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacob-cats/": {
             "title": "Jacob Cats",
@@ -2902,12 +2902,12 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Cats-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacob-de-ryck/": {
             "title": "Jacob de Ryck",
-            "subtitle": "Schilder ",
-            "bio": "Amsterdam ca. 1637 \u2013 Amsterdam 1682",
+            "subtitle": "Blijspeldichter ",
+            "bio": "Amsterdam 1648 \u2013 Amsterdam 1702",
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1732",
             "origin": {
@@ -2920,7 +2920,7 @@
             },
             "dbnl": {
                 "name": "Jacob de Ryck",
-                "url": "https://www.dbnl.org/auteurs/auteur.php?id=ryck040"
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=ryk_002"
             },
             "quote": null,
             "depiction": null,
@@ -2968,7 +2968,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Duym-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacob-lescailje/": {
             "title": "Jacob Lescailje",
@@ -2981,8 +2981,8 @@
                 "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4989"
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Schouwburgdrukker en dichter door Sofie Moors",
+                "url": "http://www.schrijverskabinet.nl/artikel/jacob-lescailje/"
             },
             "dbnl": {
                 "name": "Jacob Lescailje",
@@ -3000,7 +3000,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.5010"
             },
             "article": {
                 "name": null,
@@ -3022,7 +3022,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4995"
             },
             "article": {
                 "name": "Propagandist voor een nieuwe wereld door Frans Blom",
@@ -3047,8 +3047,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Vader aller dichters door Bram Caers",
+                "url": "http://www.schrijverskabinet.nl/artikel/jacob-van-maerlant/"
             },
             "dbnl": {
                 "name": "Jacob van Maerlant",
@@ -3078,7 +3078,7 @@
             },
             "quote": "Hoe schoone Parel aan de Kroon der Po\u00ebsy\nIs Westerbaan! Hoe hoog in \u2019t vloei\u00ebnden Gety\nVan allerhande drift het Topzeyl op te halen!\nMaar wien is \u2019t mogelyk te danken, te betalen\n\u2019s Mans overgroote vlyt, en moeite, om \u2019t Neerlands Digt\nHoe heerlyk uyt zig zelfs, als met een Zonne-ligt\nUyt straalen, en den Geest van Romen glanz te geven,\nNaar \u2019t yders wensch verhoopt zyn Rym te zien verheven:\n\u2019t Zy dat hem Treur-spel, of der Helden-Roem gevalt,\nOf eerelyk in Jok des Weirelds Wan gestalt\nIn Bly-spel thoonen wil; of \u2019t al te hevig Minnen\nDoor Klaag-gezangen tragt Ziel-roerig te bezinnen;\nIn dit, en meerder heeft de groote Westerbaan,\nDoor zyn Vertaling en bevat\u2019lyk doen verstaan,\nEn Maro, Naso, en Terentius ontslooten,\nTen hulp der Po\u00ebsy van zyne Lands-genooten [\u2026].\nLambert Bidloo (1720), Panpo\u00ebticon Batavum, boek 17.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Westerbaen.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacob-willemsen/": {
             "title": "Jacob Willemsen",
@@ -3122,7 +3122,7 @@
             },
             "quote": "Dit \u2019s \u2019t aangezicht van Zeeus, Apolloos Troetelkindt;\nDie aan de blanke Merk een Dichter wierd geboren.\nHij van het Negental, gevoed, gestreelt, bemint,\nLiet zich, al in zijn jeugd, gelijk een wonder hooren:\nZijn grootsche Po\u00ebzij, rolt heerlijk, glad van toon,\nVol kunst, en houding, vol verhevene gedachten.\nZijn wolf in \u2019t Schaapsvel spant van zijne kunst de kroon;\nEen Dichtstuk, dat zich, om zijn majesteit doet achten,\nHet wel zijn\u2019 grooten Naam heeft tijdt en doot ontrukt,\nEn dien op \u2019t voorhooft van d\u2019onsterflijkheid gedrukt.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 177.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Zeeus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-arminius/": {
             "title": "Jacobus Arminius",
@@ -3144,13 +3144,13 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Arminius-RP-P-1907-2346-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-bellamy/": {
             "title": "Jacobus Bellamy",
             "subtitle": "Patriot en dichter ",
             "bio": "Vlissingen 1757 \u2013 Utrecht 1786",
-            "painter": "Van Lynschoten",
+            "painter": "Johannes van Lynschoten",
             "date": "1791",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -3166,7 +3166,7 @@
             },
             "quote": "Dat dan ook het tegenwoordig geslacht genot en voedsel voor verstand, smaak en hart opzamele uit deze lettervruchten, die zeker niet alle van hetzelfde gehalte zijn, maar toch alle met eenig regt den eernaam dragen, onder welken zij ons worden aangeboden, en wier bevallige verscheidenheid van toon en stof aan alle soorten van lezers, zoo wel den minnaar van het proza als dien der po\u00ebzij, zoo wel den sentimentelen als den luimigen, zoo wel den wijsgeerigen als den eenvoudigen, zijne gading zal doen vinden.\nAnon., recensie van Proeven voor het Verstand, den Smaak en het Hart, door Bellamy en eenigen zijner Kunstvrienden. In: Vaderlandsche letteroefeningen, 1826.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bellamy-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-eyndius/": {
             "title": "Jacobus Eyndius",
@@ -3210,7 +3210,7 @@
             },
             "quote": null,
             "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Heiblocq-1.jpg",
-            "artdepiction": null
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/SK-A-4596.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-kantelaar/": {
             "title": "Jacobus Kantelaar",
@@ -3232,7 +3232,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Kantelaar-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-revius/": {
             "title": "Jacobus Revius",
@@ -3254,7 +3254,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Revius.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacobus-storm/": {
             "title": "Jacobus Storm",
@@ -3276,7 +3276,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Storm-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jacques-van-musschert/": {
             "title": "Jacques van Musschert",
@@ -3318,7 +3318,7 @@
                 "name": "Jan Baptista Wellekens",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=well003"
             },
-            "quote": "Op de afbeelding van wylen den heere Jan Baptista Wellekens.",
+            "quote": "Op de afbeelding van wylen den heere Jan Baptista Wellekens.\nDes Amstels Theokryt, voor wiens bevallig Dicht\nAl \u2019t Veldpo\u00ebtendom met diepen eerbied zwicht;\nDe groote Wellekens, hier door \u2019t penseel herboren,\nZet Ne\u00earlands Helikon een\u2019 nieuwen luister by.\n\u201cDe schoonste kunstkroon sier\u2019 (dus juichten al de Choren,)\nDeez\u2019 Vader der volmaakte Arkader Po\u00ebzy!\u201d\nStudio Fovetur Ingenium (1734), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 99.",
             "depiction": null,
             "artdepiction": null
         },
@@ -3418,7 +3418,7 @@
             "date": "1732 \u2013 1734",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": "https://www.rijksmuseum.nl/nl/collectie/SK-A-4831"
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4998"
             },
             "article": {
                 "name": null,
@@ -3496,7 +3496,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Krul-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-jacobz-schipper/": {
             "title": "Jan Jacobz. Schipper",
@@ -3518,7 +3518,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Schipper-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-jacob-schultens/": {
             "title": "Jan Jakob Schultens",
@@ -3540,7 +3540,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/SChultens-b-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-jansz-starter/": {
             "title": "Jan Jansz. Starter",
@@ -3550,7 +3550,7 @@
             "date": "1700 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4951"
             },
             "article": {
                 "name": "Van gelauwerd dichter tot armoedig historieschrijver door Nina Geerdink",
@@ -3567,7 +3567,7 @@
         "http://www.schrijverskabinet.nl/portret/jan-klinkenberg/": {
             "title": "Jan Klinkenberg",
             "subtitle": "Knecht van Kunst wordt door arbeid verkregen ",
-            "bio": "Tweede helft achttiende eeuw",
+            "bio": "Leiden 1733 \u2013 Leiden 1801",
             "painter": "Onbekend",
             "date": "1794",
             "origin": {
@@ -3580,7 +3580,7 @@
             },
             "dbnl": {
                 "name": "Jan Klinkenberg",
-                "url": "https://www.dbnl.org/auteurs/auteur.php?id=klin020"
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=klin059"
             },
             "quote": null,
             "depiction": null,
@@ -3606,7 +3606,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Lemmers-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-luyken/": {
             "title": "Jan Luyken",
@@ -3628,7 +3628,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Luyken-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-norel/": {
             "title": "Jan Norel",
@@ -3650,7 +3650,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Norel-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-six/": {
             "title": "Jan Six",
@@ -3660,7 +3660,7 @@
             "date": "1700 \u2013 1720",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4968"
             },
             "article": {
                 "name": "Burgemeester, schrijver en 'de hechte vriend van Rembrandt\u2019 door Geert Mak",
@@ -3694,7 +3694,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-Arnhem-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-van-der-noot/": {
             "title": "Jan van der Noot",
@@ -3716,12 +3716,12 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Van-der-Noot.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-van-der-rosieren/": {
             "title": "Jan van der Rosieren",
-            "subtitle": "onbekend ",
-            "bio": "Onbekend 1581 \u2013 onbekend",
+            "subtitle": "Koopman en dichter",
+            "bio": "Brugge 1581 \u2013 ca. 1651",
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1732",
             "origin": {
@@ -3782,7 +3782,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-Gijsen-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-van-hoogstraten/": {
             "title": "Jan van Hoogstraten",
@@ -3804,7 +3804,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-Hoogstraten-Jan-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-van-hout/": {
             "title": "Jan van Hout",
@@ -3832,7 +3832,7 @@
             "title": "Jan van Royen",
             "subtitle": "Beschermheer van Kunst wordt door arbeid verkregen ",
             "bio": "onbekend",
-            "painter": "Johannes Lelie",
+            "painter": "Adriaan de Lelie",
             "date": "1793",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -3870,7 +3870,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2017/02/RP-P-1907-610.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jan-vos/": {
             "title": "Jan Vos",
@@ -3880,7 +3880,7 @@
             "date": "1700 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": "https://www.rijksmuseum.nl/nl/collectie/SK-A-4592"
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4964"
             },
             "article": {
                 "name": "Meer dan de auteur van Aran en Titus\u00a0 door Nina Geerdink",
@@ -3914,7 +3914,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Zoet-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/janus-doesa/": {
             "title": "Janus Doesa",
@@ -3936,12 +3936,12 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Doesa-Dousa-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/janus-dousa-jr/": {
             "title": "Janus Dousa jr.",
             "subtitle": "Bibliothecaris te Leiden",
-            "bio": "Noordwijk 1571 \u2013 Den haag 1596",
+            "bio": "Noordwijk 1571 \u2013 Den Haag 1596",
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1720",
             "origin": {
@@ -4002,7 +4002,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Secundus-Everaerts-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jason-pratensis/": {
             "title": "Jason Pratensis",
@@ -4090,14 +4090,14 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/De-Bosch-RP-P-1906-1577.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/jeske-reinou-van-der-malen/": {
             "title": "Jetske Reinou van der Malen",
             "subtitle": "dichteres ",
             "bio": "Leeuwarden 1687 \u2013 Leeuwarden 1752",
             "painter": "Jan Maurits Quinkhard of Matthijs Accama",
-            "date": "(1732 \u2013 1738)",
+            "date": "1732 \u2013 1738",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
                 "url": null
@@ -4134,7 +4134,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Oudaen-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/joan-blasius/": {
             "title": "Joan Blasius",
@@ -4199,8 +4199,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=maur003"
             },
             "quote": "Op de Afbeelding van den heere Mr. Jan Jacob Mauricius,\nResident der H.H. Straten generaal, by den Nedersaxischen kreits; \nMede door den Heere J.M. Quinkhard Kunstig geschilderd. \nJuich vry, \u00f4 Elvestroom! om de eer, dat Nederland\nZyn heil, en \u2019t uwe, door Mauricius doet bloeijen:\nDe zangberg juicht niet min om dit geleerd Verstand,\n\u2019t Geen Amstels Treurtooneel in luister aan doet groeijen:\nNoch blyder juicht de Kerk, wanneer zyn dichtpenseel\nGods liefdewondren maalt in \u2019s Heilands Kruistafreel.\nStudio Foventur Ingenium, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 102.",
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Mauricius-1.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Mauricius_vierkant.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Mauricius.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/joan-steengragt/": {
             "title": "Joan Steengragt",
@@ -4242,9 +4242,9 @@
                 "name": "Joan van Broekhuizen",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=broe001"
             },
-            "quote": "Op de afbeelding van den heere Joan Broekhuizen.",
+            "quote": "Op de afbeelding van den heere Joan Broekhuizen.\nDit is Broekhuizen, d\u2019eer der Roomsche Po\u00ebzij;\nApolloos lieveling; \u2019t sieraat van Amtels Lichten;\nDe groote Letterheld; in puiklatijnsche Dichten;\nDie d\u2019oude Helden heeft verlost van bastaerdij;\nHen als een zon verlicht, en in den dagh gegeven;\nWaardoor zijn groote Naam den tijdt zal overleven.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 190.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Broekhuizen-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/joan-van-paffenrode/": {
             "title": "Joan van Paffenrode",
@@ -4310,7 +4310,7 @@
             },
             "quote": "Op de Afbeelding van den Heere Joannes Antonides vander Goes. \nI.\nDe Schilderkunst trof dus Antonides, naar \u2019t leven,\nDe Goesche Zwaan, die al seen Hemelsch Kunstlicht praalt!\nHij \u2019t wonder van zijn\u2019 tijdt, daar Vondels Geest uit straalt,\nHeeft zelf zijn kunstvuur, kracht en e\u00eal vernuft beschreven,\nMet gouden lettren, in zijn grootsche Po\u00ebzij.\nHij zong Bellone aan bandt, eer \u2019t iemant dorst verwachten;\nEn vloog op vleugels van zijn schrandre kunstgedachten,\nDen ganschen Aertkloot rond; om \u2019t Waereld dwingent IJ\nIn top te heffen, en zijn\u2019 Stroomgodt te versieren,\nAls opperste Monarch, van s\u2019 Waerelds Hooftrivieren.\nII.\nHier staat Antonides, Apolloos zoon, verbeelt;\nDe Goesche Zwaan; wier kunst, en grootsche Maatgedichten\nHet al, in houding, zwier en glans, voor zich doen zwichten,\nWat buiten Vondel, door de Dichtkunst is geteelt.\nWie twijfelt, sta zijn oog op \u2019s Mans geleerde blaren;\nDaar klinkt zijn Glorie op verrukkende IJstroomsnaaren.\nIII.\nDus wort Antonides, de Goesche Zwaan, verbeelt;\nIn kunst Heldt Vondels Zoon, en Ne\u00earlandts eer, en luister,\nDe glorie van Parnas, waarin het Dichtvuur speelt,\nEn straalt met zwier en glans, gelijk een star in \u2019t duister.\nHij heeft zijn Kunstfaam, in zijn grootsche Po\u00ebzij,\nVereeuwigt, met den Lof van \u2019t Kunst- en scheeprijk IJ.\nJoan Vermeulen (1739). Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 175-176.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/Portret-Joannes-Antonides-van-der-Goes.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/joannes-badon/": {
             "title": "Joannes Badon",
@@ -4345,14 +4345,36 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Missionaris en multimediaal auteur door Tine De Koninck",
+                "url": "http://www.schrijverskabinet.nl/artikel/joannes-van-sambeeck/"
             },
             "dbnl": {
                 "name": "Joannes van Sambeeck",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=samb001"
             },
             "quote": null,
+            "depiction": null,
+            "artdepiction": null
+        },
+        "http://www.schrijverskabinet.nl/portret/johannes-van-spaen/": {
+            "title": "Joannes van Spaan",
+            "subtitle": "Dichter",
+            "bio": "Rotterdam 1720 \u2013 Amsterdam 1789",
+            "painter": "Nicolaas Reyers",
+            "date": "1772",
+            "origin": {
+                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "url": null
+            },
+            "article": {
+                "name": "Leermeester in christelijke po\u00ebzie door Peter Altena",
+                "url": "http://www.schrijverskabinet.nl/artikel/joannes-van-spaan/"
+            },
+            "dbnl": {
+                "name": "Joannes van Spaan",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=spaa004"
+            },
+            "quote": "Byschrift op de Afbeelding\nVan Den\nWeleerwaardigen En Zeer Geleerden Heere!\nJo\u00e4nnes Van Spaan\nWaardig Evangeliedienaar der Gemeinte J:C: in s gravenhaage\nBerustende in het\nPan Poeticon Batavum.\nWe aanschouwen hier het puik der tempel-radenaaren,\nDie \u2019t vorstlyk s gravenhaag door leer en leven sticht:\nVan Spaan! Die op de wys der juichende eng\u2019lenschaaren,\nJehova\u2019s glorie zingt, in Neerlands maatgedicht\nLang leef dees wakkre man! zoo zal de Godsdienst bloeien,\nEn de Ed\u2019le Po\u00ebzy in hooger aanzien groeien.\n24 maart 1774\nDoor: Anna van der Aa de Sterke (UBL LTK 2098, f.40r)\n24 maart 1774",
             "depiction": null,
             "artdepiction": null
         },
@@ -4386,7 +4408,7 @@
             "date": "1700 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": "https://www.rijksmuseum.nl/nl/collectie/SK-A-4605"
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4971"
             },
             "article": {
                 "name": "Zoon van Vondel  door Els Stronks",
@@ -4425,7 +4447,7 @@
         "http://www.schrijverskabinet.nl/portret/johan-de-brune/": {
             "title": "Johan de Brune",
             "subtitle": "Staatsman en dichter",
-            "bio": "Middelburg 1616 \u2013 Middelburg 1649",
+            "bio": "Middelburg 1588 \u2013 Middelburg 1658",
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1720",
             "origin": {
@@ -4442,7 +4464,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/de-Brune-RP-P-OB-23.193-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/johan-de-witt/": {
             "title": "Johan de Witt",
@@ -4499,8 +4521,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Met \u2018fiksche snaaren\u2019 de ondeugd te lijf door Pieter van Wissing",
+                "url": "http://www.schrijverskabinet.nl/artikel/johan-pieter-broeckhoff/"
             },
             "dbnl": {
                 "name": "Johan Pieter Broeckhoff",
@@ -4587,8 +4609,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Jongste telg van het geslacht Brandt door Steff Nellis",
+                "url": "http://www.schrijverskabinet.nl/artikel/johannes-brandt/"
             },
             "dbnl": {
                 "name": "Johannes Brandt",
@@ -4596,7 +4618,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Brandt-Johannes-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/johannes-cools/": {
             "title": "Johannes Cools",
@@ -4624,7 +4646,7 @@
             "title": "Johannes Haverkamp",
             "subtitle": "(Toneel)dichter ",
             "bio": "Amsterdam, eerste helft achttiende eeuw",
-            "painter": "Arnoud van Halen, verbeterd door Quinkhard",
+            "painter": "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard",
             "date": "(1700 \u2013 1732) en (1732 \u2013  1771)",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -4662,7 +4684,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Berkhey-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/johannes-meursius/": {
             "title": "Johannes Meursius",
@@ -4728,7 +4750,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Rutgers.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/johannes-stalpart-van-der-wiel/": {
             "title": "Johannes Stalpart van der Wiel",
@@ -4750,7 +4772,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Stalpart-van-der-Wiel-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/johannes-van-braam/": {
             "title": "Johannes van Braam",
@@ -4770,29 +4792,7 @@
                 "name": "Johannes van Braam",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=braa007"
             },
-            "quote": "Op de Afbeelding van den heere Joannes van Braam.",
-            "depiction": null,
-            "artdepiction": null
-        },
-        "http://www.schrijverskabinet.nl/portret/johannes-van-spaen/": {
-            "title": "Johannes van Spaen",
-            "subtitle": "Dichter",
-            "bio": "Rotterdam 1720 \u2013 Amsterdam 1789",
-            "painter": "Nicolaas Reyers",
-            "date": "1772",
-            "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
-                "url": null
-            },
-            "article": {
-                "name": null,
-                "url": null
-            },
-            "dbnl": {
-                "name": "Johannes van Spaen",
-                "url": "https://www.dbnl.org/auteurs/auteur.php?id=spaa004"
-            },
-            "quote": null,
+            "quote": "Op de Afbeelding van den heere Joannes van Braam.\n\nApelles Schouman, trof Van Braam, dus naar het leven;\nDat Merwe Apol, waaruit het schittrend Kunstvuur straalt.\nZijn geestig brein heeft hij zelf \u2019t heerlijkste afgemaalt\nIn Huwlijkzangen, door geen kunst voorbij te streven:\nDe blijde Liefde klapt de wikjes op zijn\u2019 toon,\nEn Schijnvoets Kabinet bewaert zijn gloriekroon.\nJoannes Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 194.",
             "depiction": null,
             "artdepiction": null
         },
@@ -4838,7 +4838,7 @@
             },
             "quote": "Dit \u2019s Vondel, d\u2019 Aertspo\u00ebet, de Fenix van zijn\u2019 tijdt;\nDe fiere Rijnzwaan; \u2019t licht van Ne\u00earlandts Hooftpo\u00ebten;\nMet Pallas brein bezielt, van Febus geest bezeten;\nDe Dichtkunst heeft zijn\u2019 Naam aan d\u2019eeuwigheid gewijdt.\nSpaar \u2019t schittrend diamant om dezen Heldt te sieren;\nWant Febus schonk Hem zelf zijn heilige Laurieren.\nJoan Vermeulen (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 173.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vondel-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/joost-van-geel/": {
             "title": "Joost van Geel",
@@ -4882,7 +4882,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Scaliger-Josephus-Justus-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/juliana-cornelia-de-lannoy/": {
             "title": "Juliana Cornelia de Lannoy",
@@ -4904,7 +4904,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/de-Lannoy-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/julius-caesar-scaliger/": {
             "title": "Julius Caesar Scaliger",
@@ -4948,7 +4948,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Lipsius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/karel-van-mander/": {
             "title": "Karel van Mander",
@@ -4970,7 +4970,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/van-Mander-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/karel-verlove/": {
             "title": "Karel Verloove",
@@ -5014,7 +5014,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Lescailje-alternatief-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/kornelis-boon-engelant/": {
             "title": "Kornelis Boon van Engelant",
@@ -5093,16 +5093,16 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Contrareformatorisch humanist, politiek signaal? door Steven Van Impe",
+                "url": "http://www.schrijverskabinet.nl/artikel/laevinius-torrentius/"
             },
             "dbnl": {
                 "name": "Laevinus Torrentius",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=torr008"
             },
-            "quote": null,
+            "quote": "\u2018Geen onbeduidende taak is het, noch in lage toon te beproeven, om de welverdiende straf te bezingen, door een tiran ondergaan, die in \u2019s volks gunst zich opdrong ten verderve van het vaderland [\u2026]\u2019\nLaevinius Torrentius over de moord op Willem van Oranje door Balthasar Gerards",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/TOrrentius.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/lambert-paludanus-van-den-broek/": {
             "title": "Lambert (Paludanus) van den Broek",
@@ -5115,8 +5115,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Een eenmanskunstgenootschap door Harm Nijboer",
+                "url": "http://www.schrijverskabinet.nl/artikel/lambert-van-den-broek/"
             },
             "dbnl": {
                 "name": "Lambert (Paludanus) van den Broek",
@@ -5146,7 +5146,7 @@
             },
             "quote": "Aan Lambert Bidloo (fragment).\nZo rent gy schrandre man door alle letterperken,\nVaar voort, de prys hangt op, voor uw doorluchte werken,\nEen prys van grooter nut, voor die het recht waardeert,\nAls naa \u2019t Olimphiesch spel den helden wierd vereerd.\nPieter Langendijk (1751),  De gedichten, deel 3, 131.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Lambert-Bidloo.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/laurens-bake/": {
             "title": "Laurens Bake",
@@ -5190,7 +5190,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Coster-Laurens-Jansz-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/laurens-reael/": {
             "title": "Laurens Reael",
@@ -5212,7 +5212,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Reael.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/laurentius-steversloot/": {
             "title": "Laurentius Steversloot",
@@ -5234,7 +5234,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Steversloot-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/leonard-de-fuyter/": {
             "title": "Leonard de Fuyter",
@@ -5269,8 +5269,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "De dichtende burgemeester door Marijke Meijer Drees",
+                "url": "http://www.schrijverskabinet.nl/artikel/lucas-trip/"
             },
             "dbnl": {
                 "name": "Lucas Trip",
@@ -5278,7 +5278,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Trip-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/lucretia-wilhelmina-van-merken/": {
             "title": "Lucretia Wilhelmina van Merken",
@@ -5298,9 +5298,9 @@
                 "name": "Lucretia Wilhelmina van Merken",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=merk001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Lucretia Wilhelmina van Merken in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Merken-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/ludolph-smids/": {
             "title": "Ludolph Smids",
@@ -5322,7 +5322,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Smids-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/lukas-pater/": {
             "title": "Lukas Pater",
@@ -5366,7 +5366,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Rotgans-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/marcus-van-vaernewyck/": {
             "title": "Marcus van Vaernewyck",
@@ -5388,7 +5388,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Vaernewyck-001.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/marcus-zuerius-boxhorn/": {
             "title": "Marcus Zuerius Boxhorn",
@@ -5423,8 +5423,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Dordrechtse parel in de kunsten door Tine De Koninck",
+                "url": "http://www.schrijverskabinet.nl/artikel/margaretha-van-godewijck/"
             },
             "dbnl": {
                 "name": "Margaretha van Godewijck",
@@ -5454,7 +5454,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Margaretha-van-Oostenrijk-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/tesselschade-roemer-visscher/": {
             "title": "Maria Tesselschade Roemers Visscher",
@@ -5474,9 +5474,9 @@
                 "name": "Maria Tesselschade Roemers Visscher",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=viss002"
             },
-            "quote": null,
+            "quote": "Het portret dat van Maria Tesselschade Roemersdochter Visscher in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Tesselschade-Johannes_K\u00f6rnlein-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/martinus-hamconius/": {
             "title": "Martinus Hamconius",
@@ -5498,7 +5498,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Hamconius-RP-P-OB-50.591.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/matthaeus-brouerius-van-nidek/": {
             "title": "Matthe\u00fcs Brou\u00ebrius van Nidek",
@@ -5520,7 +5520,7 @@
             },
             "quote": "Brou\u00ebrius! gij hebt door kloek, door naarstig slooven,\n\u2018Aaloude dingen, haast verlooren, we\u00ear hersteld.\nGeen werk viel u te zwaar. Gij kwaamt het al te boven,\nEn droegt in \u2019t letterperk u als een wakker held.\nGij weet een\u2019 grooten schat van zaaken op te zoeken.\nVan ouds, van nieus, van daar noch nooit om is gedacht.\nNa honderd jaaren, zal \u2019t sieraad der woordenboeken\nGetuigen van uw\u2019 naam, en uw beroemd geslacht.\nDat niets uw\u2019 lof verdoov\u2019, die, met het puik der tongen\nHet goed en \u2019t kwaad der Tong, doorluchtig hebt gezongen.\nPhilip Zweerts (1735), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 67.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Nidek-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/mattheus-gansneb-tengnagel/": {
             "title": "Mattheus Gansneb Tengnagel",
@@ -5530,7 +5530,7 @@
             "date": "1700 \u2013 1720",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4943"
             },
             "article": {
                 "name": "Beruchte satiricus door Johanna Ferket",
@@ -5577,8 +5577,8 @@
                 "url": "http://hdl.handle.net/10934/RM0001.COLLECT.5008"
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "\u2018Priester ende excellent po\u00ebte\u2019  door Sofie Moors",
+                "url": "http://www.schrijverskabinet.nl/artikel/matthijs-de-castelein/"
             },
             "dbnl": {
                 "name": "Matthijs de Castelein",
@@ -5621,8 +5621,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Kroongetuige door Bram Caers",
+                "url": "http://www.schrijverskabinet.nl/artikel/melis-stoke/"
             },
             "dbnl": {
                 "name": "Melis Stoke",
@@ -5652,7 +5652,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bulius-RP-P-1905-4473-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/nicolaas-heinsius/": {
             "title": "Nicolaas Heinsius",
@@ -5696,7 +5696,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Winter-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/nicolaas-versteeg/": {
             "title": "Nicolaas Versteeg",
@@ -5718,7 +5718,7 @@
             },
             "quote": "Op de afbeelding van mynen kunstgenoot den heer Nikolaes Versteeg.\nAl slooft, en slaeft, en draeft Versteeg, schier al den dag,\nTen dienst der koopmanschap, met yverende zinnen,\nVergeet hy echter niet den dienst der Zanggodinnen,\nMaer leeft, wanneer \u2019t zyn geest, in rust, gebeuren mag\nIn maetgezang den lof der Dichtkunst uit te meten,\nDes prykt zyn beeltenis in \u2019t midden der Po\u00ebten.\nLucas Pater (1739), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 164.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Versteeg-b.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/nicolaus-gradius/": {
             "title": "Nicolaus Grudius",
@@ -5740,7 +5740,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Grudius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/otto-vaenius/": {
             "title": "Otto van Veen",
@@ -5760,9 +5760,9 @@
                 "name": "Otto van Veen",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=vaen001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Otto van Veen in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Veen-Venius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/paulus-merula/": {
             "title": "Paulus Merula",
@@ -5784,7 +5784,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Merula-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/peter-heyns/": {
             "title": "Peeter Heyns",
@@ -5850,7 +5850,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Tiara-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/petronella-moens/": {
             "title": "Petronella Moens",
@@ -5872,7 +5872,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Moens-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/petrus-baard/": {
             "title": "Petrus Baard",
@@ -5966,7 +5966,7 @@
             "title": "Petrus Johannes Kasteleijn",
             "subtitle": "Apotheker en (toneel)dichter",
             "bio": "Breukelen 1746 \u2013 Amsterdam 1794",
-            "painter": "Lelie",
+            "painter": "Johannes Lelie",
             "date": "1790 \u2013 1791",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -6004,7 +6004,7 @@
             },
             "quote": "Wie isser oyt gheweest van over hondert jaeren\nDie soo in d\u2019edel Const van teeck\u2019nen was ervaren?\nEn in Po\u00ebtery, jae alderhande tael\nIn\u2019t leven ende spraeck hy wist het altemael.\nHoe wonder wist hy niet van als te inventeren\nEen schat-kist voor de jeucht om jevrich naer te leeren:\nHoe wonder heeft hy niet het licht van sijn verstandt\nOntsteken aen t\u2019pinceel van Titiaen in brandt.\nHy was in sin soo fray in groot en cleyn figuren\nIn Landtschap heel plaisant, wist alles uyt te vueren.\nGaet naer\u2019t Escoriael in Spanien vermaert\nDaer heeft sijn cloeck verstant het merck der Const ghebaert.\nHoe menich geestich quant can sijn verstant verscherpen\nAls hy sijn Conste siet in d\u2019edel stadt Antwerpen\nIn ons Lieffvrouwen Kerck, een recht Const Cabinet\nDaer heeft hy menich stuck van sijn pinceel gheset.\nTot Brussel, Mechelen, tot Gendt en ander steden\nIae in Italien wordt sijn Schildry beleden\nTe wesen d\u2019uyterste dat naer het leven treckt\nDie door de Edel Const het leven schier ontdeckt.\nCornelis de Bie (1662), Het gulden cabinet van de edel vry schilderconst.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Rubens-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/petrus-schaak/": {
             "title": "Petrus Schaak",
@@ -6014,7 +6014,7 @@
             "date": "1732 \u2013 1771",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.5011"
             },
             "article": {
                 "name": "De anonieme aanklager  door Lieke van Deinsen",
@@ -6048,7 +6048,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Scriverius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/petrus-van-der-straten/": {
             "title": "Petrus van der Straten",
@@ -6070,7 +6070,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Straten-Petrus-van-der-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/philip-malfait/": {
             "title": "Philip Malfait",
@@ -6101,7 +6101,7 @@
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1735",
             "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "name": "Geveild bij Christies London 14 December 2001",
                 "url": null
             },
             "article": {
@@ -6112,9 +6112,9 @@
                 "name": "Philip Sweerts",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=swee007"
             },
-            "quote": "Op de afbeelding van den heere Philip Zweerts.",
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Sweerts-Zweerts-Philip-1.jpg"
+            "quote": "Op de afbeelding van den heere Philip Zweerts.\nHoe stout ge, \u00f4 Quinkhard! als met Febus gouden stralen,\nDen levendigen gloed, den geest van \u2019t Heldendicht,\nIn Pallas Lievling Zweerts voor \u2019t Zangkoor af mogt malen;\nDat heilig dichtvuur \u2019t geen met luistryker Licht,\nAls erflyk aan zyn\u2019 Stam, is in zyn Werk te ontdekken,\nMaalt hem nog ruim zo stout als uw volmaakte trekken.\nStudio Fovetur Ingenium (1735), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 1o4.",
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Philippe_Sweerts_overzicht2.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/11/Philippe_Sweerts.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/philippus-dorville/": {
             "title": "Philippus d\u2019Orville",
@@ -6136,7 +6136,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/DOrville-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/philips-marnix-sint-aldegonde/": {
             "title": "Philips van Marnix van Sint Aldegonde",
@@ -6158,7 +6158,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Marnix-van-st-aldegonde-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pierius-winsemius/": {
             "title": "Pi\u00ebrius Winsemius",
@@ -6189,7 +6189,7 @@
             "painter": "Jan Maurits Quinkhard",
             "date": "1735",
             "origin": {
-                "name": "Onbekend",
+                "name": "Priv\u00e9collectie, geveild maart 2021 te Hilversum",
                 "url": null
             },
             "article": {
@@ -6201,8 +6201,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=bodd004"
             },
             "quote": "Op het afbeeldsel van den wel\u00ebdelen heere,\nDen heere Mr. Pieter Boddaert Cornelisz.\nGriffier des edelmogenden leenhofs van vlaanderen, en zeeraads in zeeland. \nWie Boddaert kennen wil, den schranderen Griffier,\nBeschouwe in dit tafreel de trekken van zyn weezen:\nDe Godsvrucht kroont zyn hoofd met heiligen lauwrier,\nTerwyl \u2019s Mans eedle deugd in Zeeland word geprezen.\nZyn Zangster, die altoos een lust der Christnen was,\nKoos David tot Apol, en Sion tot Parnas.\nLukas Pater (1736), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 122.",
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/BoddaertRP-P-OB-48.839.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Boddaert_klein.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Boddaert.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/pieter-bor/": {
             "title": "Pieter Bor",
@@ -6224,7 +6224,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bor-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-burman/": {
             "title": "Pieter Burman",
@@ -6246,7 +6246,7 @@
             },
             "quote": "Op de Afbeeldingen van eenige Nederlandsche dichteren, \nAls van de Heeren: Pieter Burman. \nDe groote Burman, wiens bekwaamheid in \u2019t welspreeken\nVermaard is overal daar wijsheid wordt bemind,\nZingt als een Orfeus of Arion, onbezweeken:\nDees, Pallas wakkre Zoon! is ook den Muzen vrind.\nMen leere uit dit gezicht, vol viers, \u2019t verstandig peinzen.\nO hooggeleerde geest! dat u de Schilder maal\u2019\nDaar Van der Doezen, daar de Groot, geleerde Heinzen,\nEn Vossen zich in verf vertoonen op metaal.\nWant waarom zoude uw beeld niet bij hun beelden pronken?\nDaar reeds de faam hunn\u2019 roem ook heeft u geschonken.\nAnoniem, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 63.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/BurmanRP-P-OB-48.870.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-cornelisz-hooft/": {
             "title": "Pieter Cornelisz. Hooft",
@@ -6277,7 +6277,7 @@
             "painter": "Dionys van Nymegen",
             "date": "1732 \u2013 1771",
             "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "name": "Priv\u00e9collectie, geveild november 2020 te Haarlem",
                 "url": null
             },
             "article": {
@@ -6289,8 +6289,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=groo002"
             },
             "quote": null,
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/De-groot-Pieter-1.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/11/De-Groot_overzicht.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/11/De-Groot_Volledig.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/pieter-la-rue/": {
             "title": "Pieter de la Rue",
@@ -6311,8 +6311,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=rue_002"
             },
             "quote": "Aan den Heere Michiel de Roode.\nBy gelegenheid dat ik my op zyn aanhoudend verzoek, ter vermeerdering van zyn Pan Po\u00ebticon, \nDoor den wakkeren Portraitschilder J.M. Quinkhard in het klein liet schilderen. \nWaarheen vervoert u d\u2019overmaat\nVan onverdiende gunst\u2019,\nDe Roode! om Quinkhards kunst\nTe laaten treffen myn gelaat,\nEn dat te plaatsen by\nUw\u2019 Ne\u00earlands Digterry:\nDie Digterry in vroeger\u2019 tyd,\n\u2019t Werk van Van Halens hand,\nDog nu in beter\u2019 stand\nGebragt, en veel vermeerd door vlyt\nEn kosten, die gy mild\nDaar aan besteeden wilt?\nGy drongt, met vriendelyken dwang,\nSlechts op \u2019t gezicht belust,\nMy, ganschlyk onbewust\nVan \u2019t oogmerk, dat ge reeds voorlang\nGenomen hadt, om my\nTe zien in schildery.\nIk had (gy weet het uit myn\u2019 mond)\nNooit lust, dat ik in prent\nBy yder wierd bekend,\nEn veil dus voor elks oogen stond;\nSchoon iemand heuschlyk dat\nMy aangeboden had.\nDog wie kon zulk een\u2019 dwang we\u00earstaan,\nWie had zoo hard een\u2019 borst\nDat hy vlak weigren dorst\nEen\u2019 eereblyk, hem aangedaan,\nDoor \u2019t plaatsen by de bloem\nDer Dichtren, hoogst in roem?\nUw kabinet houd hen bedekt\nVoor \u2019t oog van \u2019t wust gemeen;\nMaar toont hen aan elkeen\u2019\nDie, door een\u2019 zugt tot kunst gewekt,\nVeel\u2019 Mannen, groot van naam,\nDaar ziet gebragt te saam\u2019.\nHoofddigters van den eersten bloei\nDer Digtkunst\u2019 vind men hier:\nMen vind \u2018er, wier papier\nHaar toont in een\u2019 volmaakten groei,\nSint Hoofts en Vondels tyd,\nOp \u2019t cierlyxt uitgedyd.\nDie vrugtbaarheid houd nog steeds aan,\nEn zweeft en leeft, vol glans,\nIn Huydecoper thans,\nIn Feitama (wiens spelen slaan\nd\u2019 Aeloudheid naar de kroon)\nIn Hoogvliet, Schim en Boon.\nDe besten van verscheiden aart,\nDaar Ne\u00earland roem op draagt,\nWie stof en toon behaagt,\nIn \u2019t nette schryn by\u00e9\u00e9n geschaard,\nVerquikken hier \u2019t gezigt\nDoor verwe, als \u2019t oor door digt.\nWat toonde Roomes pantheon?\nVerdigtsels, anders niet.\n\u2019t Zyn wezens, die men ziet\nIn Amstels Pan Po\u00ebticon.\nWie kiest dan niet dit zyn\nVoor dien versierden schyn?\nBeroemde Geesten aan het Y,\nAan Rhyn, of Maas, of Scheld\u2019\nHoe is \u2018t, dat gy vergeldt,\nNaar heur verdiensten en waardy,\nDe Roodes milde gunst\nTer eere van de kunst?\nDe meesten queeten in hunn\u2019 pligt\nZig, yder reeds om \u2019t beste;\nDies koome ik ook op \u2019t lest\nEn offer u myn dankgedigt:\nWant zulk een\u2019 Letterkroon\nAgt gy den liefsten loon.\nDe vader Bidloo had voorheen\nVereerd Van Halens vlyt;\nMaar, in veel korter tyd,\nZiet gy alreeds, hoe meenig\u00e9\u00e9n\nDer braafste Digtren stof\nVerschaft heeft tot uw\u2019 lof.\nVerheug u nog, De Roode, lang,\nIn het bespieglen van\nUw fraai vermeerderd Pan,\nEn in verscheiden lofgezang,\nDat menige edle ve\u00ear\nGesteld heeft u ter eer.\nPieter de la Ru\u00eb (1735), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 94-98.",
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/De-la-Rue-1.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/De_la_rue_Vierkant.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/De-la-rue.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/pieter-hogerbeets/": {
             "title": "Pieter Hogerbeets",
@@ -6334,7 +6334,7 @@
             },
             "quote": "Beter weynich en goet:\nDan snood in overvloet.\n(motto voorafgaand aan de Nederlandse gedichten van Pieter Hogerbeets)",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Hogerbeets-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-langendijk/": {
             "title": "Pieter Langendijk",
@@ -6356,7 +6356,7 @@
             },
             "quote": "\u00f4 Langendijk! die uwen zangberg hebt aan \u2019t Sparen,\nDat zo veel Dichters plag te kweeken aan zijn\u2019 room,\nWanneer gij in den Hout beweegt uw zachte snaaren,\nZingt dan de nachtegaal niet schooner in den boom?\nGij vloeit, gelijk een beek, langs veld en boterweijen.\nUw lof praalt als de zon die op de duinen blinkt.\nWanneer gij boert, en jokt, verdient gij groene meijen;\nDan gaat den Schouwburg aan: dan lacht men dat het klinkt.\n\u00f4 Langendijk! die u vermaakt in \u2019s Landskronijken,\nUw Trouw en liefde tot de kunst, moet altoos blijken. \nPhilip Zweerts, Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 66.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Langendijk.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-le-clercq/": {
             "title": "Pieter le Clercq",
@@ -6369,14 +6369,14 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Minerves waerdste Tolk door Christophe Madelein",
+                "url": "http://www.schrijverskabinet.nl/artikel/pieter-le-clercq/"
             },
             "dbnl": {
                 "name": "Pieter le Clercq",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=cler015"
             },
-            "quote": "Op de Afbeelding van den heere Pieter le Clercq.",
+            "quote": "Op de Afbeelding van den heere Pieter le Clercq.\nMinerves waerdste Tolk, die elk doet watertanden\nNaar \u2019t geurigst ooft der Britsche en Gauler Boekwarenden;\nDe Apol des Ysfelstrooms, Geleerdheids Roem, Le Clercq;\nDe stoute Apelles van de vreugd der Huwlykszalen\nWierd, toen hy zedig schuwde in Beeldtenis te pralen,\nDoor Quinkhard dus gewyd in aller Dichtren Kerk.\nStudio Fovetur Ingenium (1734), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 45.",
             "depiction": null,
             "artdepiction": null
         },
@@ -6400,7 +6400,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/van-de-Kasteele-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-leuter/": {
             "title": "Pieter Leuter",
@@ -6435,8 +6435,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Van wonderkind tot vroege dood door Peter Altena",
+                "url": "http://www.schrijverskabinet.nl/artikel/pieter-nieuwland/"
             },
             "dbnl": {
                 "name": "Pieter Nieuwland",
@@ -6453,7 +6453,7 @@
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "name": "Priv\u00e9verzameling, geveild in 2020 te Brugge",
                 "url": null
             },
             "article": {
@@ -6465,8 +6465,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=nuyt001"
             },
             "quote": null,
-            "depiction": null,
-            "artdepiction": null
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Neyts_vierkant.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/2725_02_0.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/pieter-rabus/": {
             "title": "Pieter Rabus",
@@ -6488,7 +6488,29 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Rabus-1.jpg"
+            "artdepiction": null
+        },
+        "http://www.schrijverskabinet.nl/portret/pieter-van-den-bosch/": {
+            "title": "Pieter van den Bosch",
+            "subtitle": "Dominee en dichter",
+            "bio": "Amsterdam ca. 1732 \u2013 Zoetermeer 1787",
+            "painter": "Nicolaas Reyers",
+            "date": "1777",
+            "origin": {
+                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
+                "url": null
+            },
+            "article": {
+                "name": null,
+                "url": null
+            },
+            "dbnl": {
+                "name": "Pieter van den Bosch",
+                "url": "https://www.dbnl.org/auteurs/auteur.php?id=bosc019"
+            },
+            "quote": null,
+            "depiction": null,
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-verhoek/": {
             "title": "Pieter Verhoek",
@@ -6538,7 +6560,7 @@
             "title": "Pieter Vlaming",
             "subtitle": "Dichter",
             "bio": "Amsterdam 1686 \u2013 (nabij) Haarlem 1733",
-            "painter": "Jan Maurits Quinkhard (?)",
+            "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1734",
             "origin": {
                 "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
@@ -6554,7 +6576,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vlaming-Pieter-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/pieter-vreede/": {
             "title": "Pieter Vreede",
@@ -6576,7 +6598,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Vreede-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/reinier-neuhusius/": {
             "title": "Reinier Neuhusius",
@@ -6598,16 +6620,16 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Neuhusius-Reinier.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/regeer-anslo/": {
             "title": "Reyer Anslo",
             "subtitle": "Dichter ",
             "bio": "Amsterdam 1626 \u2013 Perugia 1669",
-            "painter": "Arnoud van Halen en Nicolas Verkolje",
+            "painter": "Arnoud van Halen en Nicolaas Verkolje",
             "date": "(1700 \u2013 1720) en (1732 \u2013 1746)",
             "origin": {
-                "name": "Huidige verblijfplaats van beide Panpo\u00ebticon-portret onbekend",
+                "name": "Huidige verblijfplaats van beide Panpo\u00ebticon-portretten onbekend",
                 "url": null
             },
             "article": {
@@ -6620,7 +6642,7 @@
             },
             "quote": "\u2019t Gevalt myn Digt-lust, hier den Lands-lien op te dragen\nEen Man, die in den Styl van Vaarssen onzer dagen\nZoo min berisp\u2019lyk is, dat, buyten Vittery,\nEn Spinne-Vuyligheyd, op zyne Po\u00ebsy\nDigt-kondig Onderzoek, hoe fyn, hoe scharp, kan smalen,\nOf door Bet-wetery ten opspraak afterhalen.\n\u2018k Meen Ansloo , wiens Gedigt , van \u2019t bloeien myner Jeugd,\nAls dat van Zuylichem tot heden my geheugdt,\nEn des verdienstig, door myn dank\u2019bre pligt verschuldigt,\nHet Panpo\u00ebticon te werden in gehuldigdt.\nBidloo (1720), Panpo\u00ebticon Batavum, 127.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Anslo-RP-P-OB-053.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/rhijnvis-feith/": {
             "title": "Rhijnvis Feith",
@@ -6642,7 +6664,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Feith-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/robert-keuchenius/": {
             "title": "Robert Keuchenius",
@@ -6664,7 +6686,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Keuchenius-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/roemer-visscher/": {
             "title": "Roemer Visscher",
@@ -6706,9 +6728,9 @@
                 "name": "Romeyn de Hooghe",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=hoog001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Romeyn de Hooghe in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/De-Hooghe-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/salomon-van-til/": {
             "title": "Salomon van Til",
@@ -6730,7 +6752,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Til-Salomon-van-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/samuel-ampzing/": {
             "title": "Samuel Ampzing",
@@ -6774,7 +6796,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Coster-Samuel-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/samuel-van-hoogstraten/": {
             "title": "Samuel van Hoogstraten",
@@ -6816,7 +6838,7 @@
                 "name": "Sara Maria van der Wilp",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=wilp001"
             },
-            "quote": null,
+            "quote": "Het portret dat van Sara Maria van der Wilp in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
             "artdepiction": null
         },
@@ -6862,7 +6884,7 @@
             },
             "quote": "Op het Afbeeldsel van den heere Sybrand Feitama. \nHierzietge, Aanschouwers! een\u2019 van Febus grootste Zoonen,\nDen schrandren Feitama, die door verrukkend Dicht\nEn eedle Treurstof, zich een zuil op Pindus sticht,\nAlwaar de Muzen hem met veil en Lauwren kroonen.\nMen eer\u2019 de Beeldtenis van Ne\u00earlands Fenelon,\nDoor Quinkhards hand gemaald in \u2018t Pan-Po\u00ebticon. \nLucas Pater (1733), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 37.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Feitema-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/simon-abbes-gabbema/": {
             "title": "Simon Abbes Gabbema",
@@ -6941,8 +6963,8 @@
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Een Alkmaarse \u2018homo universalis' door Harry de Raad en Barbara Jensen",
+                "url": "http://www.schrijverskabinet.nl/artikel/simon-eikelenberg/"
             },
             "dbnl": {
                 "name": "Simon Eikelenberg",
@@ -6950,7 +6972,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Eikelenberg-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/simon-schijnvoet/": {
             "title": "Simon Schijnvoet",
@@ -6970,9 +6992,9 @@
                 "name": "Simon Schijnvoet",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=schi007"
             },
-            "quote": null,
+            "quote": "Het portret dat van Simon Schijnvoet in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Schijnvoet.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/simon-van-der-waal/": {
             "title": "Simon van der Waal",
@@ -7026,7 +7048,7 @@
             "date": "1743",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4982"
             },
             "article": {
                 "name": "De \u2018luister van \u2019t Aonisch koor\u2019   door Roland de Bonth",
@@ -7048,7 +7070,7 @@
             "date": "1700 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": null
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4958"
             },
             "article": {
                 "name": null,
@@ -7069,12 +7091,12 @@
             "painter": "Arnoud van Halen, verbeterd door Jan Maurits Quinkhard",
             "date": "(1700 \u2013 1720) en (1732 \u2013 1771)",
             "origin": {
-                "name": "Rijksmuseum",
-                "url": null
+                "name": "Rijksmuseum, Amsterdam",
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.10514"
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Kritische kroniekschrijver  door Rosanne Baars",
+                "url": "http://www.schrijverskabinet.nl/artikel/theodorus-velius/"
             },
             "dbnl": {
                 "name": "Theodorus Velius",
@@ -7148,7 +7170,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Oosterwyck-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/willem-baudartius/": {
             "title": "Willem Baudart",
@@ -7170,7 +7192,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Baudartius-RP-P-1938-1993R-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/willem-bilderdijk/": {
             "title": "Willem Bilderdijk",
@@ -7192,7 +7214,7 @@
             },
             "quote": "Aan de bestuurders van het Taal- en Dichtlievend genootschap \nTer spreuke voerende:\n\u201cKunst wordt door arbeid Verkregen;\u201d \nBy \u2019t plaatsen van mijne afbeelding in het Pan Po\u00ebticon Batavum. \nZo wort dan ook mijn beeld by Nederlands Homeeren,\nDen roem van \u2019t vaderland en \u2019t siersel van hunn\u2019 tijd,\nWier namen, kunde en smaak, met diep ontzach vereeren,\nHet staatlijk tempelchoor der glorie ingewijd! \u2013\nKan \u2019t zijn; of heeft me een waan, een ijdle droom bevangen?\nMeceenen! wijst me uw keur zoo groot een voorrecht toe,\nEn breekt mijn tong niet los in dankbre vreugdezangen?\nIs \u2019t mooglijk, dat mijn drift niet aan mijn\u2019 plicht voldoe!\nHelaas! ontroerd, verward, verbijsterd, opgetogen,\nVerrukt, door zoo veel eer, mijn vroege jeugd vergond,\nOntbreekt d\u2019 ontroerden geest het staamlend spraakvermogen;\n\u2019t Erkentlijk hart welt op; maar de aandrift sluit den mond.\nEen zedig zwijgen smeekt uw heuschheid slechts verschooning\nVoor d\u2019 ingetogen\u2019 schroom met mijn geringe kunst;\nBekommerd, dat wellicht haar dorre plichtbetooning,\nU-zelv\u2019 mocht blozen doen om \u2019t voorwerp van uw gunst.\nWant hoe vermat ze zich, met weidsche dichtsieraden,\nOf trotschen woordentooi, u onder \u2019t oog te tre\u00ean;\nDie nooit, dan in den schaa\u00fbw van uwe lauwerbladen\nDan onder uw geleide, in \u2019t licht des daags verscheen?\nU, welker naam en roem haar dichtgebreken dekken!\nWier lofspraak, haar verkwist door uw grootmoedigheid,\nWier gunst en eergeschenk, haar voor verdiensten strekken,\nWaarme\u00ea heur eigen waan haar-zelv het hart niet vleit!\nHoe dan, hoe waar ze in staat, een dankbewijs te geven,\nEn u, en de eereplaats, haar toegewezen, waard?\nOf zou ze in \u2019t openbaar uw aller stem we\u00earstreven?\nDie valsche nedrigheid verried een\u2019 trotschen aart:\nZy zwijgt dan, en ontfangt, doch schaamrood en verslagen,\nAl de eer, waarmede uw hand haar schedle overstort:\nMaar gy, by zoo veel gunst, haar zwakheid toegedragen,\nLeert haar, op welk een wijs zy ze eenmaal waardig word\u2019!\nWillem Bilderdijk (1779), Verspreide gedichten II, 178.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Bilderdijk-RP-P-OB-60.422-2.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/wilhelmus-dorville/": {
             "title": "Willem d\u2019Orville",
@@ -7214,7 +7236,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/Schermafbeelding-2016-05-15-om-22.06.17.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/willem-de-groot/": {
             "title": "Willem de Groot",
@@ -7258,7 +7280,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/Focquenbroch-001.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/willem-goeree/": {
             "title": "Willem Goeree",
@@ -7280,7 +7302,7 @@
             },
             "quote": null,
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Goeree-1.jpg"
+            "artdepiction": null
         },
         "http://www.schrijverskabinet.nl/portret/willem-ogier/": {
             "title": "Willem Ogier",
@@ -7290,7 +7312,7 @@
             "date": "1700 \u2013 1732",
             "origin": {
                 "name": "Rijksmuseum, Amsterdam",
-                "url": "https://www.rijksmuseum.nl/nl/collectie/SK-A-4588"
+                "url": "http://hdl.handle.net/10934/RM0001.COLLECT.4979"
             },
             "article": {
                 "name": "Verdwalen in de Antwerpse straten door Timothy De Paepe",
@@ -7329,7 +7351,7 @@
         "http://www.schrijverskabinet.nl/portret/willem-spiering/": {
             "title": "Willem Spiring",
             "subtitle": "Vertaler",
-            "bio": "Utrecht 1653 - Amsterdam 1739",
+            "bio": "Utrecht 1653 \u2013 Amsterdam 1739",
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1732",
             "origin": {
@@ -7351,24 +7373,24 @@
         "http://www.schrijverskabinet.nl/portret/willem-van-der-borcht/": {
             "title": "Willem van der Borcht",
             "subtitle": "Dichter",
-            "bio": "Brussel 1621 \u2013 Brussel 1668",
+            "bio": "Brussel 1621 \u2013 Brussel na 1682",
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1771",
             "origin": {
-                "name": "Onbekend",
+                "name": "Priv\u00e9collectie, geveild november 2020 te Haarlem.",
                 "url": null
             },
             "article": {
-                "name": null,
-                "url": null
+                "name": "Een ambitieus Brussels po\u00ebet  door Karel Porteman",
+                "url": "http://www.schrijverskabinet.nl/artikel/willem-van-der-borcht/"
             },
             "dbnl": {
                 "name": "Willem van der Borcht",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=borc002"
             },
             "quote": null,
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/03/van-der-Borcht-1.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/11/Van-der-Borcht_artikel-e1604260437230.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/11/Van-der-Borcht_volledig.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/willem-van-der-hoeven/": {
             "title": "Willem van der Hoeven",
@@ -7377,7 +7399,7 @@
             "painter": "Arnoud van Halen",
             "date": "1700 \u2013 1732",
             "origin": {
-                "name": "http://www.dbnl.org/auteurs/auteur.php?id=hoev003",
+                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend",
                 "url": null
             },
             "article": {
@@ -7399,7 +7421,7 @@
             "painter": "Jan Maurits Quinkhard",
             "date": "1732 \u2013 1734",
             "origin": {
-                "name": "Huidige verblijfplaats Panpo\u00ebticon-portret onbekend; op 5 juni 1916 verkocht te Amsterdam",
+                "name": "Priv\u00e9verzameling, geveild in 2020 te Hilversum.",
                 "url": null
             },
             "article": {
@@ -7411,8 +7433,8 @@
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=pot_004"
             },
             "quote": "De zilvren Maasstroom danst wanneer hij u hoort zingen,\nO Van der Pot! en zet zijn gretige ooren schrap,\nUw stad prijst niet alleen de drie paar lievelingen\nVan Febus, al wat speelt roemt ook het Broederschap.\nDat, door Natuur, de Kunst weet kracht en vuur te geeven.\nHet broederschap, daar gij een waardig lid van zijt!\nDat, door een zuivre drift, en edle zucht gedreeven,\nDe Dichtkunst niet onteert door jaloezij, of nijd.\nUw lof bloeie onverwelkt, \u00f4 braave Kunstgenooten!\nDe gansche Zangberg blijve als gij in een geslooten.\nPhilip Zweerts (1735), Arnoud van Halen\u2019s Pan Po\u00ebticon Batav\u00fbm verheerlijkt, 69.",
-            "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Pot-van-der-1-1.jpg"
+            "depiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/04/VanderPot_willem-1.jpg",
+            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2020/10/VanderPot_willem.jpg"
         },
         "http://www.schrijverskabinet.nl/portret/willem-van-heemskerk/": {
             "title": "Willem van Heemskerk",
@@ -7454,12 +7476,12 @@
                 "name": "Zacharias Heyns",
                 "url": "http://www.dbnl.org/auteurs/auteur.php?id=heyn003"
             },
-            "quote": null,
+            "quote": "Het portret dat van Zacharias Heyns in het Panpo\u00ebticon Batav\u00fbm was opgenomen, is (vooralsnog) niet gevonden. Dit moderne alternatief werd gemaakt door illustrator en beeldend kunstenaar Gerard Vroon.",
             "depiction": null,
-            "artdepiction": "http://www.schrijverskabinet.nl/wp-content/uploads/2016/05/Heyns-Zacharias-1.jpg"
+            "artdepiction": null
         }
     },
     "metadata": {
-        "date": "2020-05-20T11:18:11.195209"
+        "date": "2021-04-29T10:56:57.432368"
     }
 }

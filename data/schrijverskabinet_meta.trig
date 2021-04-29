@@ -1,0 +1,155 @@
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    <https://data.create.humanities.uva.nl/id/schrijverskabinet/> a schema:Dataset ;
+        schema:about <http://www.wikidata.org/entity/Q17319132> ;
+        schema:alternateName "Schrijverskabinet in RDF" ;
+        schema:contributor [ a schema:Person ;
+                schema:name "Ad Leerintveld" ],
+            [ a schema:Person ;
+                schema:name "Feike Dietz" ],
+            [ a schema:Person ;
+                schema:name "Frans Blom" ],
+            [ a schema:Person ;
+                schema:name "Geert Mak" ],
+            [ a schema:Person ;
+                schema:name "Gijsbert Rutten" ],
+            [ a schema:Person ;
+                schema:name "Henk Looijesteijn" ],
+            [ a schema:Person ;
+                schema:name "Hubert Meeus" ],
+            [ a schema:Person ;
+                schema:name "Inger Leemans" ],
+            [ a schema:Person ;
+                schema:name "Ivo Nieuwenhuis" ],
+            [ a schema:Person ;
+                schema:name "Jan Noordegraaf" ],
+            [ a schema:Person ;
+                schema:name "Jan Waszink" ],
+            [ a schema:Person ;
+                schema:name "Alan Moss" ],
+            [ a schema:Person ;
+                schema:name "Jasper van der Steen" ],
+            [ a schema:Person ;
+                schema:name "Jeroen Jansen" ],
+            [ a schema:Person ;
+                schema:name "Johan Koppenol" ],
+            [ a schema:Person ;
+                schema:name "Johanna Ferket" ],
+            [ a schema:Person ;
+                schema:name "Joris Oddens" ],
+            [ a schema:Person ;
+                schema:name "Josephina de Fouw" ],
+            [ a schema:Person ;
+                schema:name "Karel Porteman" ],
+            [ a schema:Person ;
+                schema:name "Kasper van Ommen" ],
+            [ a schema:Person ;
+                schema:name "Kornee van der Haven" ],
+            [ a schema:Person ;
+                schema:name "Lia van Gemert" ],
+            [ a schema:Person ;
+                schema:name "Anna de Haas" ],
+            [ a schema:Person ;
+                schema:name "Lieke van Deinsen" ],
+            [ a schema:Person ;
+                schema:name "Marijke Meijer Drees" ],
+            [ a schema:Person ;
+                schema:name "Marijke Tolsma" ],
+            [ a schema:Person ;
+                schema:name "Marrigje Paijmans" ],
+            [ a schema:Person ;
+                schema:name "Martine van Elk" ],
+            [ a schema:Person ;
+                schema:name "Michiel Roscam Abbing" ],
+            [ a schema:Person ;
+                schema:name "Michiel van Duijnen" ],
+            [ a schema:Person ;
+                schema:name "Nelleke Moser" ],
+            [ a schema:Person ;
+                schema:name "Nicoline van der Sijs" ],
+            [ a schema:Person ;
+                schema:name "Nina Geerdink" ],
+            [ a schema:Person ;
+                schema:name "Ans Veltman" ],
+            [ a schema:Person ;
+                schema:name "Patrick van ‘t Hof" ],
+            [ a schema:Person ;
+                schema:name "Peter Altena" ],
+            [ a schema:Person ;
+                schema:name "Pieta van Beek" ],
+            [ a schema:Person ;
+                schema:name "René van Stipriaan" ],
+            [ a schema:Person ;
+                schema:name "Rick Honings" ],
+            [ a schema:Person ;
+                schema:name "Riet Schenkeveld-van der Dussen" ],
+            [ a schema:Person ;
+                schema:name "Roland de Bonth" ],
+            [ a schema:Person ;
+                schema:name "Ruben E. Verwaal" ],
+            [ a schema:Person ;
+                schema:name "Sarah Adams" ],
+            [ a schema:Person ;
+                schema:name "Sophie Reinders" ],
+            [ a schema:Person ;
+                schema:name "Arie-Jan Gelderblom" ],
+            [ a schema:Person ;
+                schema:name "Sven Molenaar" ],
+            [ a schema:Person ;
+                schema:name "Timothy De Paepe" ],
+            [ a schema:Person ;
+                schema:name "Ton Harmsen" ],
+            [ a schema:Person ;
+                schema:name "Ton van Strien" ],
+            [ a schema:Person ;
+                schema:name "Arnoud Visser" ],
+            [ a schema:Person ;
+                schema:name "Dirk Imhof" ],
+            [ a schema:Person ;
+                schema:name "Elly Groenenboom-Draai" ],
+            [ a schema:Person ;
+                schema:name "Els Stronks" ] ;
+        schema:creator [ a schema:Person ;
+                schema:name "Leon van Wissen" ;
+                schema:sameAs <https://orcid.org/0000-0001-8672-025X> ;
+                owl:sameAs <https://leonvanwissen.nl/me> ],
+            [ a schema:Person ;
+                schema:name "Harm Nijboer" ;
+                schema:sameAs <https://orcid.org/0000-0001-9407-6433> ;
+                owl:sameAs <http://viaf.org/viaf/281741168> ] ;
+        schema:dateCreated "2020-05-20"^^xsd:date ;
+        schema:dateModified "2021-04-29"^^xsd:date ;
+        schema:datePublished "2020-05-20"^^xsd:date ;
+        schema:description """Het Panpoëticon Batavûm is een verzameling portretten van Nederlandse dichters (en schrijvers in het algemeen). De verzameling is begin achttiende eeuw aangelegd door Arnoud van Halen (1673-1732) en is in de loop der tijd door anderen aangepast en uitgebreid. De verzameling als zodanig is niet meer in tact, maar gelukkig is er een prachtige digitale reconstructie te zien op http://www.schrijverskabinet.nl/.
+
+Door de data van het Schrijverskabinet te modelleren in RDF kunnen we de daarin genoemde entiteiten verbinden met bestaande datasets zoals ECARTICO, ONSTAGE en Wikidata, die bijvoorbeeld meer biografische informatie bevatten over een dichter. Via een koppeling met de Linked Open Data van de Koninklijke Bibliotheek zijn primaire en secundaire werken van een dichter opvraagbaar. Dit maakt het mogelijk om vragen als 'In hoeverre zijn auteurs van populaire stukken uit de Amsterdamse Schouwburg opgenomen in het Panpoëticon?' en 'Wat was de geografische spreiding van dichters in het Panpoëticon?'."""@nl, """The Panpoëticon Batavûm is a collection of small portraits of Dutch poets (and writers in general). The collection was set up at the beginning of the eighteenth century by the painter Arnoud van Halen (1673-1732). As a collection the Panpoëticon is no longer intact, but fortunately a beautiful digital reconstruction was made which can be seen at http://www.schrijverskabinet.nl/. 
+
+By modelling the data from the Schrijverskabinet in RDF, we can connect the entities that are included in the Schrijverskabinet to other relevant datasets that for instance include more detailed biographical information, such as ECARTICO, ONSTAGE, and Wikidata. Also, a link to the Linked Open Data from the Koninklijke Bibliotheek allows us to retrieve primary and secondary works for an author included in the Panpoëticon. We then can start asking questions such as 'To what extent were the authors of popular pieces in the Amsterdam Theatre included in the Panpoëticon?' and 'What was the geographical distribution of the poets included in the Panpoëticon?'."""@en ;
+        schema:distribution [ a schema:DataDownload ;
+                schema:contentUrl <https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/2.0/data/schrijverskabinet.trig> ;
+                schema:encodingFormat "application/trig" ;
+                schema:name "Download in RDF/TriG" ;
+                schema:url <https://github.com/LvanWissen/schrijverskabinet-rdf/tree/2.0/data> ] ;
+        schema:editor [ a schema:Person ;
+                schema:name "Lieke van Deinsen" ;
+                schema:sameAs <https://orcid.org/0000-0001-6732-602X> ],
+            [ a schema:Person ;
+                schema:name "Ton van Strien" ] ;
+        schema:identifier <https://doi.org/10.5281/zenodo.3835558> ;
+        schema:image <http://www.schrijverskabinet.nl/wp-content/uploads/2015/10/tijdlijn-onderhandse-verkoop.jpg> ;
+        schema:includedInDataCatalog <https://data.create.humanities.uva.nl/id/datasets/> ;
+        schema:isBasedOn <http://www.schrijverskabinet.nl/> ;
+        schema:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+        schema:mainEntityOfPage <https://data.create.humanities.uva.nl/page/schrijverskabinet/> ;
+        schema:name "Het Schrijverskabinet - Panpoëticon Batavûm" ;
+        schema:publisher [ a schema:Organization ;
+                schema:name "CREATE, An E-Humanities Perspective" ;
+                schema:sameAs <http://ror.org/04dkp9463> ;
+                schema:url <https://www.create.humanities.uva.nl/> ] ;
+        schema:url <http://www.schrijverskabinet.nl/> ;
+        schema:version "2.0" .
+}
+

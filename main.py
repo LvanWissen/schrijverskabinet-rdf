@@ -7,7 +7,7 @@ Built upon an adapted version of RDFAlchemy for Python (3.7). Install with:
 pip install git+https://github.com/LvanWissen/RDFAlchemy.git
 ```
 
-Questions:
+Contact:
     Leon van Wissen (l.vanwissen@uva.nl)
 
 """
@@ -25,7 +25,7 @@ import requests
 from bs4 import BeautifulSoup
 
 import rdflib
-from rdflib import Dataset, ConjunctiveGraph, Graph, URIRef, Literal, XSD, Namespace, RDFS, BNode, OWL
+from rdflib import Dataset, URIRef, BNode, Literal, Namespace, XSD, RDFS, OWL
 from rdfalchemy import rdfSubject, rdfMultiple, rdfSingle
 
 PORTRETURL = "http://www.schrijverskabinet.nl/schrijverskabinet/"
@@ -44,11 +44,9 @@ ns = Namespace("https://data.create.humanities.uva.nl/id/schrijverskabinet/")
 
 nsPerson = Namespace(
     "https://data.create.humanities.uva.nl/id/schrijverskabinet/person/")
-personCounter = count(1)
 
 nsArtwork = Namespace(
     "https://data.create.humanities.uva.nl/id/schrijverskabinet/artwork/")
-artworkCounter = count(1)
 
 
 class Entity(rdfSubject):
@@ -119,6 +117,7 @@ class DatasetClass(Entity):
     temporalCoverage = rdfSingle(schema.temporalCoverage)
 
     version = rdfSingle(schema.version)
+
 
 class DataDownload(CreativeWork):
     rdf_type = schema.DataDownload
@@ -223,10 +222,6 @@ def fetchUrls(url: str):
     """
 
     r = requests.get(url)
-
-    # urls = re.findall(r'(http:\/\/www\.schrijverskabinet\.nl\/portret\/.*?)"',
-    #                   r.text)
-
     soup = BeautifulSoup(r.text, 'html.parser')
 
     portraits = soup.findAll('a', class_='portrait')
@@ -276,7 +271,8 @@ def fetchPortretPage(url: str, img: str, sleep: int = 1):
                           text='Vindplaats').find_next_sibling("div")
     origin = {
         'name': origin_el.text.strip(),
-        'url': origin_el.find('a')['href'] if origin_el.find('a') else None
+        'url':
+        origin_el.find('a')['href'].strip() if origin_el.find('a') else None
     }
 
     article_el = soup.find('div', class_='label',
@@ -308,7 +304,11 @@ def fetchPortretPage(url: str, img: str, sleep: int = 1):
         img = URIRef(img)
 
     artdepiction = soup.find('img')['src']
-    if 'portrait-no-image' in artdepiction or 'Vrouw01' in artdepiction:
+
+    # If there is no poëticon-portrait, don't include the (modern) image
+    if img is None:
+        artdepiction = None
+    elif 'portrait-no-image' in artdepiction or 'Vrouw01' in artdepiction:
         artdepiction = None
     else:
         artdepiction = URIRef(artdepiction)
@@ -328,6 +328,29 @@ def fetchPortretPage(url: str, img: str, sleep: int = 1):
     return data
 
 
+def normalize_name(name: str):
+    """Normalize a name for usage in a URI by replacing spaces with hyphens, 
+    lowercasing it, transforming it to ASCII, and by stripping it of non-alpha 
+    characters.
+
+    Args:
+        name (str): An entity's name
+
+    Returns:
+        str: Normalized name that can be used in a URI
+
+    >>> normalize_name("Arnoud van Halen")
+    "arnoud-van-halen"
+    """
+
+    name = name.lower().replace(' ', '-')
+    name = unidecode(name)
+
+    name = "".join([i for i in name if i in 'abcdefghijklmnopqrstuvwxyz-'])
+
+    return name
+
+
 def person2uri(name: str, data: dict):
     """Convert a reference to a person (str) to an URIRef.
     Function to keep an URI for a reference of person (based on uniqueness of 
@@ -341,10 +364,7 @@ def person2uri(name: str, data: dict):
         tuple: URI or BNode to identify a person and the dictionary
     """
 
-    name = name.lower().replace(' ', '-')
-    name = unidecode(name)
-
-    name = "".join([i for i in name if i in 'abcdefghijklmnopqrstuvwxyz-'])
+    name = normalize_name(name)
 
     if name == "onbekend":
         return BNode(), data
@@ -412,8 +432,6 @@ def toRDF(d: dict, target: str):
     """
 
     ds = Dataset()
-    dataset = ns.term('')
-
     g = rdfSubject.db = ds.graph(identifier=ns)
 
     try:
@@ -421,6 +439,14 @@ def toRDF(d: dict, target: str):
             persondata = json.load(infile)
     except:
         persondata = dict()
+
+    with open('data/artist2dbnl.json') as infile:
+        artist2dbnl = json.load(infile)
+
+    # Links for artists to DBNL. Stored in separate json file.
+    for subject, object in artist2dbnl.items():
+        if object:
+            g.add((URIRef(subject), OWL.sameAs, URIRef(object)))
 
     for url in d['portrets']:
         data = d['portrets'][url]
@@ -440,8 +466,9 @@ def toRDF(d: dict, target: str):
 
         try:
             birthPlace, birthYear = birth.rsplit(' ', 1)
-            birthPlace = birthPlace.replace('ca.', '').replace('(?)',
-                                                               '').strip()
+            birthPlace = birthPlace.replace('ca.',
+                                            '').replace(' na ', '').replace(
+                                                '(?)', '').strip()
         except:
             if birth.isdigit():
                 birthYear = birth
@@ -450,14 +477,21 @@ def toRDF(d: dict, target: str):
                 birthPlace, birthYear = None, None
         try:
             deathPlace, deathYear = death.rsplit(' ', 1)
-            deathPlace = deathPlace.replace('ca.', '').replace('(?)',
-                                                               '').strip()
+            deathPlace = deathPlace.replace('ca.',
+                                            '').replace(' na ', '').replace(
+                                                '(?)', '').strip()
         except:
             if death.isdigit():
                 deathYear = death
                 deathPlace = None
             else:
                 deathPlace, deathYear = None, None
+
+        # onbekend
+        if birthYear and not birthYear.isdigit():
+            birthYear = None
+        if deathYear and not deathYear.isdigit():
+            deathYear = None
 
         #############
         # Resources #
@@ -469,18 +503,12 @@ def toRDF(d: dict, target: str):
             puri,
             name=[Literal(data['title'])],
             sameAs=sameAs,
-            birthPlace=Place(BNode("".join([
-                i for i in birthPlace.lower()
-                if i in 'abcdefghijklmnopqrstuvwxyz'
-            ])),
+            birthPlace=Place(BNode(normalize_name(birthPlace)),
                              name=[birthPlace])
             if birthPlace and birthPlace.lower() != 'onbekend' else None,
             birthDate=Literal(birthYear, datatype=XSD.gYear, normalize=False)
             if birthYear else None,
-            deathPlace=Place(BNode("".join([
-                i for i in deathPlace.lower()
-                if i in 'abcdefghijklmnopqrstuvwxyz'
-            ])),
+            deathPlace=Place(BNode(normalize_name(deathPlace)),
                              name=[deathPlace])
             if deathPlace and deathPlace.lower() != 'onbekend' else None,
             deathDate=Literal(deathYear, datatype=XSD.gYear, normalize=False)
@@ -518,8 +546,13 @@ def toRDF(d: dict, target: str):
             if name == "Tweemaal door Arnoud van Halen en ('in zijnen laatsten leeftijd' door) Jan Maurits Quinkhard":
                 name = "Arnoud van Halen en Jan Maurits Quinkhard"
 
+            if name == "Tweemaal door Jan Maurits Quinkhard":
+                name = "Jan Maurits Quinkhard"
+
             if ', verbeterd door ' in name:
                 painternames += name.split(', verbeterd door ')
+            elif ', vervangen door ' in name:
+                painternames.append(name.split(', vervangen door ')[1])
             elif ' en ' in name:
                 painternames += name.split(' en ')
             elif ' of ' in name:
@@ -534,16 +567,35 @@ def toRDF(d: dict, target: str):
 
             publicationEvent = datePortretParser(data['date'])
 
-            artwork = VisualArtwork(
-                nsArtwork.term(str(next(artworkCounter))),
-                artist=painters,
-                about=p,
-                name=[Literal(f"Portret van {data['title']}", lang='nl')],
-                depiction=URIRef(data['artdepiction'])
-                if data['artdepiction'] else None,
-                temporal=Literal(data['date'], lang='nl'),
-                publication=publicationEvent)
+            # She has two portraits
+            if url == "http://www.schrijverskabinet.nl/portret/anna-maria-van-schurman/":
+                artworkURI = nsArtwork.term(
+                    normalize_name(data['title']) + '-1')
+            elif url == "http://www.schrijverskabinet.nl/portret/anna-maria-van-schurman-2/":
+                artworkURI = nsArtwork.term(
+                    normalize_name(data['title']) + '-2')
+            else:
+                artworkURI = nsArtwork.term(normalize_name(data['title']))
+
+            artwork = VisualArtwork(artworkURI,
+                                    artist=painters,
+                                    about=p,
+                                    name=[
+                                        Literal(f"Portret van {data['title']}",
+                                                lang='nl'),
+                                        Literal(f"Portrait of {data['title']}",
+                                                lang='en')
+                                    ],
+                                    depiction=URIRef(data['artdepiction'])
+                                    if data['artdepiction'] else None,
+                                    temporal=Literal(data['date'], lang='nl'),
+                                    publication=publicationEvent)
             subjectOf.append(artwork)
+
+            if data['origin']['name']:
+                artwork.description = [
+                    Literal(data['origin']['name'], lang='nl')
+                ]
 
             if data['origin']['url']:
                 artwork.sameAs = [URIRef(data['origin']['url'])]
@@ -552,77 +604,9 @@ def toRDF(d: dict, target: str):
         page.mainEntity = p
         p.mainEntityOfPage = page
 
-    ########
-    # Meta #
-    ########
-
-    rdfSubject.db = ds
-
-    description = """Schrijverskabinet.nl is ontwikkeld om op een toegankelijke manier de Nederlandse literaire cultuur van de vroegmoderne tijd voor het voetlicht te brengen. De website is ingericht rondom een achttiende-eeuwse verzameling auteursportretten: het Panpoëticon Batavûm. Naast een geschiedenis van deze collectie, presenteert schrijverskabinet.nl een overzicht van de dichters en dichteressen van wie het portret in de verzameling was opgenomen. Veel van de oorspronkelijke Pan-portretten zijn verloren gegaan of (vooralsnog) onvindbaar. In die gevallen is gekozen om de auteurs waar mogelijk te tonen aan de hand van gravures, schilderijen of prenten. In de focus op het Panpoëticon schuilt de beperking van dit project. Deze website presenteert geen overzicht van alle Nederlandse dichters en dichteressen uit de vroegmoderne tijd, maar bevat uitsluitend de auteurs die in het kabinet waren opgenomen.
-
-Naast een overzicht van de dichters en dichteressen die in het Panpoëticon waren te vinden, biedt schrijverskabinet.nl een computervisualisatie van het verloren houten kabinet. Het gaat om een hypothetische reconstructie.
-
-In de sectie ‘Uit de kast’ introduceren diverse specialisten veel van de auteurs. Deze sectie is geen afgesloten geheel, maar kan in de loop van de tijd verder groeien. De korte artikels streven geen uitputtend bio- of bibliografisch doel na. Ze zijn bedoeld om de (veelal vergeten) auteurs opnieuw onder de aandacht te brengen. Achter elke bijdrage wordt verwezen naar een of twee, zo mogelijk recente en online beschikbare, studies over de besproken auteur en/of (een aspect van) zijn of haar werk, die geschikt zijn voor een nadere kennismaking en een indruk geven van de huidige stand van het onderzoek. De meest voor de handliggende secundaire bronnen (literatuurgeschiedenissen, biografische woordenboeken, wikipagina’s) noemen we in principe niet, behalve als andere publicaties (nog) ontbreken. Alleen in het geval van enkele `groten’ (Vondel, Hooft, Huygens) wijken we van onze regel af: gezien de grote hoeveelheid vaak specialistische publicaties over deze auteurs beperken we ons daar tot het noemen van de meest gebruikte bronnenuitgaven. Bij alle auteurs biedt de link naar de dbnl toegang tot meer complete bibliografische informatie.
-
-Schrijverskabinet.nl is in aanbouw. Mocht u ontbrekende portretten weten te vinden of een nog niet besproken auteur willen introduceren in een essay, neem dan contact op met Lieke van Deinsen (lieke.vandeinsen@kuleuven.be)."""
-
-    contributors = "Sarah Adams, Peter Altena, Pieta van Beek, Frans Blom, Roland de Bonth, Lieke van Deinsen, Feike Dietz, Michiel van Duijnen, Martine van Elk, Johanna Ferket, Josephina de Fouw, Nina Geerdink, Arie-Jan Gelderblom, Lia van Gemert, Elly Groenenboom-Draai, Anna de Haas, Ton Harmsen, Kornee van der Haven, Patrick van ‘t Hof, Rick Honings, Dirk Imhof, Jeroen Jansen, Johan Koppenol, Inger Leemans, Ad Leerintveld, Henk Looijesteijn, Geert Mak, Hubert Meeus, Marijke Meijer Drees, Sven Molenaar, Alan Moss, Nelleke Moser, Ivo Nieuwenhuis, Jan Noordegraaf, Joris Oddens, Kasper van Ommen, Timothy De Paepe, Marrigje Paijmans, Karel Porteman, Sophie Reinders, Michiel Roscam Abbing, Gijsbert Rutten, Riet Schenkeveld-van der Dussen, Nicoline van der Sijs, Jasper van der Steen, René van Stipriaan, Ton van Strien, Els Stronks, Marijke Tolsma, Ans Veltman, Ruben E. Verwaal, Arnoud Visser, Jan Waszink"
-
-    download = DataDownload(
-        None,
-        contentUrl=URIRef(
-            "https://raw.githubusercontent.com/LvanWissen/schrijverskabinet-rdf/1.0/data/schrijverskabinet.trig"
-        ),
-        # name=Literal(),
-        url=URIRef(
-            "https://github.com/LvanWissen/schrijverskabinet-rdf/tree/1.0/data"
-        ),
-        encodingFormat="application/trig")
-
-    date = Literal(datetime.datetime.now().strftime('%Y-%m-%d'),
-                   datatype=XSD.datetime)
-
-    contributors = contributors.split(', ')
-
-    creators = ["Lieke van Deinsen", "Ton van Strien"]
-
-    dataset = DatasetClass(
-        ns.term(''),
-        name=[
-            Literal("Het Schrijverskabinet - Panpoëticon Batavûm", lang='nl')
-        ],
-        about=URIRef('http://www.wikidata.org/entity/Q17319132'),
-        url=URIRef('http://www.schrijverskabinet.nl/'),
-        description=[Literal(description, lang='nl')],
-        descriptionSchema=[Literal(description, lang='nl')],
-        creator=creators,
-        publisher=[
-            URIRef("https://leonvanwissen.nl/me"),
-            URIRef("http://viaf.org/viaf/281741168")
-        ],
-        publisherSchema=[
-            URIRef("https://leonvanwissen.nl/me"),
-            URIRef("http://viaf.org/viaf/281741168")
-        ],
-        contributor=contributors,
-        contributorSchema=contributors,
-        source=URIRef('http://www.schrijverskabinet.nl/'),
-        isBasedOn=URIRef('http://www.schrijverskabinet.nl/'),
-        date=date,
-        dateCreated=date,
-        distribution=download,
-        created=None,
-        issued=None,
-        modified=None,
-        exampleResource=p,
-        vocabulary=[
-            URIRef("http://schema.org/"),
-            URIRef("http://semanticweb.cs.vu.nl/2009/11/sem/"),
-            URIRef("http://xmlns.com/foaf/0.1/")
-        ],
-        triples=sum(1 for i in ds.graph(identifier=ns).subjects()),
-        version="1.0",
-        licenseprop=URIRef("https://creativecommons.org/licenses/by-sa/4.0/"))
+    ##################################
+    # Meta included in separate file #
+    ##################################
 
     ds.bind('owl', OWL)
     ds.bind('dcterms', dcterms)
