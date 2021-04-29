@@ -1,6 +1,6 @@
 # Schrijverskabinet RDF
 [![GitHub release](https://img.shields.io/github/release/LvanWissen/schrijverskabinet-rdf.svg)](https://gitHub.com/lvanwissen/schrijverskabinet-rdf/releases/)
-[![DOI](https://zenodo.org/badge/236473134.svg)](https://zenodo.org/badge/latestdoi/236473134)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3835558.svg)](https://doi.org/10.5281/zenodo.3835558)
 
 
 | License     |                                                                                                                                                   |
@@ -37,22 +37,24 @@ After scraping, the data is stored in a [JSON file](https://github.com/LvanWisse
 
 All persons from the portraits in the data have been linked to an author in the DBNL Author Thesaurus (http://data.bibliotheken.nl/id/dataset/dbnla) using the `owl:sameAs` property. This can be your starting point in connecting the Schrijverskabinet data to other external datasets.
 
+More information can be found in the [release](https://github.com/LvanWissen/schrijverskabinet-rdf/releases/) information. 
+
 ## Cite
 
 Please cite both the original website (above) and this repository if you are (re)using the data or refering to the publication.
 
-* Leon van Wissen, & Harm Nijboer. Schrijverskabinet RDF (Version 1.0) [Dataset], Zenodo. 2020, <http://doi.org/10.5281/zenodo.3835559>
+* Leon van Wissen, & Harm Nijboer. Schrijverskabinet RDF (Version 2.0) [Dataset], Zenodo. 2021, <http://doi.org/10.5281/zenodo.3835558>
 
 ```bibtex
 @dataset{vanwissennijboer2020,
   author       = {Wissen, Leon van and Nijboer, Harm},
   title        = {Schrijverskabinet RDF},
-  month        = may,
-  year         = 2020,
+  month        = April,
+  year         = 2021,
   publisher    = {Zenodo},
-  version      = {1.0},
-  doi          = {10.5281/zenodo.3835559},
-  url          = {https://doi.org/10.5281/zenodo.3835559}
+  version      = {2.0},
+  doi          = {10.5281/zenodo.3835558},
+  url          = {https://doi.org/10.5281/zenodo.3835558}
 }
 ```
 
